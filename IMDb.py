@@ -1,23 +1,22 @@
 #!/usr/bin/env python3
 """
-IMDb Top Movies/TV Shows Data Scraper
+IMDb Top Movies/TV Shows Data Generator
 
 Original Post: https://medium.com/@nishantsahoo/which-movie-should-i-watch-5c83a3c0f5b1
 Author: Jugal Kishore
-Version: 3.0
+Version: 4.0
 """
 
+import csv
+import gzip
+import html
 import json
 import os
-import random
-import subprocess
 import sys
-import time
+import tempfile
 from datetime import datetime, timedelta
-from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service as EC
+
+import requests
 
 # Original post link
 ORIGINAL_POST_URL = (
@@ -29,297 +28,182 @@ CURRENT_YEAR = datetime.now().year
 
 CACHE_TTL_DAYS = 7
 
-_ENRICH_FIELDS = {
-    "keywords", "countriesOfOrigin", "meterRanking", "meterRankChange",
-    "directors", "writers", "stars", "topCast", "budget", "openingWeekendGross",
-    "lifetimeGross", "worldwideGross", "filmingLocations", "spokenLanguages",
-    "soundMix", "aspectRatio", "color", "awardWins", "awardNominations",
-    "titleType", "isSeries", "isEpisode", "isAdult", "last_updated",
-}
+# IMDb's own chart/search pages are protected by AWS WAF Bot Control and
+# can't be scraped reliably (see project history). Rankings below are
+# recreated from IMDb's public datasets instead; per-title detail (plot,
+# cast, poster, box office, etc.) comes from the OMDb API.
+IMDB_DATASETS_BASE = "https://datasets.imdbws.com"
+TITLE_BASICS_URL = f"{IMDB_DATASETS_BASE}/title.basics.tsv.gz"
+TITLE_RATINGS_URL = f"{IMDB_DATASETS_BASE}/title.ratings.tsv.gz"
 
-# IMDb URLs
 IMDB_BASE_URL = "https://www.imdb.com"
-IMDB_MOVIES_SEARCH_URL = f"https://www.imdb.com/search/title/?title_type=feature&release_date={CURRENT_YEAR}-01-01,{CURRENT_YEAR}-12-31"
-IMDB_TOP_250_MOVIES_URL = "https://www.imdb.com/chart/top/"
-IMDB_POPULAR_MOVIES_URL = "https://www.imdb.com/chart/moviemeter/"
-IMDB_TV_SEARCH_URL = f"https://www.imdb.com/search/title/?title_type=tv_series&release_date={CURRENT_YEAR}-01-01,{CURRENT_YEAR}-12-31"
-IMDB_TOP_250_TV_URL = "https://www.imdb.com/chart/toptv/"
-IMDB_POPULAR_TV_URL = "https://www.imdb.com/chart/tvmeter/"
+IMDB_TOP_250_MOVIES_URL = f"{IMDB_BASE_URL}/chart/top/"
+IMDB_TOP_250_TV_URL = f"{IMDB_BASE_URL}/chart/toptv/"
+IMDB_MOVIES_SEARCH_URL = f"{IMDB_BASE_URL}/search/title/?title_type=feature&release_date={CURRENT_YEAR}-01-01,{CURRENT_YEAR}-12-31"
+IMDB_TV_SEARCH_URL = f"{IMDB_BASE_URL}/search/title/?title_type=tv_series&release_date={CURRENT_YEAR}-01-01,{CURRENT_YEAR}-12-31"
 
-# Custom headers
-HEADERS = {
-    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+# Minimum vote counts before a title is eligible for the recreated Top 250
+# lists (keeps low-sample outlier ratings out of the results).
+MOVIE_VOTE_THRESHOLD = 25000
+TV_VOTE_THRESHOLD = 5000
+TOP_N = 250
+YEAR_TOP_N = 50
+
+OMDB_API_URL = "https://www.omdbapi.com/"
+OMDB_API_KEY = os.environ.get("OMDB_API_KEY", "")
+
+_ENRICH_FIELDS = {
+    "certificate", "plot", "image", "director", "writer", "actors", "awards",
+    "boxOffice", "country", "language", "rottenTomatoes", "metacritic",
+    "last_updated",
 }
 
 
-def get_driver():
-    chrome_options = Options()
-    chrome_options.add_argument("--headless=new")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--window-size=1920,1080")
-    chrome_options.add_argument("--disable-extensions")
-    chrome_options.add_argument("--disable-setuid-sandbox")
-    chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    chrome_options.add_experimental_option("useAutomationExtension", False)
-    chrome_options.page_load_strategy = "eager"
-    service = EC()
-    driver = webdriver.Chrome(service=service, options=chrome_options)
-    driver.execute_cdp_cmd(
-        "Page.addScriptToEvaluateOnNewDocument",
-        {"source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"},
-    )
-    driver.set_page_load_timeout(90)
-    driver.implicitly_wait(15)
-    return driver
+def download_dataset(url: str, dest_path: str) -> None:
+    print(f"  Downloading {url} ...")
+    with requests.get(url, stream=True, timeout=120) as r:
+        r.raise_for_status()
+        with open(dest_path, "wb") as f:
+            for chunk in r.iter_content(chunk_size=1 << 20):
+                f.write(chunk)
 
 
-def _wait_for_soup(driver, url: str, finder, max_wait: int = 30, retries: int = 2):
+def load_ratings(path: str) -> dict:
+    ratings = {}
+    with gzip.open(path, "rt", encoding="utf-8") as f:
+        for row in csv.DictReader(f, delimiter="\t"):
+            try:
+                ratings[row["tconst"]] = (float(row["averageRating"]), int(row["numVotes"]))
+            except ValueError:
+                continue
+    return ratings
+
+
+def build_rankings(basics_path: str, ratings: dict) -> dict:
     """
-    Load url and poll the rendered page until finder(soup) finds the expected
-    data script tag, retrying full reloads if IMDb serves a bot-check
-    interstitial instead of the real page. Returns None if it never shows up.
+    Stream title.basics.tsv.gz once, bucketing titles into the four ranking
+    pools we publish. IMDb's real Top 250 / popularity-meter formulas aren't
+    public, so these are a rating+votes recreation, not an exact mirror.
     """
-    soup = None
-    for attempt in range(1, retries + 1):
-        driver.get(url)
-        deadline = time.time() + max_wait
-        while time.time() < deadline:
-            soup = BeautifulSoup(driver.page_source, "html.parser")
-            if finder(soup):
-                return soup
-            time.sleep(1)
-        print(f"    Attempt {attempt}/{retries}: {url} not ready after {max_wait}s, retrying...")
+    top250_movies, top250_tv = [], []
+    top50_movies_year, top50_tv_year = [], []
 
-    title = soup.title.text.strip() if soup and soup.title else "(no title)"
-    body_text = soup.get_text(separator=" ", strip=True)[:300] if soup else "(no body)"
-    print(f"    Diagnostic for {url}:")
-    print(f"      current_url : {driver.current_url}")
-    print(f"      page title  : {title}")
-    print(f"      body text   : {body_text}")
-    return None
+    with gzip.open(basics_path, "rt", encoding="utf-8") as f:
+        for row in csv.DictReader(f, delimiter="\t"):
+            rating = ratings.get(row["tconst"])
+            if not rating or row["isAdult"] == "1":
+                continue
 
+            title_type = row["titleType"]
+            start_year = row["startYear"]
+            avg, votes = rating
 
-def enrich_title_data(driver, url: str) -> dict:
-    """
-    Visit an individual IMDb title page and extract additional fields
-    from __NEXT_DATA__ that aren't available on listing pages.
-    """
-    enrichment = {
-        "keywords": "",
-        "countriesOfOrigin": "",
-        "meterRanking": "",
-        "meterRankChange": "",
-        "directors": "",
-        "writers": "",
-        "stars": "",
-        "topCast": "",
-        "budget": "",
-        "openingWeekendGross": "",
-        "lifetimeGross": "",
-        "worldwideGross": "",
-        "filmingLocations": "",
-        "spokenLanguages": "",
-        "soundMix": "",
-        "aspectRatio": "",
-        "color": "",
-        "awardWins": 0,
-        "awardNominations": 0,
-        "titleType": "",
-        "isSeries": False,
-        "isEpisode": False,
-        "isAdult": False,
+            is_movie = title_type == "movie"
+            is_tv = title_type in ("tvSeries", "tvMiniSeries")
+            if not is_movie and not is_tv:
+                continue
+
+            rec = {
+                "tconst": row["tconst"],
+                "name": row["primaryTitle"],
+                "year": start_year if start_year != "\\N" else "",
+                "rating": avg,
+                "votes": votes,
+                "genres": row["genres"] if row["genres"] != "\\N" else "",
+                "runtime": int(row["runtimeMinutes"]) if row["runtimeMinutes"].isdigit() else 0,
+                "titleType": title_type,
+            }
+
+            if is_movie and votes >= MOVIE_VOTE_THRESHOLD:
+                top250_movies.append(rec)
+            if is_tv and votes >= TV_VOTE_THRESHOLD:
+                top250_tv.append(rec)
+            if start_year == str(CURRENT_YEAR):
+                (top50_movies_year if is_movie else top50_tv_year).append(dict(rec))
+
+    top250_movies.sort(key=lambda r: (-r["rating"], -r["votes"]))
+    top250_tv.sort(key=lambda r: (-r["rating"], -r["votes"]))
+    top50_movies_year.sort(key=lambda r: -r["votes"])
+    top50_tv_year.sort(key=lambda r: -r["votes"])
+
+    return {
+        "top250_movies": top250_movies[:TOP_N],
+        "top250_tv": top250_tv[:TOP_N],
+        "top50_movies_year": top50_movies_year[:YEAR_TOP_N],
+        "top50_tv_year": top50_tv_year[:YEAR_TOP_N],
     }
+
+
+def load_rankings() -> dict:
+    with tempfile.TemporaryDirectory() as tmp:
+        ratings_path = os.path.join(tmp, "title.ratings.tsv.gz")
+        basics_path = os.path.join(tmp, "title.basics.tsv.gz")
+        download_dataset(TITLE_RATINGS_URL, ratings_path)
+        download_dataset(TITLE_BASICS_URL, basics_path)
+
+        print("  Loading ratings...")
+        ratings = load_ratings(ratings_path)
+        print(f"  {len(ratings):,} rated titles loaded.")
+
+        print("  Scanning title basics and building rankings...")
+        return build_rankings(basics_path, ratings)
+
+
+def _unescape(value):
+    return html.unescape(value) if isinstance(value, str) else value
+
+
+def _na(value):
+    return "" if value in (None, "N/A") else value
+
+
+def fetch_omdb(tconst: str) -> dict:
     try:
-        driver.get(url)
-        time.sleep(3)
-        soup = BeautifulSoup(driver.page_source, "html.parser")
-        script = soup.find("script", id="__NEXT_DATA__")
-        if not script:
-            print(f"    No __NEXT_DATA__ found for {url}")
-            return enrichment
-
-        data = json.loads(script.text)
-
-        def dget(obj, key):
-            val = obj.get(key) if isinstance(obj, dict) else None
-            return val if isinstance(val, dict) else {}
-
-        def lget(obj, key):
-            val = obj.get(key) if isinstance(obj, dict) else None
-            return val if isinstance(val, list) else []
-
-        page_props = dget(data, "props")
-        page_props = dget(page_props, "pageProps")
-        above = dget(page_props, "aboveTheFoldData")
-        main = dget(page_props, "mainColumnData")
-
-        # Keywords
-        kw = dget(above, "keywords")
-        enrichment["keywords"] = ", ".join(
-            e.get("node", {}).get("text", "") for e in lget(kw, "edges")
-            if isinstance(e, dict) and isinstance(e.get("node"), dict)
+        resp = requests.get(
+            OMDB_API_URL, params={"i": tconst, "apikey": OMDB_API_KEY}, timeout=15
         )
+        data = resp.json()
+    except (requests.RequestException, ValueError) as e:
+        print(f"    Warning: OMDb lookup failed for {tconst}: {e}")
+        return {}
 
-        # Countries of origin
-        co = dget(above, "countriesOfOrigin")
-        enrichment["countriesOfOrigin"] = ", ".join(
-            c.get("id", "") for c in lget(co, "countries") if isinstance(c, dict)
-        )
+    if data.get("Response") != "True":
+        print(f"    Warning: OMDb has no data for {tconst}: {data.get('Error', '')}")
+        return {}
 
-        # Meter ranking (popularity)
-        meter = dget(above, "meterRanking")
-        if meter.get("currentRank"):
-            enrichment["meterRanking"] = str(meter["currentRank"])
-        change = dget(meter, "rankChange")
-        if change:
-            enrichment["meterRankChange"] = (
-                f"{change.get('changeDirection', '')} {change.get('difference', 0)}"
-            )
+    rotten_tomatoes = metacritic = ""
+    for r in data.get("Ratings", []):
+        if r.get("Source") == "Rotten Tomatoes":
+            rotten_tomatoes = r.get("Value", "")
+        elif r.get("Source") == "Metacritic":
+            metacritic = r.get("Value", "")
 
-        # Title type metadata
-        tt = dget(above, "titleType")
-        enrichment["titleType"] = tt.get("text") or ""
-        enrichment["isSeries"] = bool(tt.get("isSeries"))
-        enrichment["isEpisode"] = bool(tt.get("isEpisode"))
-
-        enrichment["isAdult"] = bool(above.get("isAdult") if isinstance(above, dict) else False)
-
-        # Principal credits (directors, writers, stars)
-        credits = lget(above, "principalCreditsV2")
-        for group in credits:
-            if not isinstance(group, dict): continue
-            cat = dget(group, "grouping").get("text") or ""
-            names = []
-            for c in lget(group, "credits"):
-                if isinstance(c, dict):
-                    name_obj = dget(c, "name")
-                    text = dget(name_obj, "nameText").get("text")
-                    if text:
-                        names.append(text)
-            if cat == "Director":
-                enrichment["directors"] = ", ".join(names)
-            elif cat == "Writers":
-                enrichment["writers"] = ", ".join(names)
-            elif cat == "Stars":
-                enrichment["stars"] = ", ".join(names)
-
-        # Top cast (up to 5 with character names)
-        cast = above.get("castV2") if isinstance(above, dict) else {}
-        entries = []
-        if isinstance(cast, dict):
-            for edge in lget(cast, "edges")[:5]:
-                if not isinstance(edge, dict): continue
-                node = dget(edge, "node")
-                name = dget(dget(node, "name"), "nameText").get("text") or ""
-                chars = []
-                for c in lget(node, "characters"):
-                    if isinstance(c, dict) and c.get("name"):
-                        chars.append(c.get("name"))
-                if name:
-                    if chars:
-                        entries.append(f"{name} as {', '.join(chars)}")
-                    else:
-                        entries.append(name)
-        elif isinstance(cast, list):
-            for group in cast[:5]:
-                if not isinstance(group, dict): continue
-                for c in lget(group, "credits")[:5]:
-                    if not isinstance(c, dict): continue
-                    name = dget(dget(c, "name"), "nameText").get("text") or ""
-                    if name and len(entries) < 5:
-                        entries.append(name)
-        if entries:
-            enrichment["topCast"] = ", ".join(entries)
-
-        # Award counts
-        wins = dget(main, "wins")
-        noms = dget(main, "nominationsExcludeWins")
-        enrichment["awardWins"] = wins.get("total") or 0
-        enrichment["awardNominations"] = noms.get("total") or 0
-
-        # Production budget
-        budget = dget(main, "productionBudget")
-        if budget:
-            b = dget(budget, "budget")
-            amt = b.get("amount")
-            cur = b.get("currency") or "USD"
-            if amt is not None:
-                enrichment["budget"] = f"{cur} {amt:,}"
-
-        # Box office (opening weekend, lifetime, worldwide)
-        bg = dget(main, "openingWeekendGross")
-        if bg:
-            total = dget(dget(bg, "gross"), "total")
-            amt = total.get("amount")
-            cur = total.get("currency") or "USD"
-            if amt is not None:
-                enrichment["openingWeekendGross"] = f"{cur} {amt:,}"
-
-        lg = dget(main, "lifetimeGross")
-        if lg:
-            total = dget(lg, "total")
-            amt = total.get("amount")
-            cur = total.get("currency") or "USD"
-            if amt is not None:
-                enrichment["lifetimeGross"] = f"{cur} {amt:,}"
-
-        wg = dget(main, "worldwideGross")
-        if wg:
-            total = dget(wg, "total")
-            amt = total.get("amount")
-            cur = total.get("currency") or "USD"
-            if amt is not None:
-                enrichment["worldwideGross"] = f"{cur} {amt:,}"
-
-        # Filming locations
-        locs = dget(main, "filmingLocations")
-        enrichment["filmingLocations"] = ", ".join(
-            e.get("node", {}).get("text", "") for e in lget(locs, "edges")
-            if isinstance(e, dict) and isinstance(e.get("node"), dict)
-        )
-
-        # Spoken languages
-        langs = dget(main, "spokenLanguages")
-        enrichment["spokenLanguages"] = ", ".join(
-            l.get("text", "") for l in lget(langs, "spokenLanguages")
-            if isinstance(l, dict) and l.get("text")
-        )
-
-        # Technical specifications
-        tech = dget(main, "technicalSpecifications")
-        if tech:
-            sound = dget(tech, "soundMixes")
-            items = lget(sound, "items")
-            if items:
-                enrichment["soundMix"] = ", ".join(s.get("text", "") for s in items if isinstance(s, dict) and s.get("text"))
-            aspect = dget(tech, "aspectRatios")
-            items = lget(aspect, "items")
-            if items:
-                enrichment["aspectRatio"] = ", ".join(a.get("aspectRatio", "") for a in items if isinstance(a, dict) and a.get("aspectRatio"))
-            cols = dget(tech, "colorations")
-            items = lget(cols, "items")
-            if items:
-                enrichment["color"] = ", ".join(c.get("text", "") for c in items if isinstance(c, dict) and c.get("text"))
-
-    except Exception as e:
-        print(f"    Warning: Could not enrich {url}: {e}")
-
-    return enrichment
+    return {
+        "certificate": _na(data.get("Rated")),
+        "plot": _unescape(_na(data.get("Plot"))),
+        "image": _na(data.get("Poster")),
+        "director": _unescape(_na(data.get("Director"))),
+        "writer": _unescape(_na(data.get("Writer"))),
+        "actors": _unescape(_na(data.get("Actors"))),
+        "awards": _unescape(_na(data.get("Awards"))),
+        "boxOffice": _na(data.get("BoxOffice")),
+        "country": _na(data.get("Country")),
+        "language": _na(data.get("Language")),
+        "rottenTomatoes": rotten_tomatoes,
+        "metacritic": metacritic,
+    }
 
 
-def _title_id_from_url(url: str) -> str:
-    parts = [p for p in url.rstrip("/").split("/") if p.startswith("tt")]
-    return parts[0] if parts else url
+def _title_id_from_link(link: str) -> str:
+    parts = [p for p in link.rstrip("/").split("/") if p.startswith("tt")]
+    return parts[0] if parts else link
 
 
-def enrich_items(items: list[dict], link_key: str = "link", existing: list[dict] = None) -> list[dict]:
+def enrich_items(items: list[dict], existing: list[dict] = None) -> list[dict]:
     """
-    Enrich a list of title dicts by visiting each individual IMDb page.
-    Reuses enrichment fields from `existing` if last_updated is within CACHE_TTL_DAYS.
-    Rate-limited with a random 5-10s gap between requests.
+    Enrich a list of title dicts via the OMDb API. Reuses enrichment fields
+    from `existing` if last_updated is within CACHE_TTL_DAYS, since OMDb's
+    free tier is rate-limited to 1000 requests/day.
     """
     if not items:
         return items
@@ -327,20 +211,18 @@ def enrich_items(items: list[dict], link_key: str = "link", existing: list[dict]
     cache = {}
     if existing:
         for ex in existing:
-            url = ex.get(link_key, "")
-            if url:
-                tid = _title_id_from_url(url)
-                cache[tid] = {k: v for k, v in ex.items() if k in _ENRICH_FIELDS}
+            link = ex.get("link", "")
+            if link:
+                cache[_title_id_from_link(link)] = {
+                    k: v for k, v in ex.items() if k in _ENRICH_FIELDS
+                }
 
     now = datetime.now()
     ttl = timedelta(days=CACHE_TTL_DAYS)
 
     to_fetch = []
     for item in items:
-        url = item.get(link_key, "")
-        if not url:
-            continue
-        cached = cache.get(_title_id_from_url(url))
+        cached = cache.get(item["tconst"])
         if cached:
             last_updated = cached.get("last_updated", "")
             if last_updated:
@@ -348,483 +230,55 @@ def enrich_items(items: list[dict], link_key: str = "link", existing: list[dict]
                     if now - datetime.fromisoformat(last_updated) < ttl:
                         item.update(cached)
                         continue
-                except Exception:
+                except ValueError:
                     pass
         to_fetch.append(item)
 
     cached_count = len(items) - len(to_fetch)
     if cached_count:
         print(f"  {cached_count} items served from cache.")
-    if not to_fetch:
-        return items
-
-    print(f"  Fetching {len(to_fetch)} items from IMDb...")
-    driver = get_driver()
-    try:
+    if to_fetch:
+        print(f"  Fetching {len(to_fetch)} items from OMDb...")
         for i, item in enumerate(to_fetch):
-            url = item.get(link_key, "")
-            if not url:
-                continue
-            print(f"  Enriching ({i+1}/{len(to_fetch)}): {item.get('name', url)}")
-            enrichment = enrich_title_data(driver, url)
+            print(f"  Enriching ({i + 1}/{len(to_fetch)}): {item['name']}")
+            enrichment = fetch_omdb(item["tconst"])
             enrichment["last_updated"] = now.isoformat()
             item.update(enrichment)
-            if i < len(to_fetch) - 1:
-                time.sleep(random.uniform(1, 2))
-    finally:
-        driver.quit()
 
     return items
 
 
-def fetch_popular_movies(existing: list[dict] = None) -> list[dict]:
-    """
-    Fetch information about popular Movies from IMDb.
+def finalize(pool: list[dict], existing: list[dict] = None) -> list[dict]:
+    for rec in pool:
+        rec["link"] = f"{IMDB_BASE_URL}/title/{rec['tconst']}/"
 
-    Returns:
-        list of dict: A list where each dictionary contains Movie information,
-        such as the Movie's name, link, and rating.
-    """
-    print(
-        f"Fetching Popular Movies {CURRENT_YEAR} from IMDb  ->", IMDB_POPULAR_MOVIES_URL
-    )
+    enrich_items(pool, existing=existing)
 
-    movie_data = []
-    driver = get_driver()
-    try:
-        soup = _wait_for_soup(
-            driver, IMDB_POPULAR_MOVIES_URL,
-            lambda s: s.find("script", type="application/ld+json"),
-        )
-        if soup is None:
-            print(f"    Could not load {IMDB_POPULAR_MOVIES_URL} (bot-check or blocked); keeping existing data.")
-            return existing or []
-
-        json_data = json.loads(soup.find("script", type="application/ld+json").text)
-        for movie in json_data["itemListElement"]:
-            movie_name = movie["item"]["name"]
-            try:
-                movie_rating = movie["item"]["aggregateRating"]["ratingValue"]
-            except KeyError:
-                movie_rating = 0
-            try:
-                movie_votes = movie["item"]["aggregateRating"]["ratingCount"]
-            except KeyError:
-                movie_votes = 0
-            movie_link = movie["item"]["url"]
-            movie_image = movie["item"].get("image", "")
-            genres = movie["item"].get("genre", "")
-            duration = movie["item"].get("duration", "")
-            runtime = 0
-            if duration:
-                try:
-                    parts = (
-                        duration.replace("PT", "")
-                        .replace("H", " ")
-                        .replace("M", "")
-                        .split()
-                    )
-                    if len(parts) == 2:
-                        runtime = int(parts[0]) * 60 + int(parts[1])
-                    elif len(parts) == 1 and "H" in duration:
-                        runtime = int(parts[0]) * 60
-                    elif len(parts) == 1 and "M" in duration:
-                        runtime = int(parts[0])
-                except:
-                    pass
-            movie_data.append(
-                {
-                    "name": movie_name,
-                    "rating": movie_rating,
-                    "votes": movie_votes,
-                    "link": movie_link,
-                    "image": movie_image,
-                    "plot": movie["item"].get("description", ""),
-                    "genres": genres,
-                    "runtime": runtime,
-                    "certificate": movie["item"].get("contentRating", ""),
-                }
-            )
-    finally:
-        driver.quit()
-
-    print("  Enriching Popular Movies from individual pages...")
-    movie_data = enrich_items(movie_data, existing=existing)
-    return movie_data
+    result = []
+    for rank, rec in enumerate(pool, 1):
+        del rec["tconst"]
+        result.append({"Rank": rank, **rec})
+    return result
 
 
-def fetch_top_50_movies(existing: list[dict] = None) -> list[dict]:
-    """
-    Fetch information about the Top 50 Movies of the current year from IMDb.
-
-    Returns:
-        list of dict: A list where each dictionary contains Movie information,
-        such as the Movie's name and link.
-    """
-    print(
-        f"Fetching Top 50 Movies {CURRENT_YEAR} from IMDb   ->", IMDB_MOVIES_SEARCH_URL
-    )
-
-    movie_data = []
-    driver = get_driver()
-    try:
-        soup = _wait_for_soup(
-            driver, IMDB_MOVIES_SEARCH_URL,
-            lambda s: s.find("script", id="__NEXT_DATA__"),
-        )
-        if soup is None:
-            print(f"    Could not load {IMDB_MOVIES_SEARCH_URL} (bot-check or blocked); keeping existing data.")
-            return existing or []
-
-        json_data = (
-            json.loads(soup.find("script", id="__NEXT_DATA__").text)
-            .get("props", {})
-            .get("pageProps", {})
-            .get("searchResults", {})
-            .get("titleResults", {})
-            .get("titleListItems")
-        )
-        for movie in json_data:
-            release_year = movie.get("releaseYear", {})
-            year = (
-                release_year.get("year", "")
-                if isinstance(release_year, dict)
-                else release_year
-            )
-
-            release_date = movie.get("releaseDate", {})
-            release_day = release_date.get("day", "")
-            release_month = release_date.get("month", "")
-            release_year_full = release_date.get("year", "")
-
-            genres_raw = movie.get("genres", [])
-            genres = ", ".join(genres_raw) if isinstance(genres_raw, list) else ""
-
-            primary_image = movie.get("primaryImage", {})
-            image_url = primary_image.get("url", "")
-            image_caption = primary_image.get("caption", "")
-
-            production_status = movie.get("productionStatus", {})
-            current_stage = production_status.get("currentProductionStage", {})
-            status = current_stage.get("text", "")
-
-            movie_data.append(
-                {
-                    "name": movie.get("titleText", "")
-                    or movie.get("originalTitleText", ""),
-                    "link": IMDB_BASE_URL + "/title/" + movie["titleId"] + "/",
-                    "rating": movie.get("ratingSummary", {}).get("aggregateRating", 0),
-                    "votes": movie.get("ratingSummary", {}).get("voteCount", 0),
-                    "year": year,
-                    "releaseDate": f"{release_day}/{release_month}/{release_year_full}",
-                    "genres": genres,
-                    "runtime": movie.get("runtime", ""),
-                    "plot": movie.get("plot", ""),
-                    "image": image_url,
-                    "imageCaption": image_caption,
-                    "metascore": movie.get("metascore", ""),
-                    "certificate": movie.get("certificate", ""),
-                    "status": status,
-                }
-            )
-    finally:
-        driver.quit()
-
-    print("  Enriching Top 50 Movies from individual pages...")
-    movie_data = enrich_items(movie_data, existing=existing)
-    return movie_data
+def fetch_top_50_movies(rankings: dict, existing: list[dict] = None) -> list[dict]:
+    print(f"Building Top 50 Movies {CURRENT_YEAR} (recreated from IMDb datasets)")
+    return finalize(rankings["top50_movies_year"], existing=existing)
 
 
-def fetch_top_250_movies(existing: list[dict] = None) -> list[dict]:
-    """
-    Fetch the Top 250 Movies from IMDb and return structured data.
-    """
-    print(f"Fetching Top 250 Movies from IMDb       ->", IMDB_TOP_250_MOVIES_URL)
-
-    movie_data = []
-    driver = get_driver()
-    try:
-        soup = _wait_for_soup(
-            driver, IMDB_TOP_250_MOVIES_URL,
-            lambda s: s.find("script", attrs={"type": "application/ld+json"}),
-        )
-        if soup is None:
-            print(f"    Could not load {IMDB_TOP_250_MOVIES_URL} (bot-check or blocked); keeping existing data.")
-            return existing or []
-
-        json_data = json.loads(
-            soup.find("script", attrs={"type": "application/ld+json"}).text
-        )
-
-        for rank, movie in enumerate(json_data["itemListElement"], 1):
-            item = movie["item"]
-            duration = item.get("duration", "")
-            runtime = 0
-            if duration:
-                try:
-                    parts = (
-                        duration.replace("PT", "")
-                        .replace("H", " ")
-                        .replace("M", "")
-                        .split()
-                    )
-                    if len(parts) == 2:
-                        runtime = int(parts[0]) * 60 + int(parts[1])
-                    elif len(parts) == 1 and "H" in duration:
-                        runtime = int(parts[0]) * 60
-                    elif len(parts) == 1 and "M" in duration:
-                        runtime = int(parts[0])
-                except Exception:
-                    pass
-
-            genre = item.get("genre", "")
-            if isinstance(genre, list):
-                genre = ", ".join(genre)
-
-            movie_data.append(
-                {
-                    "Rank": rank,
-                    "name": item["name"],
-                    "IMDb Rating": item.get("aggregateRating", {}).get(
-                        "ratingValue", ""
-                    ),
-                    "link": item["url"],
-                    "image": item.get("image", ""),
-                    "plot": item.get("description", ""),
-                    "genres": genre,
-                    "runtime": runtime,
-                    "certificate": item.get("contentRating", ""),
-                }
-            )
-    finally:
-        driver.quit()
-
-    print("  Enriching Top 250 Movies from individual pages...")
-    movie_data = enrich_items(movie_data, existing=existing)
-    return movie_data
+def fetch_top_250_movies(rankings: dict, existing: list[dict] = None) -> list[dict]:
+    print("Building Top 250 Movies (recreated from IMDb datasets)")
+    return finalize(rankings["top250_movies"], existing=existing)
 
 
-def fetch_popular_shows(existing: list[dict] = None) -> list[dict]:
-    """
-    Fetch information about popular TV Shows from IMDb.
-
-    Returns:
-        list of dict: A list where each dictionary contains TV Show information,
-        such as the TV Show's name, link, and rating.
-    """
-    print(f"Fetching Popular TV Show {CURRENT_YEAR} from IMDb ->", IMDB_POPULAR_TV_URL)
-
-    show_data = []
-    driver = get_driver()
-    try:
-        soup = _wait_for_soup(
-            driver, IMDB_POPULAR_TV_URL,
-            lambda s: s.find("script", type="application/ld+json"),
-        )
-        if soup is None:
-            print(f"    Could not load {IMDB_POPULAR_TV_URL} (bot-check or blocked); keeping existing data.")
-            return existing or []
-
-        json_data = json.loads(soup.find("script", type="application/ld+json").text)
-        for show in json_data["itemListElement"]:
-            show_name = show["item"]["name"]
-            try:
-                show_rating = show["item"]["aggregateRating"]["ratingValue"]
-            except KeyError:
-                show_rating = 0
-            try:
-                show_votes = show["item"]["aggregateRating"]["ratingCount"]
-            except KeyError:
-                show_votes = 0
-            show_link = show["item"]["url"]
-            show_image = show["item"].get("image", "")
-            genres = show["item"].get("genre", "")
-            duration = show["item"].get("duration", "")
-            runtime = 0
-            if duration:
-                try:
-                    parts = (
-                        duration.replace("PT", "")
-                        .replace("H", " ")
-                        .replace("M", "")
-                        .split()
-                    )
-                    if len(parts) == 2:
-                        runtime = int(parts[0]) * 60 + int(parts[1])
-                    elif len(parts) == 1 and "H" in duration:
-                        runtime = int(parts[0]) * 60
-                    elif len(parts) == 1 and "M" in duration:
-                        runtime = int(parts[0])
-                except:
-                    pass
-            show_data.append(
-                {
-                    "name": show_name,
-                    "rating": show_rating,
-                    "votes": show_votes,
-                    "link": show_link,
-                    "image": show_image,
-                    "plot": show["item"].get("description", ""),
-                    "genres": genres,
-                    "runtime": runtime,
-                    "certificate": show["item"].get("contentRating", ""),
-                }
-            )
-    finally:
-        driver.quit()
-
-    print("  Enriching Popular Shows from individual pages...")
-    show_data = enrich_items(show_data, existing=existing)
-    return show_data
+def fetch_top_50_shows(rankings: dict, existing: list[dict] = None) -> list[dict]:
+    print(f"Building Top 50 TV Shows {CURRENT_YEAR} (recreated from IMDb datasets)")
+    return finalize(rankings["top50_tv_year"], existing=existing)
 
 
-def fetch_top_50_shows(existing: list[dict] = None) -> list[dict]:
-    """
-    Fetch information about the Top 50 Shows of the current year from IMDb.
-
-    Returns:
-        list of dict: A list where each dictionary contains TV Show information,
-        such as the TV Show's name and link.
-    """
-    print(f"Fetching Top 50 shows {CURRENT_YEAR} from IMDb    ->", IMDB_TV_SEARCH_URL)
-
-    show_data = []
-    driver = get_driver()
-    try:
-        soup = _wait_for_soup(
-            driver, IMDB_TV_SEARCH_URL,
-            lambda s: s.find("script", id="__NEXT_DATA__"),
-        )
-        if soup is None:
-            print(f"    Could not load {IMDB_TV_SEARCH_URL} (bot-check or blocked); keeping existing data.")
-            return existing or []
-
-        json_data = (
-            json.loads(soup.find("script", id="__NEXT_DATA__").text)
-            .get("props", {})
-            .get("pageProps", {})
-            .get("searchResults", {})
-            .get("titleResults", {})
-            .get("titleListItems")
-        )
-        for show in json_data:
-            release_year = show.get("releaseYear", {})
-            year = (
-                release_year.get("year", "")
-                if isinstance(release_year, dict)
-                else release_year
-            )
-
-            release_date = show.get("releaseDate", {})
-            release_day = release_date.get("day", "")
-            release_month = release_date.get("month", "")
-            release_year_full = release_date.get("year", "")
-
-            genres_raw = show.get("genres", [])
-            genres = ", ".join(genres_raw) if isinstance(genres_raw, list) else ""
-
-            primary_image = show.get("primaryImage", {})
-            image_url = primary_image.get("url", "")
-            image_caption = primary_image.get("caption", "")
-
-            production_status = show.get("productionStatus", {})
-            current_stage = production_status.get("currentProductionStage", {})
-            status = current_stage.get("text", "")
-
-            show_data.append(
-                {
-                    "name": show.get("titleText", "")
-                    or show.get("originalTitleText", ""),
-                    "link": IMDB_BASE_URL + "/title/" + show["titleId"] + "/",
-                    "rating": show.get("ratingSummary", {}).get("aggregateRating", 0),
-                    "votes": show.get("ratingSummary", {}).get("voteCount", 0),
-                    "year": year,
-                    "releaseDate": f"{release_day}/{release_month}/{release_year_full}",
-                    "genres": genres,
-                    "runtime": show.get("runtime", ""),
-                    "plot": show.get("plot", ""),
-                    "image": image_url,
-                    "imageCaption": image_caption,
-                    "metascore": show.get("metascore", ""),
-                    "certificate": show.get("certificate", ""),
-                    "status": status,
-                }
-            )
-    finally:
-        driver.quit()
-
-    print("  Enriching Top 50 Shows from individual pages...")
-    show_data = enrich_items(show_data, existing=existing)
-    return show_data
-
-
-def fetch_top_250_tv(existing: list[dict] = None) -> list[dict]:
-    """
-    Fetch the Top 250 TV Shows from IMDb and return structured data.
-    """
-    print(f"Fetching Top 250 TV Shows from IMDb     ->", IMDB_TOP_250_TV_URL)
-
-    show_data = []
-    driver = get_driver()
-    try:
-        soup = _wait_for_soup(
-            driver, IMDB_TOP_250_TV_URL,
-            lambda s: s.find("script", attrs={"type": "application/ld+json"}),
-        )
-        if soup is None:
-            print(f"    Could not load {IMDB_TOP_250_TV_URL} (bot-check or blocked); keeping existing data.")
-            return existing or []
-
-        json_data = json.loads(
-            soup.find("script", attrs={"type": "application/ld+json"}).text
-        )
-
-        for rank, show in enumerate(json_data["itemListElement"], 1):
-            item = show["item"]
-            duration = item.get("duration", "")
-            runtime = 0
-            if duration:
-                try:
-                    parts = (
-                        duration.replace("PT", "")
-                        .replace("H", " ")
-                        .replace("M", "")
-                        .split()
-                    )
-                    if len(parts) == 2:
-                        runtime = int(parts[0]) * 60 + int(parts[1])
-                    elif len(parts) == 1 and "H" in duration:
-                        runtime = int(parts[0]) * 60
-                    elif len(parts) == 1 and "M" in duration:
-                        runtime = int(parts[0])
-                except Exception:
-                    pass
-
-            genre = item.get("genre", "")
-            if isinstance(genre, list):
-                genre = ", ".join(genre)
-
-            show_data.append(
-                {
-                    "Rank": rank,
-                    "name": item["name"],
-                    "IMDb Rating": item.get("aggregateRating", {}).get(
-                        "ratingValue", ""
-                    ),
-                    "link": item["url"],
-                    "image": item.get("image", ""),
-                    "plot": item.get("description", ""),
-                    "genres": genre,
-                    "runtime": runtime,
-                    "certificate": item.get("contentRating", ""),
-                }
-            )
-    finally:
-        driver.quit()
-
-    print("  Enriching Top 250 TV Shows from individual pages...")
-    show_data = enrich_items(show_data, existing=existing)
-    return show_data
+def fetch_top_250_tv(rankings: dict, existing: list[dict] = None) -> list[dict]:
+    print("Building Top 250 TV Shows (recreated from IMDb datasets)")
+    return finalize(rankings["top250_tv"], existing=existing)
 
 
 def print_top_50_movies(movies_data):
@@ -835,6 +289,7 @@ def print_top_50_movies(movies_data):
         movies_data (list of dict): A list where each dictionary contains movie information,
         such as the Movie's name and link.
     """
+    import subprocess
 
     file = open("temp.csv", "w")
     file.write("Rank; Movie Name; Movie Link\n\n")
@@ -909,8 +364,13 @@ def save_to_md(fetched_data):
     file = open("README.md", "a")
     file.write(f"## Original Medium Post: [Link]({ORIGINAL_POST_URL})\n")
     file.write(f"\n**Top IMDb Movies as of:** {datetime.now().date()}\n\n")
-    file.write(f"**IMDb Top 50 Movies Page:** [Link]({IMDB_MOVIES_SEARCH_URL})\n\n")
-    file.write(f"**IMDb Top 250 Movies Page:** [Link]({IMDB_TOP_250_MOVIES_URL})\n\n")
+    file.write(
+        "> Rankings are recreated from IMDb's public datasets "
+        "([datasets.imdbws.com](https://datasets.imdbws.com/)) - IMDb's live "
+        "chart/search pages are protected against automated access. Per-title "
+        "details (plot, cast, poster, box office, etc.) come from the "
+        "[OMDb API](https://www.omdbapi.com/).\n\n"
+    )
     file.write(
         "**Top 50 Movies:** [CSV File](/data/top50/movies.csv), [JSON File](/data/top50/movies.json)\n\n"
     )
@@ -924,10 +384,8 @@ def save_to_md(fetched_data):
         "**Top 250 TV Shows:** [CSV File](/data/top250/shows.csv), [JSON File](/data/top250/shows.json)\n\n"
     )
     file.write(
-        "**Popular Movies:** [CSV File](/data/popular/movies.csv), [JSON File](/data/popular/movies.json)\n\n"
-    )
-    file.write(
-        "**Popular TV Shows:** [CSV File](/data/popular/shows.csv), [JSON File](/data/popular/shows.json)\n\n"
+        "**Popular Movies / Popular TV Shows:** [data/popular/](/data/popular/) - "
+        "stale, no longer updated (IMDb's popularity-meter ranking isn't public data).\n\n"
     )
     file.write("---\n\n")
     file.write("## IMDb Top 50 Movies List\n\n")
@@ -949,49 +407,42 @@ def _load_json(path: str) -> list[dict]:
 
 
 if __name__ == "__main__":
-    print("/// IMDb Top 50 & 250 Movie/TV Show Data Scraper ///\n")
+    print("/// IMDb Top 50 & 250 Movie/TV Show Data Generator ///\n")
     print(f"Original Medium Post: {ORIGINAL_POST_URL}\n")
 
+    if not OMDB_API_KEY:
+        print("ERROR: OMDB_API_KEY environment variable is not set.")
+        sys.exit(1)
+
+    print("--- Downloading & ranking IMDb datasets ---")
+    rankings = load_rankings()
+    print("  Done.")
+
     print("\n--- 1. Top 50 Movies ---")
-    fetched_movies = fetch_top_50_movies(existing=_load_json("data/top50/movies.json"))
+    fetched_movies = fetch_top_50_movies(rankings, existing=_load_json("data/top50/movies.json"))
     save_to_json(fetched_movies, "data/top50/movies.json")
     save_to_csv(fetched_movies, "data/top50/movies.csv", "movies")
     save_to_md(fetched_movies)
     print("  Done.")
 
     print("\n--- 2. Top 250 Movies ---")
-    fetched_top250_movies = fetch_top_250_movies(existing=_load_json("data/top250/movies.json"))
+    fetched_top250_movies = fetch_top_250_movies(rankings, existing=_load_json("data/top250/movies.json"))
     save_to_json(fetched_top250_movies, "data/top250/movies.json")
     save_to_csv(fetched_top250_movies, "data/top250/movies.csv", "movies")
     print("  Done.")
 
     print("\n--- 3. Top 50 TV Shows ---")
-    fetched_shows = fetch_top_50_shows(existing=_load_json("data/top50/shows.json"))
+    fetched_shows = fetch_top_50_shows(rankings, existing=_load_json("data/top50/shows.json"))
     save_to_json(fetched_shows, "data/top50/shows.json")
     save_to_csv(fetched_shows, "data/top50/shows.csv", "shows")
     print("  Done.")
 
     print("\n--- 4. Top 250 TV Shows ---")
-    fetched_top250_shows = fetch_top_250_tv(existing=_load_json("data/top250/shows.json"))
+    fetched_top250_shows = fetch_top_250_tv(rankings, existing=_load_json("data/top250/shows.json"))
     save_to_json(fetched_top250_shows, "data/top250/shows.json")
     save_to_csv(fetched_top250_shows, "data/top250/shows.csv", "shows")
-    print("  Done.")
-
-    print("\n--- 5. Popular Movies ---")
-    fetched_popular_movies = fetch_popular_movies(existing=_load_json("data/popular/movies.json"))
-    save_to_json(fetched_popular_movies, "data/popular/movies.json")
-    save_to_csv(fetched_popular_movies, "data/popular/movies.csv", "movies")
-    print("  Done.")
-
-    print("\n--- 6. Popular TV Shows ---")
-    fetched_popular_shows = fetch_popular_shows(existing=_load_json("data/popular/shows.json"))
-    save_to_json(fetched_popular_shows, "data/popular/shows.json")
-    save_to_csv(fetched_popular_shows, "data/popular/shows.csv", "shows")
     print("  Done.")
 
     if sys.version_info < (3, 10):
         print("\nPrinting Top 50 Movies (Python < 3.10 format):")
         print_top_50_movies(fetched_movies)
-
-    print("\n/// Scraping Complete ///")
-    print(f"Original Medium Post: {ORIGINAL_POST_URL}")

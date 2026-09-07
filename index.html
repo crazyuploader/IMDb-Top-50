@@ -423,6 +423,7 @@
         margin-bottom: 4px;
         display: -webkit-box;
         -webkit-line-clamp: 2;
+        line-clamp: 2;
         -webkit-box-orient: vertical;
         overflow: hidden;
       }
@@ -965,7 +966,6 @@
             <select class="sort-sel" id="sortSel">
               <option value="">Default</option>
               <option value="rating">Top Rated</option>
-              <option value="awards">Most Awarded</option>
               <option value="year-d">Newest First</option>
               <option value="year-a">Oldest First</option>
               <option value="alpha">A → Z</option>
@@ -1029,16 +1029,6 @@
             label: "Top 250 Shows",
             file: "./data/top250/shows.json",
           },
-          {
-            id: "popular-movies",
-            label: "Popular Movies",
-            file: "./data/popular/movies.json",
-          },
-          {
-            id: "popular-shows",
-            label: "Popular Shows",
-            file: "./data/popular/shows.json",
-          },
         ],
         batchSize: 24,
       };
@@ -1100,9 +1090,9 @@
       /* ── Normalise ────────────────────────── */
       function norm(raw, idx) {
         return {
-          name: raw.name || raw["Movie Name"] || raw["Show Name"] || "Unknown",
-          link: raw.link || raw["Movie Link"] || raw["Show Link"] || "",
-          rating: parseFloat(raw.rating || raw["IMDb Rating"] || 0) || 0,
+          name: raw.name || "Unknown",
+          link: raw.link || "",
+          rating: parseFloat(raw.rating || 0) || 0,
           votes: parseInt(String(raw.votes || 0).replace(/,/g, ""), 10) || 0,
           year: raw.year || "",
           genres: raw.genres || "",
@@ -1110,28 +1100,17 @@
           plot: raw.plot || "",
           image: raw.image || "",
           certificate: raw.certificate || "",
-          metascore: raw.metascore || "",
-          status: raw.status || "",
           rank: raw.Rank || raw.rank || idx + 1,
-          directors: raw.directors || "",
-          writers: raw.writers || "",
-          stars: raw.stars || "",
-          topCast: raw.topCast || "",
-          keywords: raw.keywords || "",
-          countriesOfOrigin: raw.countriesOfOrigin || "",
-          budget: raw.budget || "",
-          openingWeekendGross: raw.openingWeekendGross || "",
-          lifetimeGross: raw.lifetimeGross || "",
-          worldwideGross: raw.worldwideGross || "",
-          filmingLocations: raw.filmingLocations || "",
-          spokenLanguages: raw.spokenLanguages || "",
-          soundMix: raw.soundMix || "",
-          aspectRatio: raw.aspectRatio || "",
-          color: raw.color || "",
+          director: raw.director || "",
+          writer: raw.writer || "",
+          actors: raw.actors || "",
+          awards: raw.awards || "",
+          boxOffice: raw.boxOffice || "",
+          country: raw.country || "",
+          language: raw.language || "",
+          rottenTomatoes: raw.rottenTomatoes || "",
+          metacritic: raw.metacritic || "",
           titleType: raw.titleType || "",
-          meterRanking: raw.meterRanking || "",
-          awardWins: parseInt(raw.awardWins, 10) || 0,
-          awardNominations: parseInt(raw.awardNominations, 10) || 0,
           lastUpdated: raw.last_updated || "",
         };
       }
@@ -1144,17 +1123,14 @@
           items = items.filter(
             (i) =>
               i.name.toLowerCase().includes(q) ||
-              i.directors.toLowerCase().includes(q) ||
-              i.stars.toLowerCase().includes(q) ||
+              i.director.toLowerCase().includes(q) ||
+              i.actors.toLowerCase().includes(q) ||
               i.genres.toLowerCase().includes(q),
           );
         }
         switch (st.sort) {
           case "rating":
             items = [...items].sort((a, b) => b.rating - a.rating);
-            break;
-          case "awards":
-            items = [...items].sort((a, b) => b.awardWins - a.awardWins);
             break;
           case "year-d":
             items = [...items].sort((a, b) =>
@@ -1287,10 +1263,10 @@
           b.innerHTML = `<svg viewBox="0 0 16 16"><path d="M8 1.5l1.76 3.57 3.94.57-2.85 2.78.67 3.93L8 10.44l-3.52 1.85.67-3.93L2.3 5.64l3.94-.57L8 1.5z"/></svg>${item.rating.toFixed(1)}`;
           el.appendChild(b);
         }
-        if (item.awardWins > 0) {
+        if (item.rottenTomatoes) {
           const b = document.createElement("div");
           b.className = "b-award";
-          b.textContent = `🏆 ${item.awardWins}`;
+          b.textContent = `🍅 ${item.rottenTomatoes}`;
           el.appendChild(b);
         }
 
@@ -1333,10 +1309,10 @@
           grad.appendChild(gw);
         }
 
-        if (item.directors) {
+        if (item.director) {
           const hi = document.createElement("div");
           hi.className = "c-hover";
-          hi.innerHTML = `<div class="c-dir">Dir. ${esc(item.directors.split(",")[0].trim())}</div>`;
+          hi.innerHTML = `<div class="c-dir">Dir. ${esc(item.director.split(",")[0].trim())}</div>`;
           grad.appendChild(hi);
         }
 
@@ -1428,24 +1404,11 @@
         html += mSec(
           "Credits",
           [
-            mRow("Director", item.directors),
-            mRow("Writers", item.writers),
-            mRow("Stars", item.stars),
+            mRow("Director", item.director),
+            mRow("Writer", item.writer),
+            mRow("Actors", item.actors),
           ].join(""),
         );
-
-        // Top Cast
-        if (item.topCast) {
-          let castHTML = "";
-          item.topCast.split(",").forEach((c) => {
-            const parts = c.split(" as ");
-            castHTML += `<div class="m-cast-row">
-        <div class="m-cast-name">${esc(parts[0].trim())}</div>
-        ${parts[1] ? `<div class="m-cast-char">${esc(parts[1].trim())}</div>` : ""}
-      </div>`;
-          });
-          html += mSec("Cast", castHTML);
-        }
 
         // Genres
         if (item.genres) {
@@ -1457,63 +1420,23 @@
         }
 
         // Awards
-        if (item.awardWins > 0 || item.awardNominations > 0) {
+        if (item.awards)
           html += mSec(
             "Awards",
-            `<div class="m-awards">
-      <div class="m-award-box wins"><div class="m-award-n">${item.awardWins}</div><div class="m-award-l">Wins</div></div>
-      <div class="m-award-box"><div class="m-award-n">${item.awardNominations}</div><div class="m-award-l">Nominations</div></div>
-    </div>`,
+            `<div class="m-val" style="line-height:1.6">${esc(item.awards)}</div>`,
           );
-        }
 
-        // Box Office
-        const bo = [
-          { l: "Budget", v: item.budget },
-          { l: "Opening Wknd", v: item.openingWeekendGross },
-          { l: "Lifetime", v: item.lifetimeGross },
-          { l: "Worldwide", v: item.worldwideGross },
-        ].filter((b) => b.v);
-        if (bo.length) {
-          html += mSec(
-            "Box Office",
-            `<div class="m-bo-grid">${bo.map((b) => `<div class="m-bo-item"><div class="m-bo-l">${esc(b.l)}</div><div class="m-bo-v">${esc(b.v)}</div></div>`).join("")}</div>`,
-          );
-        }
-
-        // Details
+        // Ratings & Box Office
         html += mSec(
           "Details",
           [
-            mRow("Countries", item.countriesOfOrigin),
-            mRow("Languages", item.spokenLanguages),
-            mRow("Filming", item.filmingLocations),
-            mRow(
-              "Popularity",
-              item.meterRanking ? `#${item.meterRanking} on IMDb` : "",
-            ),
-            mRow("Metascore", item.metascore),
+            mRow("Rotten Tomatoes", item.rottenTomatoes),
+            mRow("Metacritic", item.metacritic),
+            mRow("Box Office", item.boxOffice),
+            mRow("Country", item.country),
+            mRow("Language", item.language),
           ].join(""),
         );
-
-        // Technical
-        html += mSec(
-          "Technical",
-          [
-            mRow("Sound", item.soundMix),
-            mRow("Aspect Ratio", item.aspectRatio),
-            mRow("Color", item.color),
-          ].join(""),
-        );
-
-        // Keywords
-        if (item.keywords) {
-          const tags = item.keywords
-            .split(",")
-            .map((k) => `<span class="m-tag">${esc(k.trim())}</span>`)
-            .join("");
-          html += mSec("Keywords", `<div class="m-tags">${tags}</div>`);
-        }
 
         if (item.lastUpdated) {
           html += `<div class="m-updated">Enrichment data last updated ${fmtDate(item.lastUpdated)}</div>`;

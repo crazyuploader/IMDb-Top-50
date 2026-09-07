@@ -26,17 +26,14 @@ jobs:
         with:
           python-version: 3.14.6
 
-      - name: Install Chrome
-        uses: browser-actions/setup-chrome@v2
-        with:
-          chrome-version: stable
-
       - name: Installing Dependencies
         run: |
           pip install --upgrade pipenv
           pipenv install
 
       - name: Generate
+        env:
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
         run: |
           chmod +x ./generate.sh
           pipenv run ./generate.sh
