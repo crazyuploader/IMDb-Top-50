@@ -11,8 +11,8 @@
     "certificate": "R",
     "keywords": "prison, based on the works of stephen king, escape from prison, friendship between men, wrongful conviction",
     "countriesOfOrigin": "US",
-    "meterRanking": "43",
-    "meterRankChange": "DOWN 3",
+    "meterRanking": "49",
+    "meterRankChange": "DOWN 6",
     "directors": "Frank Darabont",
     "writers": "Stephen King, Frank Darabont",
     "stars": "Tim Robbins, Morgan Freeman, Bob Gunton",
@@ -32,7 +32,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 2,
@@ -46,8 +46,8 @@
     "certificate": "R",
     "keywords": "mafia, patriarch, crime family, organized crime, gangster",
     "countriesOfOrigin": "US",
-    "meterRanking": "90",
-    "meterRankChange": "FLAT 0",
+    "meterRanking": "108",
+    "meterRankChange": "DOWN 18",
     "directors": "Francis Ford Coppola",
     "writers": "Mario Puzo, Francis Ford Coppola",
     "stars": "Marlon Brando, Al Pacino, James Caan",
@@ -55,7 +55,7 @@
     "budget": "USD 6,000,000",
     "openingWeekendGross": "USD 302,393",
     "lifetimeGross": "USD 136,381,073",
-    "worldwideGross": "USD 250,934,943",
+    "worldwideGross": "USD 250,935,560",
     "filmingLocations": "Forza d'Agr\u00f2, Messina, Sicily, Italy",
     "spokenLanguages": "English, Italian, Latin",
     "soundMix": "Mono, Dolby Digital",
@@ -67,7 +67,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 3,
@@ -81,8 +81,8 @@
     "certificate": "PG-13",
     "keywords": "psychopath, moral dilemma, superhero, clown, criminal mastermind",
     "countriesOfOrigin": "US",
-    "meterRanking": "94",
-    "meterRankChange": "DOWN 2",
+    "meterRanking": "104",
+    "meterRankChange": "DOWN 10",
     "directors": "Christopher Nolan",
     "writers": "Jonathan Nolan, Christopher Nolan, David S. Goyer",
     "stars": "Christian Bale, Heath Ledger, Aaron Eckhart",
@@ -102,7 +102,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 4,
@@ -116,8 +116,8 @@
     "certificate": "R",
     "keywords": "revenge, 1950s, cuban revolution, sicily, organized crime",
     "countriesOfOrigin": "US",
-    "meterRanking": "409",
-    "meterRankChange": "DOWN 31",
+    "meterRanking": "457",
+    "meterRankChange": "DOWN 48",
     "directors": "Francis Ford Coppola",
     "writers": "Francis Ford Coppola, Mario Puzo",
     "stars": "Al Pacino, Robert De Niro, Robert Duvall",
@@ -137,7 +137,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 5,
@@ -151,8 +151,8 @@
     "certificate": "PG-13",
     "keywords": "orc, epic, journey, hobbit, battle",
     "countriesOfOrigin": "NZ",
-    "meterRanking": "281",
-    "meterRankChange": "UP 35",
+    "meterRanking": "280",
+    "meterRankChange": "UP 1",
     "directors": "Peter Jackson",
     "writers": "J.R.R. Tolkien, Fran Walsh, Philippa Boyens",
     "stars": "Elijah Wood, Viggo Mortensen, Ian McKellen",
@@ -172,7 +172,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 6,
@@ -186,8 +186,8 @@
     "certificate": "Approved",
     "keywords": "jury, murder, dialogue driven, trial, jury room",
     "countriesOfOrigin": "US",
-    "meterRanking": "197",
-    "meterRankChange": "DOWN 20",
+    "meterRanking": "201",
+    "meterRankChange": "DOWN 4",
     "directors": "Sidney Lumet",
     "writers": "",
     "stars": "Henry Fonda, Lee J. Cobb, Martin Balsam",
@@ -207,7 +207,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 7,
@@ -221,8 +221,8 @@
     "certificate": "R",
     "keywords": "holocaust, nazi, nazi concentration camp, jew, german",
     "countriesOfOrigin": "US",
-    "meterRanking": "208",
-    "meterRankChange": "DOWN 1",
+    "meterRanking": "212",
+    "meterRankChange": "DOWN 4",
     "directors": "Steven Spielberg",
     "writers": "Thomas Keneally, Steven Zaillian",
     "stars": "Liam Neeson, Ralph Fiennes, Ben Kingsley",
@@ -242,7 +242,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 8,
@@ -256,8 +256,8 @@
     "certificate": "PG-13",
     "keywords": "ring, quest, middle earth, elf, hobbit",
     "countriesOfOrigin": "NZ",
-    "meterRanking": "126",
-    "meterRankChange": "UP 9",
+    "meterRanking": "153",
+    "meterRankChange": "DOWN 27",
     "directors": "Peter Jackson",
     "writers": "J.R.R. Tolkien, Fran Walsh, Philippa Boyens",
     "stars": "Elijah Wood, Ian McKellen, Orlando Bloom",
@@ -277,7 +277,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 9,
@@ -291,8 +291,8 @@
     "certificate": "R",
     "keywords": "nonlinear timeline, overdose, drug use, drug overdose, drug dealing",
     "countriesOfOrigin": "US",
-    "meterRanking": "142",
-    "meterRankChange": "UP 3",
+    "meterRanking": "101",
+    "meterRankChange": "UP 41",
     "directors": "Quentin Tarantino",
     "writers": "Quentin Tarantino, Roger Avary",
     "stars": "John Travolta, Uma Thurman, Samuel L. Jackson",
@@ -312,7 +312,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 10,
@@ -326,8 +326,8 @@
     "certificate": "PG-13",
     "keywords": "middle earth, wizard, hobbit, orc, evil wizard",
     "countriesOfOrigin": "NZ",
-    "meterRanking": "442",
-    "meterRankChange": "UP 153",
+    "meterRanking": "534",
+    "meterRankChange": "DOWN 92",
     "directors": "Peter Jackson",
     "writers": "J.R.R. Tolkien, Fran Walsh, Philippa Boyens",
     "stars": "Elijah Wood, Ian McKellen, Viggo Mortensen",
@@ -347,7 +347,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 11,
@@ -361,8 +361,8 @@
     "certificate": "R",
     "keywords": "spaghetti western, shootout, civil war, italo western, outlaw",
     "countriesOfOrigin": "IT",
-    "meterRanking": "444",
-    "meterRankChange": "DOWN 53",
+    "meterRanking": "419",
+    "meterRankChange": "UP 25",
     "directors": "Sergio Leone",
     "writers": "Luciano Vincenzoni, Sergio Leone, Agenore Incrocci",
     "stars": "Clint Eastwood, Eli Wallach, Lee Van Cleef",
@@ -382,7 +382,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 12,
@@ -396,8 +396,8 @@
     "certificate": "PG-13",
     "keywords": "vietnam war, mother son relationship, war hero, interracial friendship, based on novel",
     "countriesOfOrigin": "US",
-    "meterRanking": "237",
-    "meterRankChange": "DOWN 32",
+    "meterRanking": "205",
+    "meterRankChange": "UP 32",
     "directors": "Robert Zemeckis",
     "writers": "Winston Groom, Eric Roth",
     "stars": "Tom Hanks, Robin Wright, Gary Sinise",
@@ -417,7 +417,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 13,
@@ -431,8 +431,8 @@
     "certificate": "PG-13",
     "keywords": "dream, ambiguous ending, subconscious, mindbender, surprise ending",
     "countriesOfOrigin": "GB",
-    "meterRanking": "103",
-    "meterRankChange": "DOWN 17",
+    "meterRanking": "115",
+    "meterRankChange": "DOWN 12",
     "directors": "Christopher Nolan",
     "writers": "",
     "stars": "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page",
@@ -452,7 +452,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 14,
@@ -466,8 +466,8 @@
     "certificate": "R",
     "keywords": "insomnia, anti establishment, surprise ending, group therapy, anti social behavior",
     "countriesOfOrigin": "US",
-    "meterRanking": "151",
-    "meterRankChange": "DOWN 10",
+    "meterRanking": "164",
+    "meterRankChange": "DOWN 13",
     "directors": "David Fincher",
     "writers": "Chuck Palahniuk, Jim Uhls",
     "stars": "Brad Pitt, Edward Norton, Meat Loaf",
@@ -487,7 +487,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 15,
@@ -501,8 +501,8 @@
     "certificate": "PG",
     "keywords": "famous twist, part of trilogy, rescue, cave, famous score",
     "countriesOfOrigin": "US",
-    "meterRanking": "870",
-    "meterRankChange": "UP 88",
+    "meterRanking": "891",
+    "meterRankChange": "DOWN 21",
     "directors": "Irvin Kershner",
     "writers": "Leigh Brackett, Lawrence Kasdan, George Lucas",
     "stars": "Mark Hamill, Harrison Ford, Carrie Fisher",
@@ -522,7 +522,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 16,
@@ -536,8 +536,8 @@
     "certificate": "R",
     "keywords": "war with machines, artificial reality, simulated reality, dystopia, post apocalypse",
     "countriesOfOrigin": "US",
-    "meterRanking": "168",
-    "meterRankChange": "UP 26",
+    "meterRanking": "181",
+    "meterRankChange": "DOWN 13",
     "directors": "",
     "writers": "Lilly Wachowski, Lana Wachowski",
     "stars": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
@@ -557,7 +557,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 17,
@@ -571,8 +571,8 @@
     "certificate": "PG-13",
     "keywords": "saving the world, astronaut, space travel, father daughter relationship, wormhole",
     "countriesOfOrigin": "US",
-    "meterRanking": "88",
-    "meterRankChange": "DOWN 7",
+    "meterRanking": "97",
+    "meterRankChange": "DOWN 9",
     "directors": "Christopher Nolan",
     "writers": "Jonathan Nolan, Christopher Nolan",
     "stars": "Matthew McConaughey, Anne Hathaway, Jessica Chastain",
@@ -592,7 +592,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 18,
@@ -606,8 +606,8 @@
     "certificate": "R",
     "keywords": "gangster, mafia, organized crime, rise and fall, new york city",
     "countriesOfOrigin": "US",
-    "meterRanking": "233",
-    "meterRankChange": "DOWN 14",
+    "meterRanking": "202",
+    "meterRankChange": "UP 31",
     "directors": "Martin Scorsese",
     "writers": "Nicholas Pileggi, Martin Scorsese",
     "stars": "Robert De Niro, Ray Liotta, Joe Pesci",
@@ -627,7 +627,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 19,
@@ -641,8 +641,8 @@
     "certificate": "R",
     "keywords": "mental institution, nurse, mental illness, native american, escape",
     "countriesOfOrigin": "US",
-    "meterRanking": "247",
-    "meterRankChange": "UP 103",
+    "meterRanking": "293",
+    "meterRankChange": "DOWN 46",
     "directors": "Milo\u0161 Forman",
     "writers": "Lawrence Hauben, Bo Goldman, Ken Kesey",
     "stars": "Jack Nicholson, Louise Fletcher, Michael Berryman",
@@ -662,7 +662,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 20,
@@ -676,8 +676,8 @@
     "certificate": "R",
     "keywords": "serial killer, detective, murder investigation, murder, severed head",
     "countriesOfOrigin": "US",
-    "meterRanking": "116",
-    "meterRankChange": "DOWN 8",
+    "meterRanking": "121",
+    "meterRankChange": "DOWN 5",
     "directors": "David Fincher",
     "writers": "",
     "stars": "Morgan Freeman, Brad Pitt, Kevin Spacey",
@@ -697,7 +697,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 21,
@@ -711,8 +711,8 @@
     "certificate": "PG",
     "keywords": "guardian angel, small town life, christmas, alternate history, small town",
     "countriesOfOrigin": "US",
-    "meterRanking": "777",
-    "meterRankChange": "DOWN 4",
+    "meterRanking": "672",
+    "meterRankChange": "UP 105",
     "directors": "Frank Capra",
     "writers": "Frances Goodrich, Albert Hackett, Frank Capra",
     "stars": "James Stewart, Donna Reed, Lionel Barrymore",
@@ -732,7 +732,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 22,
@@ -746,8 +746,8 @@
     "certificate": "R",
     "keywords": "serial killer, female protagonist, psychopath, strong female lead, based on novel",
     "countriesOfOrigin": "US",
-    "meterRanking": "84",
-    "meterRankChange": "UP 5",
+    "meterRanking": "88",
+    "meterRankChange": "DOWN 4",
     "directors": "Jonathan Demme",
     "writers": "Thomas Harris, Ted Tally",
     "stars": "Jodie Foster, Anthony Hopkins, Scott Glenn",
@@ -767,7 +767,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 23,
@@ -781,8 +781,8 @@
     "certificate": "R",
     "keywords": "world war two, d day, u.s. army, combat, omaha beach",
     "countriesOfOrigin": "US",
-    "meterRanking": "378",
-    "meterRankChange": "DOWN 7",
+    "meterRanking": "373",
+    "meterRankChange": "UP 5",
     "directors": "Steven Spielberg",
     "writers": "",
     "stars": "Tom Hanks, Matt Damon, Tom Sizemore",
@@ -802,7 +802,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 24,
@@ -816,8 +816,8 @@
     "certificate": "Not Rated",
     "keywords": "samurai, 16th century, battle, japan, village",
     "countriesOfOrigin": "JP",
-    "meterRanking": "947",
-    "meterRankChange": "UP 19",
+    "meterRanking": "890",
+    "meterRankChange": "UP 57",
     "directors": "Akira Kurosawa",
     "writers": "Akira Kurosawa, Shinobu Hashimoto, Hideo Oguni",
     "stars": "Toshir\u014d Mifune, Takashi Shimura, Keiko Tsushima",
@@ -837,7 +837,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 25,
@@ -851,8 +851,8 @@
     "certificate": "R",
     "keywords": "death row inmate, electric chair, 1930s, prison guard, execution",
     "countriesOfOrigin": "US",
-    "meterRanking": "222",
-    "meterRankChange": "UP 19",
+    "meterRanking": "248",
+    "meterRankChange": "DOWN 26",
     "directors": "Frank Darabont",
     "writers": "Stephen King, Frank Darabont",
     "stars": "Tom Hanks, Michael Clarke Duncan, David Morse",
@@ -872,7 +872,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 26,
@@ -886,8 +886,8 @@
     "certificate": "R",
     "keywords": "photographer, slum, gang, brazil, south america",
     "countriesOfOrigin": "BR",
-    "meterRanking": "280",
-    "meterRankChange": "DOWN 6",
+    "meterRanking": "263",
+    "meterRankChange": "UP 17",
     "directors": "",
     "writers": "Br\u00e1ulio Mantovani, Paulo Lins",
     "stars": "Alexandre Rodrigues, Leandro Firmino, Matheus Nachtergaele",
@@ -895,7 +895,7 @@
     "budget": "BRL 3,300,000",
     "openingWeekendGross": "USD 88,292",
     "lifetimeGross": "USD 7,564,459",
-    "worldwideGross": "USD 30,685,755",
+    "worldwideGross": "USD 30,686,871",
     "filmingLocations": "Rio de Janeiro, Rio de Janeiro, Brazil",
     "spokenLanguages": "Portuguese",
     "soundMix": "Dolby Digital, SDDS",
@@ -907,7 +907,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 27,
@@ -921,8 +921,8 @@
     "certificate": "PG-13",
     "keywords": "world war two, nazi occupation, tank, death of protagonist, jewish",
     "countriesOfOrigin": "IT",
-    "meterRanking": "420",
-    "meterRankChange": "UP 6",
+    "meterRanking": "451",
+    "meterRankChange": "DOWN 31",
     "directors": "Roberto Benigni",
     "writers": "Vincenzo Cerami, Roberto Benigni",
     "stars": "Roberto Benigni, Nicoletta Braschi, Giorgio Cantarini",
@@ -942,7 +942,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 28,
@@ -956,8 +956,8 @@
     "certificate": "R",
     "keywords": "time travel, artificial intelligence, post apocalypse, sequel, alternate timeline",
     "countriesOfOrigin": "US",
-    "meterRanking": "267",
-    "meterRankChange": "UP 26",
+    "meterRanking": "339",
+    "meterRankChange": "DOWN 72",
     "directors": "James Cameron",
     "writers": "James Cameron, William Wisher",
     "stars": "Arnold Schwarzenegger, Linda Hamilton, Edward Furlong",
@@ -977,7 +977,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 29,
@@ -991,8 +991,8 @@
     "certificate": "PG",
     "keywords": "time travel, time machine, time travel comedy, delorean, future",
     "countriesOfOrigin": "US",
-    "meterRanking": "300",
-    "meterRankChange": "DOWN 19",
+    "meterRanking": "308",
+    "meterRankChange": "DOWN 8",
     "directors": "Robert Zemeckis",
     "writers": "Robert Zemeckis, Bob Gale",
     "stars": "Michael J. Fox, Christopher Lloyd, Lea Thompson",
@@ -1012,7 +1012,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 30,
@@ -1026,8 +1026,8 @@
     "certificate": "PG",
     "keywords": "rebellion, princess, good versus evil, space opera, droid",
     "countriesOfOrigin": "US",
-    "meterRanking": "592",
-    "meterRankChange": "DOWN 9",
+    "meterRanking": "543",
+    "meterRankChange": "UP 49",
     "directors": "George Lucas",
     "writers": "",
     "stars": "Mark Hamill, Harrison Ford, Carrie Fisher",
@@ -1047,7 +1047,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 31,
@@ -1061,8 +1061,8 @@
     "certificate": "PG",
     "keywords": "parent child relationship, spirit world, studio ghibli, turned into a pig, child protagonist",
     "countriesOfOrigin": "JP",
-    "meterRanking": "243",
-    "meterRankChange": "UP 112",
+    "meterRanking": "261",
+    "meterRankChange": "DOWN 18",
     "directors": "Hayao Miyazaki",
     "writers": "",
     "stars": "Miyu Irino, Rumi Hiiragi, Mari Natsuki",
@@ -1082,7 +1082,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 32,
@@ -1096,8 +1096,8 @@
     "certificate": "R",
     "keywords": "roman empire, gladiator, slavery, combat, battlefield",
     "countriesOfOrigin": "GB",
-    "meterRanking": "274",
-    "meterRankChange": "UP 1",
+    "meterRanking": "268",
+    "meterRankChange": "UP 6",
     "directors": "Ridley Scott",
     "writers": "David Franzoni, John Logan, William Nicholson",
     "stars": "Russell Crowe, Joaquin Phoenix, Connie Nielsen",
@@ -1117,7 +1117,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 33,
@@ -1131,8 +1131,8 @@
     "certificate": "R",
     "keywords": "holocaust, pianist, hiding a jew, survival, based on autobiography",
     "countriesOfOrigin": "FR",
-    "meterRanking": "439",
-    "meterRankChange": "FLAT 0",
+    "meterRanking": "442",
+    "meterRankChange": "DOWN 3",
     "directors": "Roman Polanski",
     "writers": "Ronald Harwood, Wladyslaw Szpilman",
     "stars": "Adrien Brody, Thomas Kretschmann, Frank Finlay",
@@ -1152,7 +1152,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 34,
@@ -1166,8 +1166,8 @@
     "certificate": "Unrated",
     "keywords": "revenge, female protagonist, violence, extreme violence, intermission",
     "countriesOfOrigin": "US",
-    "meterRanking": "416",
-    "meterRankChange": "UP 264",
+    "meterRanking": "394",
+    "meterRankChange": "UP 22",
     "directors": "Quentin Tarantino",
     "writers": "Quentin Tarantino, Uma Thurman",
     "stars": "Vivica A. Fox, Ambrosia Kelley, Michael Parks",
@@ -1187,7 +1187,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 35,
@@ -1201,8 +1201,8 @@
     "certificate": "R",
     "keywords": "class differences, social satire, scam, fraud, plot twist",
     "countriesOfOrigin": "KR",
-    "meterRanking": "169",
-    "meterRankChange": "DOWN 13",
+    "meterRanking": "159",
+    "meterRankChange": "UP 10",
     "directors": "Bong Joon Ho",
     "writers": "Bong Joon Ho, Han Jin-won",
     "stars": "Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong",
@@ -1222,7 +1222,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 36,
@@ -1236,8 +1236,8 @@
     "certificate": "Not Rated",
     "keywords": "studio ghibli, 1940s, food, survival, older brother younger sister",
     "countriesOfOrigin": "JP",
-    "meterRanking": "564",
-    "meterRankChange": "UP 25",
+    "meterRanking": "575",
+    "meterRankChange": "DOWN 11",
     "directors": "Isao Takahata",
     "writers": "Akiyuki Nosaka, Isao Takahata",
     "stars": "Tsutomu Tatsumi, Ayano Shiraishi, Akemi Yamaguchi",
@@ -1257,7 +1257,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 37,
@@ -1271,8 +1271,8 @@
     "certificate": "Not Rated",
     "keywords": "samurai, seppuku, poverty, revenge, year 1630",
     "countriesOfOrigin": "JP",
-    "meterRanking": "1078",
-    "meterRankChange": "UP 124",
+    "meterRanking": "990",
+    "meterRankChange": "UP 88",
     "directors": "Masaki Kobayashi",
     "writers": "Yasuhiko Takiguchi, Shinobu Hashimoto",
     "stars": "Tatsuya Nakadai, Akira Ishihama, Shima Iwashita",
@@ -1292,7 +1292,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 38,
@@ -1306,8 +1306,8 @@
     "certificate": "G",
     "keywords": "africa, king, lion, shakespearean, family betrayal",
     "countriesOfOrigin": "US",
-    "meterRanking": "653",
-    "meterRankChange": "UP 4",
+    "meterRanking": "698",
+    "meterRankChange": "DOWN 45",
     "directors": "",
     "writers": "Irene Mecchi, Jonathan Roberts, Linda Woolverton",
     "stars": "Matthew Broderick, Jeremy Irons, James Earl Jones",
@@ -1327,7 +1327,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 39,
@@ -1341,8 +1341,8 @@
     "certificate": "R",
     "keywords": "motel, shower, serial killer, psychological horror, secretary",
     "countriesOfOrigin": "US",
-    "meterRanking": "302",
-    "meterRankChange": "UP 28",
+    "meterRanking": "329",
+    "meterRankChange": "DOWN 27",
     "directors": "Alfred Hitchcock",
     "writers": "Joseph Stefano, Robert Bloch",
     "stars": "Anthony Perkins, Janet Leigh, Vera Miles",
@@ -1362,7 +1362,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 40,
@@ -1376,8 +1376,8 @@
     "certificate": "R",
     "keywords": "police, mobster, organized crime, undercover, irish american",
     "countriesOfOrigin": "US",
-    "meterRanking": "70",
-    "meterRankChange": "UP 29",
+    "meterRanking": "91",
+    "meterRankChange": "DOWN 21",
     "directors": "Martin Scorsese",
     "writers": "William Monahan, Alan Mak, Felix Chong",
     "stars": "Leonardo DiCaprio, Matt Damon, Jack Nicholson",
@@ -1397,7 +1397,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 41,
@@ -1411,8 +1411,8 @@
     "certificate": "R",
     "keywords": "emotional abuse, drummer, teacher student relationship, teacher misconduct, jazz music",
     "countriesOfOrigin": "US",
-    "meterRanking": "186",
-    "meterRankChange": "DOWN 1",
+    "meterRanking": "191",
+    "meterRankChange": "DOWN 5",
     "directors": "Damien Chazelle",
     "writers": "",
     "stars": "Miles Teller, J.K. Simmons, Melissa Benoist",
@@ -1432,22 +1432,22 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 42,
     "name": "The Prestige",
     "IMDb Rating": 8.5,
     "link": "https://www.imdb.com/title/tt0482571/",
-    "image": "https://m.media-amazon.com/images/M/MV5BM2Y0YmM5MWYtZTYzNi00ZjU5LTlmOGYtZDQ4ODQyMjAzNjQ2XkEyXkFqcGc@._V1_.jpg",
+    "image": "https://m.media-amazon.com/images/M/MV5BZWU0NWZhYzMtZmNlYy00MjA1LTgyZWEtYmNjNzdjYmRkOTkzXkEyXkFqcGc@._V1_.jpg",
     "plot": "Two magicians dismantle their lives to outmaneuver each other following a shared tragedy. They chase the ultimate illusion across Victorian London, sacrificing sanity and safety to master a teleportation feat that defies all logic.",
     "genres": "Drama, Mystery, Sci-Fi",
     "runtime": 130,
     "certificate": "PG-13",
     "keywords": "illusion, magician, rivalry, obsession, magic",
     "countriesOfOrigin": "GB",
-    "meterRanking": "75",
-    "meterRankChange": "UP 25",
+    "meterRanking": "81",
+    "meterRankChange": "DOWN 6",
     "directors": "Christopher Nolan",
     "writers": "Jonathan Nolan, Christopher Nolan, Christopher Priest",
     "stars": "Christian Bale, Hugh Jackman, Scarlett Johansson",
@@ -1467,7 +1467,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 43,
@@ -1481,8 +1481,8 @@
     "certificate": "R",
     "keywords": "neo nazi, prison, hatred, white supremacist, racism",
     "countriesOfOrigin": "US",
-    "meterRanking": "540",
-    "meterRankChange": "UP 30",
+    "meterRanking": "566",
+    "meterRankChange": "DOWN 26",
     "directors": "Tony Kaye",
     "writers": "",
     "stars": "Edward Norton, Edward Furlong, Beverly D'Angelo",
@@ -1502,7 +1502,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 44,
@@ -1516,8 +1516,8 @@
     "certificate": "PG",
     "keywords": "based on comic, second part, multiverse, spider man character, surrealism",
     "countriesOfOrigin": "US",
-    "meterRanking": "419",
-    "meterRankChange": "UP 61",
+    "meterRanking": "491",
+    "meterRankChange": "DOWN 72",
     "directors": "",
     "writers": "Phil Lord, Christopher Miller, Dave Callaham",
     "stars": "Shameik Moore, Hailee Steinfeld, Brian Tyree Henry",
@@ -1537,7 +1537,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 45,
@@ -1551,8 +1551,8 @@
     "certificate": "PG",
     "keywords": "film projectionist, cinema, film reel, flashback, blind man",
     "countriesOfOrigin": "IT",
-    "meterRanking": "1000",
-    "meterRankChange": "UP 117",
+    "meterRanking": "1026",
+    "meterRankChange": "DOWN 26",
     "directors": "Giuseppe Tornatore",
     "writers": "Giuseppe Tornatore, Vanna Paoli",
     "stars": "Philippe Noiret, Enzo Cannavale, Antonella Attili",
@@ -1572,7 +1572,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 46,
@@ -1586,8 +1586,8 @@
     "certificate": "R",
     "keywords": "hitman, revenge, killer child, neo noir, mentor student relationship",
     "countriesOfOrigin": "FR",
-    "meterRanking": "374",
-    "meterRankChange": "DOWN 73",
+    "meterRanking": "371",
+    "meterRankChange": "UP 3",
     "directors": "Luc Besson",
     "writers": "",
     "stars": "Jean Reno, Gary Oldman, Natalie Portman",
@@ -1607,7 +1607,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 47,
@@ -1621,8 +1621,8 @@
     "certificate": "PG",
     "keywords": "love triangle, nightclub, casablanca morocco, french morocco, anti nazi",
     "countriesOfOrigin": "US",
-    "meterRanking": "816",
-    "meterRankChange": "DOWN 184",
+    "meterRanking": "848",
+    "meterRankChange": "DOWN 32",
     "directors": "Michael Curtiz",
     "writers": "Philip G. Epstein, Julius J. Epstein, Howard Koch",
     "stars": "Humphrey Bogart, Ingrid Bergman, Paul Henreid",
@@ -1642,7 +1642,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 48,
@@ -1656,8 +1656,8 @@
     "certificate": "R",
     "keywords": "caregiver, class differences, quadriplegia, disabled person, friendship between men",
     "countriesOfOrigin": "FR",
-    "meterRanking": "499",
-    "meterRankChange": "UP 3",
+    "meterRanking": "472",
+    "meterRankChange": "UP 27",
     "directors": "",
     "writers": "Olivier Nakache, \u00c9ric Toledano, Philippe Pozzo di Borgo",
     "stars": "Fran\u00e7ois Cluzet, Omar Sy, Anne Le Ny",
@@ -1677,7 +1677,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 49,
@@ -1691,8 +1691,8 @@
     "certificate": "R",
     "keywords": "criminal mastermind, surprise ending, criminal, suspect, unreliable narrator",
     "countriesOfOrigin": "US",
-    "meterRanking": "241",
-    "meterRankChange": "DOWN 46",
+    "meterRanking": "199",
+    "meterRankChange": "UP 42",
     "directors": "Bryan Singer",
     "writers": "",
     "stars": "Kevin Spacey, Gabriel Byrne, Chazz Palminteri",
@@ -1712,7 +1712,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 50,
@@ -1726,8 +1726,8 @@
     "certificate": "R",
     "keywords": "slavery, racial violence, racial vengeance, sadism, n word",
     "countriesOfOrigin": "US",
-    "meterRanking": "321",
-    "meterRankChange": "DOWN 18",
+    "meterRanking": "330",
+    "meterRankChange": "DOWN 9",
     "directors": "Quentin Tarantino",
     "writers": "",
     "stars": "Jamie Foxx, Christoph Waltz, Leonardo DiCaprio",
@@ -1747,7 +1747,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 51,
@@ -1761,8 +1761,8 @@
     "certificate": "R",
     "keywords": "alien, outer space, spaceship, survival horror, monster",
     "countriesOfOrigin": "GB",
-    "meterRanking": "292",
-    "meterRankChange": "DOWN 3",
+    "meterRanking": "321",
+    "meterRankChange": "DOWN 29",
     "directors": "Ridley Scott",
     "writers": "Dan O'Bannon, Ronald Shusett",
     "stars": "Sigourney Weaver, Tom Skerritt, John Hurt",
@@ -1782,7 +1782,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 52,
@@ -1796,8 +1796,8 @@
     "certificate": "PG",
     "keywords": "wheelchair, apartment, broken leg, amateur detective, based on short story",
     "countriesOfOrigin": "US",
-    "meterRanking": "1075",
-    "meterRankChange": "UP 215",
+    "meterRanking": "366",
+    "meterRankChange": "UP 709",
     "directors": "Alfred Hitchcock",
     "writers": "John Michael Hayes, Cornell Woolrich",
     "stars": "James Stewart, Grace Kelly, Wendell Corey",
@@ -1805,7 +1805,7 @@
     "budget": "USD 1,000,000",
     "openingWeekendGross": "",
     "lifetimeGross": "USD 37,622,343",
-    "worldwideGross": "USD 37,926,487",
+    "worldwideGross": "USD 37,926,612",
     "filmingLocations": "Stage 18, Paramount Studios - 5555 Melrose Avenue, Hollywood, Los Angeles, California, USA",
     "spokenLanguages": "English",
     "soundMix": "",
@@ -1817,7 +1817,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 53,
@@ -1831,8 +1831,8 @@
     "certificate": "G",
     "keywords": "factory, actor director writer, music score composed by director, satire, the little tramp character",
     "countriesOfOrigin": "US",
-    "meterRanking": "3138",
-    "meterRankChange": "UP 611",
+    "meterRanking": "3388",
+    "meterRankChange": "DOWN 250",
     "directors": "Charles Chaplin",
     "writers": "",
     "stars": "Charles Chaplin, Paulette Goddard, Henry Bergman",
@@ -1852,7 +1852,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 54,
@@ -1866,8 +1866,8 @@
     "certificate": "PG-13",
     "keywords": "harmonica, widow, wild west, former prostitute, 19th century",
     "countriesOfOrigin": "IT",
-    "meterRanking": "910",
-    "meterRankChange": "DOWN 46",
+    "meterRanking": "1053",
+    "meterRankChange": "DOWN 143",
     "directors": "Sergio Leone",
     "writers": "Sergio Donati, Sergio Leone, Dario Argento",
     "stars": "Henry Fonda, Charles Bronson, Claudia Cardinale",
@@ -1875,7 +1875,7 @@
     "budget": "USD 5,000,000",
     "openingWeekendGross": "",
     "lifetimeGross": "USD 5,321,508",
-    "worldwideGross": "USD 5,451,115",
+    "worldwideGross": "USD 5,452,463",
     "filmingLocations": "Monument Valley, Arizona, USA",
     "spokenLanguages": "English, Spanish, Italian",
     "soundMix": "Mono",
@@ -1887,7 +1887,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 55,
@@ -1901,8 +1901,8 @@
     "certificate": "G",
     "keywords": "obesity, robot, earth, pollution, post apocalypse",
     "countriesOfOrigin": "US",
-    "meterRanking": "911",
-    "meterRankChange": "DOWN 5",
+    "meterRanking": "893",
+    "meterRankChange": "UP 18",
     "directors": "Andrew Stanton",
     "writers": "Andrew Stanton, Pete Docter, Jim Reardon",
     "stars": "Ben Burtt, Elissa Knight, Jeff Garlin",
@@ -1922,7 +1922,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 56,
@@ -1936,8 +1936,8 @@
     "certificate": "G",
     "keywords": "slapstick comedy, mistaken identity, melodrama, music score composed by director, the little tramp character",
     "countriesOfOrigin": "US",
-    "meterRanking": "3404",
-    "meterRankChange": "UP 758",
+    "meterRanking": "3621",
+    "meterRankChange": "DOWN 217",
     "directors": "Charles Chaplin",
     "writers": "Charles Chaplin, Harry Carr, Harry Crocker",
     "stars": "Charles Chaplin, Virginia Cherrill, Florence Lee",
@@ -1957,7 +1957,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 57,
@@ -1971,8 +1971,8 @@
     "certificate": "R",
     "keywords": "vietnam war, jungle, insanity, secret mission, vietnam",
     "countriesOfOrigin": "US",
-    "meterRanking": "289",
-    "meterRankChange": "UP 7",
+    "meterRanking": "340",
+    "meterRankChange": "DOWN 51",
     "directors": "Francis Ford Coppola",
     "writers": "John Milius, Francis Ford Coppola, Michael Herr",
     "stars": "Martin Sheen, Marlon Brando, Robert Duvall",
@@ -1980,7 +1980,7 @@
     "budget": "USD 31,500,000",
     "openingWeekendGross": "USD 118,558",
     "lifetimeGross": "USD 96,074,376",
-    "worldwideGross": "USD 105,519,730",
+    "worldwideGross": "USD 105,521,176",
     "filmingLocations": "Baler Bay, Baler, Aurora, Philippines",
     "spokenLanguages": "English, French, Vietnamese",
     "soundMix": "",
@@ -1992,7 +1992,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 58,
@@ -2006,8 +2006,8 @@
     "certificate": "R",
     "keywords": "memory, hidden truth, murder, short term memory loss, revenge",
     "countriesOfOrigin": "US",
-    "meterRanking": "242",
-    "meterRankChange": "DOWN 26",
+    "meterRanking": "256",
+    "meterRankChange": "DOWN 14",
     "directors": "Christopher Nolan",
     "writers": "Christopher Nolan, Jonathan Nolan",
     "stars": "Guy Pearce, Carrie-Anne Moss, Joe Pantoliano",
@@ -2027,7 +2027,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 59,
@@ -2041,8 +2041,8 @@
     "certificate": "PG-13",
     "keywords": "superhero, ensemble cast, wakanda, marvel cinematic universe, supervillain",
     "countriesOfOrigin": "US",
-    "meterRanking": "277",
-    "meterRankChange": "DOWN 47",
+    "meterRanking": "299",
+    "meterRankChange": "DOWN 22",
     "directors": "",
     "writers": "Christopher Markus, Stephen McFeely, Stan Lee",
     "stars": "Robert Downey Jr., Chris Hemsworth, Mark Ruffalo",
@@ -2054,7 +2054,7 @@
     "filmingLocations": "Cockburn Street, Edinburgh, City of Edinburgh, Scotland, UK",
     "spokenLanguages": "English",
     "soundMix": "IMAX 6-Track, Dolby Surround 7.1, Dolby Digital, Dolby Atmos, Sonics-DDP, Auro 11.1, SDDS",
-    "aspectRatio": "",
+    "aspectRatio": "2.39 : 1",
     "color": "Color",
     "awardWins": 48,
     "awardNominations": 80,
@@ -2062,7 +2062,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 60,
@@ -2076,8 +2076,8 @@
     "certificate": "PG-13",
     "keywords": "desert, desert planet, epic sci fi, dune, space opera",
     "countriesOfOrigin": "US",
-    "meterRanking": "166",
-    "meterRankChange": "UP 15",
+    "meterRanking": "197",
+    "meterRankChange": "DOWN 31",
     "directors": "Denis Villeneuve",
     "writers": "Denis Villeneuve, Jon Spaihts, Frank Herbert",
     "stars": "Timoth\u00e9e Chalamet, Zendaya, Rebecca Ferguson",
@@ -2097,7 +2097,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 61,
@@ -2111,8 +2111,8 @@
     "certificate": "PG",
     "keywords": "ark of the covenant, nazi, damsel in distress, female tied up, bondage",
     "countriesOfOrigin": "US",
-    "meterRanking": "663",
-    "meterRankChange": "UP 70",
+    "meterRanking": "654",
+    "meterRankChange": "UP 9",
     "directors": "Steven Spielberg",
     "writers": "Lawrence Kasdan, George Lucas, Philip Kaufman",
     "stars": "Harrison Ford, Karen Allen, Paul Freeman",
@@ -2132,7 +2132,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 62,
@@ -2146,8 +2146,8 @@
     "certificate": "PG",
     "keywords": "multiverse, teenage superhero, superhero, posthumous cameo, african american",
     "countriesOfOrigin": "US",
-    "meterRanking": "422",
-    "meterRankChange": "UP 30",
+    "meterRanking": "522",
+    "meterRankChange": "DOWN 100",
     "directors": "",
     "writers": "Phil Lord, Rodney Rothman",
     "stars": "Shameik Moore, Jake Johnson, Hailee Steinfeld",
@@ -2167,7 +2167,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 63,
@@ -2181,8 +2181,8 @@
     "certificate": "R",
     "keywords": "secret police, berlin wall, stasi, 1980s, spy",
     "countriesOfOrigin": "DE",
-    "meterRanking": "680",
-    "meterRankChange": "DOWN 51",
+    "meterRanking": "546",
+    "meterRankChange": "UP 134",
     "directors": "Florian Henckel von Donnersmarck",
     "writers": "",
     "stars": "Ulrich M\u00fche, Martina Gedeck, Sebastian Koch",
@@ -2202,7 +2202,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 64,
@@ -2216,28 +2216,28 @@
     "certificate": "R",
     "keywords": "return from war, sea adventure, trojan horse, long lost husband, ancient greece",
     "countriesOfOrigin": "GB",
-    "meterRanking": "13",
-    "meterRankChange": "DOWN 4",
+    "meterRanking": "20",
+    "meterRankChange": "DOWN 7",
     "directors": "Christopher Nolan",
     "writers": "Christopher Nolan, Homer",
     "stars": "Matt Damon, Tom Holland, Anne Hathaway",
     "topCast": "Matt Damon, Tom Holland, Anne Hathaway, Travis Scott",
     "budget": "USD 250,000,000",
     "openingWeekendGross": "USD 123,502,900",
-    "lifetimeGross": "USD 623,910,415",
-    "worldwideGross": "USD 1,781,257,415",
+    "lifetimeGross": "USD 625,038,955",
+    "worldwideGross": "USD 1,790,340,695",
     "filmingLocations": "Voidokilia Beach, Messenia, Peloponnese, Greece",
     "spokenLanguages": "English, Greek",
     "soundMix": "IMAX 6-Track, Dolby Surround 5.1, Dolby Digital, DTS 70 mm, IMAX 5.0",
     "aspectRatio": "",
     "color": "Color",
-    "awardWins": 3,
+    "awardWins": 4,
     "awardNominations": 0,
     "titleType": "Movie",
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 65,
@@ -2251,8 +2251,8 @@
     "certificate": "Approved",
     "keywords": "silent film star, butler, narrated from the grave, hollywood california, jealousy",
     "countriesOfOrigin": "US",
-    "meterRanking": "1792",
-    "meterRankChange": "DOWN 237",
+    "meterRanking": "2075",
+    "meterRankChange": "DOWN 283",
     "directors": "Billy Wilder",
     "writers": "Charles Brackett, Billy Wilder, D.M. Marshman Jr.",
     "stars": "William Holden, Gloria Swanson, Erich von Stroheim",
@@ -2272,7 +2272,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 66,
@@ -2286,8 +2286,8 @@
     "certificate": "Approved",
     "keywords": "lawyer, courtroom drama, defense attorney, courtroom, trial",
     "countriesOfOrigin": "US",
-    "meterRanking": "1999",
-    "meterRankChange": "UP 239",
+    "meterRanking": "1898",
+    "meterRankChange": "UP 101",
     "directors": "Billy Wilder",
     "writers": "Agatha Christie, Billy Wilder, Harry Kurnitz",
     "stars": "Tyrone Power, Marlene Dietrich, Charles Laughton",
@@ -2307,7 +2307,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 67,
@@ -2321,8 +2321,8 @@
     "certificate": "Approved",
     "keywords": "trench warfare, military officer, world war one, french army, military justice",
     "countriesOfOrigin": "US",
-    "meterRanking": "1843",
-    "meterRankChange": "UP 164",
+    "meterRanking": "1852",
+    "meterRankChange": "DOWN 9",
     "directors": "Stanley Kubrick",
     "writers": "Stanley Kubrick, Calder Willingham, Jim Thompson",
     "stars": "Kirk Douglas, Ralph Meeker, Adolphe Menjou",
@@ -2342,7 +2342,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 68,
@@ -2356,8 +2356,8 @@
     "certificate": "R",
     "keywords": "alternate history, world war two, nazi, brutality, jewish resistance",
     "countriesOfOrigin": "US",
-    "meterRanking": "182",
-    "meterRankChange": "DOWN 12",
+    "meterRanking": "195",
+    "meterRankChange": "DOWN 13",
     "directors": "Quentin Tarantino",
     "writers": "",
     "stars": "Brad Pitt, Diane Kruger, Eli Roth",
@@ -2377,7 +2377,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 69,
@@ -2391,8 +2391,8 @@
     "certificate": "R",
     "keywords": "haunted hotel, labyrinth, isolation, based on novel, freezing to death",
     "countriesOfOrigin": "GB",
-    "meterRanking": "123",
-    "meterRankChange": "UP 16",
+    "meterRanking": "106",
+    "meterRankChange": "UP 17",
     "directors": "Stanley Kubrick",
     "writers": "Stephen King, Stanley Kubrick, Diane Johnson",
     "stars": "Jack Nicholson, Shelley Duvall, Danny Lloyd",
@@ -2400,7 +2400,7 @@
     "budget": "USD 19,000,000",
     "openingWeekendGross": "USD 622,337",
     "lifetimeGross": "USD 47,194,352",
-    "worldwideGross": "USD 50,332,013",
+    "worldwideGross": "USD 50,339,292",
     "filmingLocations": "Timberline Lodge - 27500 E Timberline Road, Government Camp, Mount Hood, Oregon, USA",
     "spokenLanguages": "English",
     "soundMix": "Mono",
@@ -2412,7 +2412,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 70,
@@ -2426,8 +2426,8 @@
     "certificate": "G",
     "keywords": "dictator, invented language, 1910s, adolf hitler character, soldier",
     "countriesOfOrigin": "US",
-    "meterRanking": "2731",
-    "meterRankChange": "UP 22",
+    "meterRanking": "3022",
+    "meterRankChange": "DOWN 291",
     "directors": "Charles Chaplin",
     "writers": "",
     "stars": "Charles Chaplin, Paulette Goddard, Jack Oakie",
@@ -2447,7 +2447,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 71,
@@ -2461,8 +2461,8 @@
     "certificate": "R",
     "keywords": "alien, soldier, rescue mission, monster, android",
     "countriesOfOrigin": "GB",
-    "meterRanking": "441",
-    "meterRankChange": "DOWN 47",
+    "meterRanking": "537",
+    "meterRankChange": "DOWN 96",
     "directors": "James Cameron",
     "writers": "James Cameron, David Giler, Walter Hill",
     "stars": "Sigourney Weaver, Michael Biehn, Carrie Henn",
@@ -2482,7 +2482,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 72,
@@ -2496,8 +2496,8 @@
     "certificate": "Not Rated",
     "keywords": "chauffeur, class differences, ransom, yokohama japan, drug overdose",
     "countriesOfOrigin": "JP",
-    "meterRanking": "1614",
-    "meterRankChange": "UP 1008",
+    "meterRanking": "1983",
+    "meterRankChange": "DOWN 369",
     "directors": "Akira Kurosawa",
     "writers": "Hideo Oguni, Ry\u00fbz\u00f4 Kikushima, Eijir\u00f4 Hisaita",
     "stars": "Toshir\u014d Mifune, Yutaka Sada, Tatsuya Nakadai",
@@ -2517,7 +2517,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 73,
@@ -2531,8 +2531,8 @@
     "certificate": "",
     "keywords": "life, road to success, aspiration, civil service exam, upsc",
     "countriesOfOrigin": "IN",
-    "meterRanking": "1002",
-    "meterRankChange": "DOWN 169",
+    "meterRanking": "941",
+    "meterRankChange": "UP 61",
     "directors": "Vidhu Vinod Chopra",
     "writers": "Vidhu Vinod Chopra, Jaskunwar Kohli, Anurag Pathak",
     "stars": "Vikrant Massey, Harish Khanna, Geeta Agrawal Sharma",
@@ -2552,7 +2552,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 74,
@@ -2566,16 +2566,16 @@
     "certificate": "PG-13",
     "keywords": "time travel, superhero, super villain, marvel cinematic universe, superhero team",
     "countriesOfOrigin": "US",
-    "meterRanking": "63",
-    "meterRankChange": "DOWN 33",
+    "meterRanking": "111",
+    "meterRankChange": "DOWN 48",
     "directors": "",
     "writers": "Christopher Markus, Stephen McFeely, Stan Lee",
     "stars": "Robert Downey Jr., Chris Evans, Mark Ruffalo",
     "topCast": "Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth",
     "budget": "USD 356,000,000",
     "openingWeekendGross": "USD 357,115,007",
-    "lifetimeGross": "USD 898,031,919",
-    "worldwideGross": "USD 2,938,189,679",
+    "lifetimeGross": "USD 898,421,604",
+    "worldwideGross": "USD 2,941,349,110",
     "filmingLocations": "Durham Cathedral, The College, Durham, County Durham, England, UK",
     "spokenLanguages": "English, Japanese, Xhosa, German",
     "soundMix": "Dolby Atmos, Auro 11.1, Dolby Surround 7.1, Dolby Digital, Sonics-DDP, 12-Track Digital Sound, IMAX 6-Track, SDDS",
@@ -2587,7 +2587,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 75,
@@ -2601,8 +2601,8 @@
     "certificate": "R",
     "keywords": "professor, genius, mathematical genius, psychotherapy, friend",
     "countriesOfOrigin": "US",
-    "meterRanking": "179",
-    "meterRankChange": "UP 8",
+    "meterRanking": "163",
+    "meterRankChange": "UP 16",
     "directors": "Gus Van Sant",
     "writers": "Matt Damon, Ben Affleck",
     "stars": "Robin Williams, Matt Damon, Ben Affleck",
@@ -2622,7 +2622,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 76,
@@ -2636,8 +2636,8 @@
     "certificate": "PG",
     "keywords": "mexico, afterlife, musician, death, memory",
     "countriesOfOrigin": "US",
-    "meterRanking": "591",
-    "meterRankChange": "UP 86",
+    "meterRanking": "512",
+    "meterRankChange": "UP 79",
     "directors": "",
     "writers": "Lee Unkrich, Jason Katz, Matthew Aldrich",
     "stars": "Anthony Gonzalez, Gael Garc\u00eda Bernal, Benjamin Bratt",
@@ -2645,7 +2645,7 @@
     "budget": "USD 175,000,000",
     "openingWeekendGross": "USD 50,802,605",
     "lifetimeGross": "USD 210,460,015",
-    "worldwideGross": "USD 822,424,837",
+    "worldwideGross": "USD 830,570,269",
     "filmingLocations": "Pixar Animation Studios - 1200 Park Avenue, Emeryville, California, USA",
     "spokenLanguages": "English, Spanish",
     "soundMix": "Dolby Atmos, Auro 11.1, Dolby Surround 7.1, 12-Track Digital Sound, Dolby Digital, SDDS",
@@ -2657,7 +2657,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 77,
@@ -2671,8 +2671,8 @@
     "certificate": "G",
     "keywords": "toy, cowboy, toy comes to life, action figure, enemies become friends",
     "countriesOfOrigin": "US",
-    "meterRanking": "532",
-    "meterRankChange": "DOWN 221",
+    "meterRanking": "604",
+    "meterRankChange": "DOWN 72",
     "directors": "John Lasseter",
     "writers": "John Lasseter, Pete Docter, Andrew Stanton",
     "stars": "Tom Hanks, Tim Allen, Don Rickles",
@@ -2692,7 +2692,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 78,
@@ -2706,8 +2706,8 @@
     "certificate": "PG-13",
     "keywords": "terrorist plot, batman character, bruce wayne character, motorcycle, warlord",
     "countriesOfOrigin": "GB",
-    "meterRanking": "385",
-    "meterRankChange": "DOWN 13",
+    "meterRanking": "425",
+    "meterRankChange": "DOWN 40",
     "directors": "Christopher Nolan",
     "writers": "Jonathan Nolan, Christopher Nolan, David S. Goyer",
     "stars": "Christian Bale, Tom Hardy, Anne Hathaway",
@@ -2727,7 +2727,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 79,
@@ -2741,8 +2741,8 @@
     "certificate": "PG",
     "keywords": "composer, opera, 18th century, jealousy, based on play",
     "countriesOfOrigin": "US",
-    "meterRanking": "689",
-    "meterRankChange": "DOWN 81",
+    "meterRanking": "645",
+    "meterRankChange": "UP 44",
     "directors": "Milo\u0161 Forman",
     "writers": "Peter Shaffer, Zden\u011bk Mahler",
     "stars": "F. Murray Abraham, Tom Hulce, Elizabeth Berridge",
@@ -2762,7 +2762,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 80,
@@ -2776,8 +2776,8 @@
     "certificate": "",
     "keywords": "race against time, japan, anime, comet, falling in love",
     "countriesOfOrigin": "JP",
-    "meterRanking": "559",
-    "meterRankChange": "UP 46",
+    "meterRanking": "646",
+    "meterRankChange": "DOWN 87",
     "directors": "Makoto Shinkai",
     "writers": "",
     "stars": "Ry\u00fbnosuke Kamiki, Mone Kamishiraishi, Ry\u014d Narita",
@@ -2785,7 +2785,7 @@
     "budget": "JPY 370,000,000",
     "openingWeekendGross": "USD 1,813,781",
     "lifetimeGross": "USD 7,720,937",
-    "worldwideGross": "USD 408,335,511",
+    "worldwideGross": "USD 409,225,633",
     "filmingLocations": "",
     "spokenLanguages": "Japanese",
     "soundMix": "Dolby Digital",
@@ -2797,7 +2797,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 81,
@@ -2811,8 +2811,8 @@
     "certificate": "PG-13",
     "keywords": "motivation, coming of age, against the system, papadum, coma",
     "countriesOfOrigin": "IN",
-    "meterRanking": "1191",
-    "meterRankChange": "DOWN 26",
+    "meterRanking": "1069",
+    "meterRankChange": "UP 122",
     "directors": "Rajkumar Hirani",
     "writers": "Abhijat Joshi, Rajkumar Hirani, Vidhu Vinod Chopra",
     "stars": "Aamir Khan, Madhavan, Mona Singh",
@@ -2832,7 +2832,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 82,
@@ -2867,7 +2867,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 83,
@@ -2881,8 +2881,8 @@
     "certificate": "",
     "keywords": "submarine movie, war at sea, submarine captain, submarine crew, world war two",
     "countriesOfOrigin": "XWG",
-    "meterRanking": "1768",
-    "meterRankChange": "DOWN 99",
+    "meterRanking": "1804",
+    "meterRankChange": "DOWN 36",
     "directors": "Wolfgang Petersen",
     "writers": "Lothar G. Buchheim, Wolfgang Petersen",
     "stars": "J\u00fcrgen Prochnow, Herbert Gr\u00f6nemeyer, Klaus Wennemann",
@@ -2902,7 +2902,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 84,
@@ -2916,8 +2916,8 @@
     "certificate": "PG-13",
     "keywords": "forest, curse, princess, studio ghibli, female warrior",
     "countriesOfOrigin": "JP",
-    "meterRanking": "1081",
-    "meterRankChange": "DOWN 210",
+    "meterRanking": "1136",
+    "meterRankChange": "DOWN 55",
     "directors": "Hayao Miyazaki",
     "writers": "",
     "stars": "Y\u00f4ji Matsuda, Yuriko Ishida, Y\u00fbko Tanaka",
@@ -2937,7 +2937,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 85,
@@ -2951,8 +2951,8 @@
     "certificate": "R",
     "keywords": "revenge, psychological torture, captive, neo noir, hypnosis",
     "countriesOfOrigin": "KR",
-    "meterRanking": "282",
-    "meterRankChange": "DOWN 12",
+    "meterRanking": "283",
+    "meterRankChange": "DOWN 1",
     "directors": "Park Chan-wook",
     "writers": "Garon Tsuchiya, Nobuaki Minegishi, Park Chan-wook",
     "stars": "Choi Min-sik, Yoo Ji-tae, Kang Hye-jeong",
@@ -2960,7 +2960,7 @@
     "budget": "USD 3,000,000",
     "openingWeekendGross": "USD 68,957",
     "lifetimeGross": "USD 2,458,200",
-    "worldwideGross": "USD 17,617,021",
+    "worldwideGross": "USD 17,617,220",
     "filmingLocations": "Busan, South Korea",
     "spokenLanguages": "Korean",
     "soundMix": "Dolby Digital, Dolby Surround 7.1, Dolby Digital EX, DTS",
@@ -2972,7 +2972,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 86,
@@ -2986,8 +2986,8 @@
     "certificate": "PG",
     "keywords": "war room, crazy general, bomber, u.s. air force, bodily fluids",
     "countriesOfOrigin": "GB",
-    "meterRanking": "851",
-    "meterRankChange": "DOWN 165",
+    "meterRanking": "879",
+    "meterRankChange": "DOWN 28",
     "directors": "Stanley Kubrick",
     "writers": "Stanley Kubrick, Terry Southern, Peter George",
     "stars": "Peter Sellers, George C. Scott, Sterling Hayden",
@@ -3007,7 +3007,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 87,
@@ -3021,8 +3021,8 @@
     "certificate": "R",
     "keywords": "midlife crisis, loveless marriage, obsession, virginity, drug use",
     "countriesOfOrigin": "US",
-    "meterRanking": "430",
-    "meterRankChange": "DOWN 17",
+    "meterRanking": "396",
+    "meterRankChange": "UP 34",
     "directors": "Sam Mendes",
     "writers": "",
     "stars": "Kevin Spacey, Annette Bening, Thora Birch",
@@ -3042,7 +3042,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 88,
@@ -3056,8 +3056,8 @@
     "certificate": "R",
     "keywords": "street child, poverty, child marriage, 12 year old, prison",
     "countriesOfOrigin": "LB",
-    "meterRanking": "1093",
-    "meterRankChange": "DOWN 17",
+    "meterRanking": "1012",
+    "meterRankChange": "UP 81",
     "directors": "Nadine Labaki",
     "writers": "Nadine Labaki, Jihad Hojeily, Michelle Keserwany",
     "stars": "Zain Al Rafeea, Yordanos Shifera, Boluwatife Treasure Bankole",
@@ -3077,7 +3077,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 89,
@@ -3091,8 +3091,8 @@
     "certificate": "",
     "keywords": "anime, anime animation, shonen anime animation, epic action, based on manga",
     "countriesOfOrigin": "JP",
-    "meterRanking": "1216",
-    "meterRankChange": "UP 78",
+    "meterRanking": "1109",
+    "meterRankChange": "UP 107",
     "directors": "",
     "writers": "Hajime Isayama, Shintar\u00f4 Kawakubo, Hiroshi Seko",
     "stars": "Tom\u00e1s Abalo, Natsuki Hanae, Yoshimasa Hosoya",
@@ -3112,7 +3112,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 90,
@@ -3126,8 +3126,8 @@
     "certificate": "G",
     "keywords": "movie studio, film within a film, tap dancing, 1920s, singing",
     "countriesOfOrigin": "US",
-    "meterRanking": "1989",
-    "meterRankChange": "UP 493",
+    "meterRanking": "2217",
+    "meterRankChange": "DOWN 228",
     "directors": "",
     "writers": "Betty Comden, Adolph Green",
     "stars": "Gene Kelly, Donald O'Connor, Debbie Reynolds",
@@ -3147,7 +3147,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 91,
@@ -3161,8 +3161,8 @@
     "certificate": "R",
     "keywords": "rape, gangster, prohibition, new york city, 1920s",
     "countriesOfOrigin": "IT",
-    "meterRanking": "676",
-    "meterRankChange": "DOWN 30",
+    "meterRanking": "618",
+    "meterRankChange": "UP 58",
     "directors": "Sergio Leone",
     "writers": "Harry Grey, Leonardo Benvenuti, Piero De Bernardi",
     "stars": "Robert De Niro, James Woods, Elizabeth McGovern",
@@ -3170,7 +3170,7 @@
     "budget": "USD 30,000,000",
     "openingWeekendGross": "USD 2,412,014",
     "lifetimeGross": "USD 5,321,508",
-    "worldwideGross": "USD 5,478,097",
+    "worldwideGross": "USD 5,480,036",
     "filmingLocations": "Cinecitt\u00e0 Studios, Cinecitt\u00e0, Rome, Lazio, Italy",
     "spokenLanguages": "English, Italian, French, Yiddish, Hebrew",
     "soundMix": "Mono, Dolby Digital",
@@ -3182,7 +3182,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 92,
@@ -3191,13 +3191,13 @@
     "link": "https://www.imdb.com/title/tt7286456/",
     "image": "https://m.media-amazon.com/images/M/MV5BNzY3OWQ5NDktNWQ2OC00ZjdlLThkMmItMDhhNDk3NTFiZGU4XkEyXkFqcGc@._V1_.jpg",
     "plot": "Arthur Fleck, a party clown and a failed stand-up comedian, leads an impoverished life with his ailing mother. However, when society shuns him and brands him as a freak, he decides to embrace the life of chaos in Gotham City.",
-    "genres": "Drama",
+    "genres": "Drama, Thriller",
     "runtime": 122,
     "certificate": "R",
     "keywords": "mental illness, stand up comedian, nihilism, clown, dysfunctional society",
     "countriesOfOrigin": "US",
     "meterRanking": "477",
-    "meterRankChange": "UP 107",
+    "meterRankChange": "FLAT 0",
     "directors": "Todd Phillips",
     "writers": "Todd Phillips, Scott Silver, Bob Kane",
     "stars": "Joaquin Phoenix, Robert De Niro, Zazie Beetz",
@@ -3217,7 +3217,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 93,
@@ -3231,8 +3231,8 @@
     "certificate": "G",
     "keywords": "escape, sheriff, janitor, fashion show, talking toy",
     "countriesOfOrigin": "US",
-    "meterRanking": "825",
-    "meterRankChange": "DOWN 367",
+    "meterRanking": "1015",
+    "meterRankChange": "DOWN 190",
     "directors": "Lee Unkrich",
     "writers": "John Lasseter, Andrew Stanton, Lee Unkrich",
     "stars": "Tom Hanks, Tim Allen, Joan Cusack",
@@ -3252,7 +3252,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 94,
@@ -3266,8 +3266,8 @@
     "certificate": "PG",
     "keywords": "villain turns good, brother sister relationship, father son relationship, bikini, bounty hunter",
     "countriesOfOrigin": "US",
-    "meterRanking": "1582",
-    "meterRankChange": "UP 108",
+    "meterRanking": "1599",
+    "meterRankChange": "DOWN 17",
     "directors": "Richard Marquand",
     "writers": "Lawrence Kasdan, George Lucas",
     "stars": "Mark Hamill, Harrison Ford, Carrie Fisher",
@@ -3287,7 +3287,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 95,
@@ -3301,8 +3301,8 @@
     "certificate": "Not Rated",
     "keywords": "mass murder, nazi occupied soviet union, horrors of war, massacre, world war two partisan",
     "countriesOfOrigin": "SUHH",
-    "meterRanking": "791",
-    "meterRankChange": "DOWN 29",
+    "meterRanking": "810",
+    "meterRankChange": "DOWN 19",
     "directors": "Elem Klimov",
     "writers": "Ales Adamovich, Elem Klimov",
     "stars": "Aleksey Kravchenko, Olga Mironova, Liubomiras Laucevicius",
@@ -3322,7 +3322,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 96,
@@ -3336,8 +3336,8 @@
     "certificate": "NC-17",
     "keywords": "drug addiction, prostitution, diet pill, heroin, sex show",
     "countriesOfOrigin": "US",
-    "meterRanking": "344",
-    "meterRankChange": "DOWN 5",
+    "meterRanking": "342",
+    "meterRankChange": "UP 2",
     "directors": "Darren Aronofsky",
     "writers": "Hubert Selby Jr., Darren Aronofsky",
     "stars": "Ellen Burstyn, Jared Leto, Jennifer Connelly",
@@ -3357,7 +3357,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 97,
@@ -3371,8 +3371,8 @@
     "certificate": "R",
     "keywords": "prison, twin brother and sister, middle east, missing baby, last will and testament",
     "countriesOfOrigin": "CA",
-    "meterRanking": "158",
-    "meterRankChange": "UP 99",
+    "meterRanking": "265",
+    "meterRankChange": "DOWN 107",
     "directors": "Denis Villeneuve",
     "writers": "Wajdi Mouawad, Denis Villeneuve, Val\u00e9rie Beaugrand-Champagne",
     "stars": "Lubna Azabal, M\u00e9lissa D\u00e9sormeaux-Poulin, Maxim Gaudette",
@@ -3392,7 +3392,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 98,
@@ -3406,8 +3406,8 @@
     "certificate": "Not Rated",
     "keywords": "meaning of life, cancer, bureaucrat, death, terminal illness",
     "countriesOfOrigin": "JP",
-    "meterRanking": "2398",
-    "meterRankChange": "UP 113",
+    "meterRanking": "2471",
+    "meterRankChange": "DOWN 73",
     "directors": "Akira Kurosawa",
     "writers": "Akira Kurosawa, Shinobu Hashimoto, Hideo Oguni",
     "stars": "Takashi Shimura, Nobuo Kaneko, Shin'ichi Himori",
@@ -3427,7 +3427,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 99,
@@ -3441,8 +3441,8 @@
     "certificate": "R",
     "keywords": "kindergarten teacher, friendship between men, denmark, punched in the face, father son relationship",
     "countriesOfOrigin": "DK",
-    "meterRanking": "323",
-    "meterRankChange": "DOWN 24",
+    "meterRanking": "318",
+    "meterRankChange": "UP 5",
     "directors": "Thomas Vinterberg",
     "writers": "Thomas Vinterberg, Tobias Lindholm",
     "stars": "Mads Mikkelsen, Thomas Bo Larsen, Annika Wedderkopp",
@@ -3462,7 +3462,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 100,
@@ -3476,8 +3476,8 @@
     "certificate": "R",
     "keywords": "memory, loneliness, valentine's day, flashback, nonlinear timeline",
     "countriesOfOrigin": "US",
-    "meterRanking": "312",
-    "meterRankChange": "UP 16",
+    "meterRanking": "325",
+    "meterRankChange": "DOWN 13",
     "directors": "Michel Gondry",
     "writers": "Charlie Kaufman, Michel Gondry, Pierre Bismuth",
     "stars": "Jim Carrey, Kate Winslet, Tom Wilkinson",
@@ -3497,7 +3497,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 101,
@@ -3511,8 +3511,8 @@
     "certificate": "Approved",
     "keywords": "apartment, christmas, key under a mat, christmas eve, attempted suicide",
     "countriesOfOrigin": "US",
-    "meterRanking": "2032",
-    "meterRankChange": "DOWN 118",
+    "meterRanking": "2130",
+    "meterRankChange": "DOWN 98",
     "directors": "Billy Wilder",
     "writers": "Billy Wilder, I.A.L. Diamond",
     "stars": "Jack Lemmon, Shirley MacLaine, Fred MacMurray",
@@ -3532,7 +3532,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 102,
@@ -3546,8 +3546,8 @@
     "certificate": "Approved",
     "keywords": "desert, arabia, bedouin, arab, ottoman empire",
     "countriesOfOrigin": "GB",
-    "meterRanking": "1046",
-    "meterRankChange": "UP 88",
+    "meterRanking": "1182",
+    "meterRankChange": "DOWN 136",
     "directors": "David Lean",
     "writers": "Robert Bolt, Michael Wilson",
     "stars": "Peter O'Toole, Alec Guinness, Anthony Quinn",
@@ -3567,7 +3567,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 103,
@@ -3581,8 +3581,8 @@
     "certificate": "R",
     "keywords": "armored car robbery, bank robbery, honor, heist crime, bank",
     "countriesOfOrigin": "US",
-    "meterRanking": "263",
-    "meterRankChange": "DOWN 20",
+    "meterRanking": "216",
+    "meterRankChange": "UP 47",
     "directors": "Michael Mann",
     "writers": "",
     "stars": "Al Pacino, Robert De Niro, Val Kilmer",
@@ -3602,7 +3602,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 104,
@@ -3616,8 +3616,8 @@
     "certificate": "R",
     "keywords": "gangster, cocaine, organized crime, murderer as protagonist, self destructiveness",
     "countriesOfOrigin": "US",
-    "meterRanking": "417",
-    "meterRankChange": "DOWN 40",
+    "meterRanking": "412",
+    "meterRankChange": "UP 5",
     "directors": "Brian De Palma",
     "writers": "Oliver Stone, Howard Hawks, Ben Hecht",
     "stars": "Al Pacino, Michelle Pfeiffer, Steven Bauer",
@@ -3637,7 +3637,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 105,
@@ -3651,8 +3651,8 @@
     "certificate": "R",
     "keywords": "nonlinear timeline, neo noir, robbery, torture threat, mexican standoff",
     "countriesOfOrigin": "US",
-    "meterRanking": "593",
-    "meterRankChange": "UP 34",
+    "meterRanking": "570",
+    "meterRankChange": "UP 23",
     "directors": "Quentin Tarantino",
     "writers": "Quentin Tarantino, Roger Avary",
     "stars": "Harvey Keitel, Tim Roth, Michael Madsen",
@@ -3672,7 +3672,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 106,
@@ -3686,8 +3686,8 @@
     "certificate": "PG",
     "keywords": "balloon, south america, talking dog, old man young boy relationship, heartfelt",
     "countriesOfOrigin": "US",
-    "meterRanking": "1036",
-    "meterRankChange": "DOWN 41",
+    "meterRanking": "1040",
+    "meterRankChange": "DOWN 4",
     "directors": "",
     "writers": "Pete Docter, Bob Peterson, Tom McCarthy",
     "stars": "Edward Asner, Jordan Nagai, John Ratzenberger",
@@ -3707,7 +3707,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 107,
@@ -3721,8 +3721,8 @@
     "certificate": "G",
     "keywords": "monolith, human versus computer, artificial intelligence, computer, star child",
     "countriesOfOrigin": "GB",
-    "meterRanking": "491",
-    "meterRankChange": "DOWN 62",
+    "meterRanking": "532",
+    "meterRankChange": "DOWN 41",
     "directors": "Stanley Kubrick",
     "writers": "Stanley Kubrick, Arthur C. Clarke",
     "stars": "Keir Dullea, Gary Lockwood, William Sylvester",
@@ -3742,7 +3742,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 108,
@@ -3756,8 +3756,8 @@
     "certificate": "Approved",
     "keywords": "femme fatale, murder, insurance, double cross, marriage",
     "countriesOfOrigin": "US",
-    "meterRanking": "2951",
-    "meterRankChange": "DOWN 722",
+    "meterRanking": "2660",
+    "meterRankChange": "UP 291",
     "directors": "Billy Wilder",
     "writers": "Billy Wilder, Raymond Chandler, James M. Cain",
     "stars": "Fred MacMurray, Barbara Stanwyck, Edward G. Robinson",
@@ -3777,7 +3777,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 109,
@@ -3791,8 +3791,8 @@
     "certificate": "PG",
     "keywords": "dyslexia, child, dream, despair, teacher student relationship",
     "countriesOfOrigin": "IN",
-    "meterRanking": "2808",
-    "meterRankChange": "DOWN 168",
+    "meterRanking": "2984",
+    "meterRankChange": "DOWN 176",
     "directors": "Aamir Khan",
     "writers": "",
     "stars": "Darsheel Safary, Aamir Khan, Tisca Chopra",
@@ -3812,7 +3812,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 110,
@@ -3826,8 +3826,8 @@
     "certificate": "Approved",
     "keywords": "mount rushmore, fugitive, mistaken identity, new york city, on the run",
     "countriesOfOrigin": "US",
-    "meterRanking": "747",
-    "meterRankChange": "UP 1120",
+    "meterRanking": "259",
+    "meterRankChange": "UP 488",
     "directors": "Alfred Hitchcock",
     "writers": "",
     "stars": "Cary Grant, Eva Marie Saint, James Mason",
@@ -3847,7 +3847,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 111,
@@ -3861,8 +3861,8 @@
     "certificate": "R",
     "keywords": "vietnam war, military, boot camp, drill instructor, u.s. marine corps",
     "countriesOfOrigin": "GB",
-    "meterRanking": "451",
-    "meterRankChange": "DOWN 161",
+    "meterRanking": "483",
+    "meterRankChange": "DOWN 32",
     "directors": "Stanley Kubrick",
     "writers": "Stanley Kubrick, Michael Herr, Gustav Hasford",
     "stars": "Matthew Modine, R. Lee Ermey, Vincent D'Onofrio",
@@ -3882,7 +3882,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 112,
@@ -3896,8 +3896,8 @@
     "certificate": "PG-13",
     "keywords": "divorce, marital problem, alzheimer's disease, court, teacher",
     "countriesOfOrigin": "IR",
-    "meterRanking": "1998",
-    "meterRankChange": "DOWN 369",
+    "meterRanking": "1981",
+    "meterRankChange": "UP 17",
     "directors": "Asghar Farhadi",
     "writers": "",
     "stars": "Payman Maadi, Leila Hatami, Sareh Bayat",
@@ -3917,7 +3917,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 113,
@@ -3931,8 +3931,8 @@
     "certificate": "R",
     "keywords": "scotland, 1980s, dark comedy, tourette's syndrome, 1990s",
     "countriesOfOrigin": "GB",
-    "meterRanking": "147",
-    "meterRankChange": "DOWN 24",
+    "meterRanking": "137",
+    "meterRankChange": "UP 10",
     "directors": "Kirk Jones",
     "writers": "",
     "stars": "Robert Aramayo, Maxine Peake, Somerled Campbell",
@@ -3952,7 +3952,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 114,
@@ -3966,8 +3966,8 @@
     "certificate": "R",
     "keywords": "hostage, christmas, one against many, los angeles california, heist",
     "countriesOfOrigin": "US",
-    "meterRanking": "769",
-    "meterRankChange": "DOWN 50",
+    "meterRanking": "744",
+    "meterRankChange": "UP 25",
     "directors": "John McTiernan",
     "writers": "Roderick Thorp, Jeb Stuart, Steven E. de Souza",
     "stars": "Bruce Willis, Alan Rickman, Bonnie Bedelia",
@@ -3987,7 +3987,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 115,
@@ -4001,8 +4001,8 @@
     "certificate": "Passed",
     "keywords": "serial killer, mental illness, loss of daughter, manhunt, psychopath",
     "countriesOfOrigin": "DE",
-    "meterRanking": "1880",
-    "meterRankChange": "DOWN 88",
+    "meterRanking": "1798",
+    "meterRankChange": "UP 82",
     "directors": "Fritz Lang",
     "writers": "Thea von Harbou, Fritz Lang, Egon Jacobsohn",
     "stars": "Peter Lorre, Ellen Widmann, Inge Landgut",
@@ -4022,7 +4022,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 116,
@@ -4036,8 +4036,8 @@
     "certificate": "R",
     "keywords": "female protagonist, magical realism, voice over narration, france, fantasy world",
     "countriesOfOrigin": "FR",
-    "meterRanking": "714",
-    "meterRankChange": "UP 99",
+    "meterRanking": "784",
+    "meterRankChange": "DOWN 70",
     "directors": "Jean-Pierre Jeunet",
     "writers": "Guillaume Laurant, Jean-Pierre Jeunet",
     "stars": "Audrey Tautou, Mathieu Kassovitz, Rufus",
@@ -4057,7 +4057,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 117,
@@ -4071,8 +4071,8 @@
     "certificate": "PG-13",
     "keywords": "indiana jones character, holy grail, father son relationship, revolver, nazi",
     "countriesOfOrigin": "US",
-    "meterRanking": "1150",
-    "meterRankChange": "UP 83",
+    "meterRanking": "1108",
+    "meterRankChange": "UP 42",
     "directors": "Steven Spielberg",
     "writers": "Jeffrey Boam, George Lucas, Menno Meyjes",
     "stars": "Harrison Ford, Sean Connery, Alison Doody",
@@ -4092,7 +4092,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 118,
@@ -4106,8 +4106,8 @@
     "certificate": "Approved",
     "keywords": "trial, based on novel, lawyer, small town, alabama",
     "countriesOfOrigin": "US",
-    "meterRanking": "1948",
-    "meterRankChange": "UP 140",
+    "meterRanking": "1809",
+    "meterRankChange": "UP 139",
     "directors": "Robert Mulligan",
     "writers": "Harper Lee, Horton Foote",
     "stars": "Gregory Peck, John Megna, Frank Overton",
@@ -4127,7 +4127,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 119,
@@ -4141,8 +4141,8 @@
     "certificate": "PG",
     "keywords": "romantic obsession, san francisco bay, vertigo, acrophobia, mental breakdown",
     "countriesOfOrigin": "US",
-    "meterRanking": "1340",
-    "meterRankChange": "DOWN 67",
+    "meterRanking": "1336",
+    "meterRankChange": "UP 4",
     "directors": "Alfred Hitchcock",
     "writers": "Alec Coppel, Samuel A. Taylor, Pierre Boileau",
     "stars": "James Stewart, Kim Novak, Barbara Bel Geddes",
@@ -4150,7 +4150,7 @@
     "budget": "USD 2,479,000",
     "openingWeekendGross": "USD 252,880",
     "lifetimeGross": "USD 7,863,310",
-    "worldwideGross": "USD 8,102,220",
+    "worldwideGross": "USD 8,102,790",
     "filmingLocations": "Fort Point, Presidio, Golden Gate National Recreation Area, San Francisco, California, USA",
     "spokenLanguages": "English",
     "soundMix": "",
@@ -4162,7 +4162,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 120,
@@ -4176,8 +4176,8 @@
     "certificate": "PG",
     "keywords": "newspaper publisher, narcissism, newspaper, mansion, typewriter",
     "countriesOfOrigin": "US",
-    "meterRanking": "1426",
-    "meterRankChange": "DOWN 48",
+    "meterRanking": "1404",
+    "meterRankChange": "UP 22",
     "directors": "Orson Welles",
     "writers": "Herman J. Mankiewicz, Orson Welles, Roger Q. Denny",
     "stars": "Orson Welles, Joseph Cotten, Dorothy Comingore",
@@ -4185,7 +4185,7 @@
     "budget": "USD 839,727",
     "openingWeekendGross": "",
     "lifetimeGross": "USD 1,867,787",
-    "worldwideGross": "USD 1,968,788",
+    "worldwideGross": "USD 1,970,128",
     "filmingLocations": "Busch Gardens - S. Grove Avenue, Pasadena, California, USA",
     "spokenLanguages": "English, Italian",
     "soundMix": "",
@@ -4197,7 +4197,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 121,
@@ -4211,8 +4211,8 @@
     "certificate": "PG",
     "keywords": "con artist, caper, famous score, gangster, revenge",
     "countriesOfOrigin": "US",
-    "meterRanking": "1021",
-    "meterRankChange": "UP 128",
+    "meterRanking": "1077",
+    "meterRankChange": "DOWN 56",
     "directors": "George Roy Hill",
     "writers": "",
     "stars": "Paul Newman, Robert Redford, Robert Shaw",
@@ -4232,7 +4232,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 122,
@@ -4246,8 +4246,8 @@
     "certificate": "R",
     "keywords": "dystopia, forced to watch rape, psychopath, sex crime, police brutality",
     "countriesOfOrigin": "GB",
-    "meterRanking": "384",
-    "meterRankChange": "DOWN 31",
+    "meterRanking": "407",
+    "meterRankChange": "DOWN 23",
     "directors": "Stanley Kubrick",
     "writers": "Stanley Kubrick, Anthony Burgess",
     "stars": "Malcolm McDowell, Patrick Magee, Michael Bates",
@@ -4267,45 +4267,10 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 123,
-    "name": "Metropolis",
-    "IMDb Rating": 8.2,
-    "link": "https://www.imdb.com/title/tt0017136/",
-    "image": "https://m.media-amazon.com/images/M/MV5BMjhjMGYyMjAtMzJkYy00NzhlLWIwY2MtMWQ2ODIxZDUyOGYyXkEyXkFqcGc@._V1_.jpg",
-    "plot": "In a futuristic city sharply divided between the working class and the city planners, the son of the city&apos;s mastermind falls in love with a working-class prophet who predicts the coming of a savior to mediate their differences.",
-    "genres": "Drama, Sci-Fi",
-    "runtime": 150,
-    "certificate": "Passed",
-    "keywords": "dystopia, robot, industrialization, revolution, expressionism",
-    "countriesOfOrigin": "DE",
-    "meterRanking": "2070",
-    "meterRankChange": "UP 151",
-    "directors": "Fritz Lang",
-    "writers": "Thea von Harbou, Fritz Lang",
-    "stars": "Brigitte Helm, Alfred Abel, Gustav Fr\u00f6hlich",
-    "topCast": "Brigitte Helm, Alfred Abel, Gustav Fr\u00f6hlich, Rudolf Klein-Rogge",
-    "budget": "DEM 6,000,000",
-    "openingWeekendGross": "USD 19,386",
-    "lifetimeGross": "USD 1,236,166",
-    "worldwideGross": "USD 1,357,289",
-    "filmingLocations": "Berlin, Germany",
-    "spokenLanguages": "German, None",
-    "soundMix": "Silent",
-    "aspectRatio": "1.33 : 1",
-    "color": "",
-    "awardWins": 7,
-    "awardNominations": 6,
-    "titleType": "Movie",
-    "isSeries": false,
-    "isEpisode": false,
-    "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
-  },
-  {
-    "Rank": 124,
     "name": "The Truman Show",
     "IMDb Rating": 8.2,
     "link": "https://www.imdb.com/title/tt0120382/",
@@ -4316,8 +4281,8 @@
     "certificate": "PG",
     "keywords": "hidden camera, simulated reality, fictional reality show, paranoia, controlled environment",
     "countriesOfOrigin": "US",
-    "meterRanking": "426",
-    "meterRankChange": "DOWN 39",
+    "meterRanking": "361",
+    "meterRankChange": "UP 65",
     "directors": "Peter Weir",
     "writers": "",
     "stars": "Jim Carrey, Ed Harris, Laura Linney",
@@ -4337,7 +4302,42 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
+  },
+  {
+    "Rank": 124,
+    "name": "Metropolis",
+    "IMDb Rating": 8.2,
+    "link": "https://www.imdb.com/title/tt0017136/",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjhjMGYyMjAtMzJkYy00NzhlLWIwY2MtMWQ2ODIxZDUyOGYyXkEyXkFqcGc@._V1_.jpg",
+    "plot": "In a futuristic city sharply divided between the working class and the city planners, the son of the city&apos;s mastermind falls in love with a working-class prophet who predicts the coming of a savior to mediate their differences.",
+    "genres": "Drama, Sci-Fi",
+    "runtime": 150,
+    "certificate": "Passed",
+    "keywords": "robot, industrialization, revolution, expressionism, critique of capitalism",
+    "countriesOfOrigin": "DE",
+    "meterRanking": "1555",
+    "meterRankChange": "UP 515",
+    "directors": "Fritz Lang",
+    "writers": "Thea von Harbou, Fritz Lang",
+    "stars": "Brigitte Helm, Alfred Abel, Gustav Fr\u00f6hlich",
+    "topCast": "Brigitte Helm, Alfred Abel, Gustav Fr\u00f6hlich, Rudolf Klein-Rogge",
+    "budget": "DEM 6,000,000",
+    "openingWeekendGross": "USD 19,386",
+    "lifetimeGross": "USD 1,236,166",
+    "worldwideGross": "USD 1,358,659",
+    "filmingLocations": "Berlin, Germany",
+    "spokenLanguages": "German, None",
+    "soundMix": "Silent",
+    "aspectRatio": "1.33 : 1",
+    "color": "",
+    "awardWins": 7,
+    "awardNominations": 6,
+    "titleType": "Movie",
+    "isSeries": false,
+    "isEpisode": false,
+    "isAdult": false,
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 125,
@@ -4351,8 +4351,8 @@
     "certificate": "R",
     "keywords": "based on true story, stockbroker, 1990s, sex in bed, wall street manhattan new york city",
     "countriesOfOrigin": "US",
-    "meterRanking": "266",
-    "meterRankChange": "DOWN 11",
+    "meterRanking": "274",
+    "meterRankChange": "DOWN 8",
     "directors": "Martin Scorsese",
     "writers": "Terence Winter, Jordan Belfort",
     "stars": "Leonardo DiCaprio, Jonah Hill, Margot Robbie",
@@ -4372,7 +4372,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 126,
@@ -4386,8 +4386,8 @@
     "certificate": "R",
     "keywords": "world war one, year 1917, long take, 24 hour time span, race against time",
     "countriesOfOrigin": "GB",
-    "meterRanking": "517",
-    "meterRankChange": "DOWN 2",
+    "meterRanking": "476",
+    "meterRankChange": "UP 41",
     "directors": "Sam Mendes",
     "writers": "Sam Mendes, Krysty Wilson-Cairns",
     "stars": "Dean-Charles Chapman, George MacKay, Daniel Mays",
@@ -4407,7 +4407,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 127,
@@ -4421,8 +4421,8 @@
     "certificate": "R",
     "keywords": "diamond, criminal underworld, boxer, england, diamond theft",
     "countriesOfOrigin": "GB",
-    "meterRanking": "377",
-    "meterRankChange": "DOWN 79",
+    "meterRanking": "337",
+    "meterRankChange": "UP 40",
     "directors": "Guy Ritchie",
     "writers": "",
     "stars": "Jason Statham, Brad Pitt, Stephen Graham",
@@ -4442,7 +4442,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 128,
@@ -4456,8 +4456,8 @@
     "certificate": "R",
     "keywords": "surprise ending, self delusion, medical experiment, psyche, neo noir",
     "countriesOfOrigin": "CA",
-    "meterRanking": "217",
-    "meterRankChange": "UP 4",
+    "meterRanking": "211",
+    "meterRankChange": "UP 6",
     "directors": "Martin Scorsese",
     "writers": "Laeta Kalogridis, Dennis Lehane",
     "stars": "Leonardo DiCaprio, Emily Mortimer, Mark Ruffalo",
@@ -4477,7 +4477,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 129,
@@ -4491,8 +4491,8 @@
     "certificate": "R",
     "keywords": "bunker, suicide, defeat, last will and testament, year 1945",
     "countriesOfOrigin": "DE",
-    "meterRanking": "912",
-    "meterRankChange": "DOWN 49",
+    "meterRanking": "985",
+    "meterRankChange": "DOWN 73",
     "directors": "Oliver Hirschbiegel",
     "writers": "Bernd Eichinger, Joachim Fest, Traudl Junge",
     "stars": "Bruno Ganz, Alexandra Maria Lara, Ulrich Matthes",
@@ -4512,7 +4512,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 130,
@@ -4526,8 +4526,8 @@
     "certificate": "R",
     "keywords": "neo noir, corruption, 1950s, murder, police detective",
     "countriesOfOrigin": "US",
-    "meterRanking": "727",
-    "meterRankChange": "UP 28",
+    "meterRanking": "713",
+    "meterRankChange": "UP 14",
     "directors": "Curtis Hanson",
     "writers": "James Ellroy, Brian Helgeland, Curtis Hanson",
     "stars": "Kevin Spacey, Russell Crowe, Guy Pearce",
@@ -4547,7 +4547,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 131,
@@ -4561,8 +4561,8 @@
     "certificate": "PG-13",
     "keywords": "on the road, friendship, racism, fried chicken, musician",
     "countriesOfOrigin": "CN",
-    "meterRanking": "410",
-    "meterRankChange": "DOWN 88",
+    "meterRanking": "378",
+    "meterRankChange": "UP 32",
     "directors": "Peter Farrelly",
     "writers": "Nick Vallelonga, Brian Hayes Currie, Peter Farrelly",
     "stars": "Viggo Mortensen, Mahershala Ali, Linda Cardellini",
@@ -4582,7 +4582,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 132,
@@ -4596,8 +4596,8 @@
     "certificate": "Not Rated",
     "keywords": "small town, inspirational, father daughter relationship, based on true story, female protagonist",
     "countriesOfOrigin": "IN",
-    "meterRanking": "2776",
-    "meterRankChange": "DOWN 77",
+    "meterRanking": "2344",
+    "meterRankChange": "UP 432",
     "directors": "Nitesh Tiwari",
     "writers": "Piyush Gupta, Shreyas Jain, Nikhil Mehrotra",
     "stars": "Aamir Khan, Sakshi Tanwar, Fatima Sana Shaikh",
@@ -4617,7 +4617,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 133,
@@ -4631,8 +4631,8 @@
     "certificate": "Not Rated",
     "keywords": "post world war two italy, bicycle theft, lack of money, bicycle, thief",
     "countriesOfOrigin": "IT",
-    "meterRanking": "3219",
-    "meterRankChange": "UP 163",
+    "meterRanking": "3058",
+    "meterRankChange": "UP 161",
     "directors": "Vittorio De Sica",
     "writers": "Cesare Zavattini, Luigi Bartolini, Oreste Biancoli",
     "stars": "Lamberto Maggiorani, Enzo Staiola, Lianella Carell",
@@ -4652,7 +4652,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 134,
@@ -4666,8 +4666,8 @@
     "certificate": "Approved",
     "keywords": "war crimes trial, nuremberg germany, nuremberg trials, nazi war criminal, judge",
     "countriesOfOrigin": "US",
-    "meterRanking": "2832",
-    "meterRankChange": "UP 384",
+    "meterRanking": "3045",
+    "meterRankChange": "DOWN 213",
     "directors": "Stanley Kramer",
     "writers": "",
     "stars": "Spencer Tracy, Burt Lancaster, Richard Widmark",
@@ -4687,7 +4687,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 135,
@@ -4701,8 +4701,8 @@
     "certificate": "Not Rated",
     "keywords": "existentialism, rape attempt, metaphor, japan, based on novel",
     "countriesOfOrigin": "JP",
-    "meterRanking": "2900",
-    "meterRankChange": "DOWN 311",
+    "meterRanking": "3328",
+    "meterRankChange": "DOWN 428",
     "directors": "Hiroshi Teshigahara",
     "writers": "K\u00f4b\u00f4 Abe, Eiko Yoshida",
     "stars": "Eiji Okada, Ky\u00f4ko Kishida, K\u014dji Mitsui",
@@ -4722,7 +4722,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 136,
@@ -4736,8 +4736,8 @@
     "certificate": "PG-13",
     "keywords": "scientist, dinosaur, sneeze, creature feature, bipedal dinosaur",
     "countriesOfOrigin": "US",
-    "meterRanking": "306",
-    "meterRankChange": "UP 4",
+    "meterRanking": "368",
+    "meterRankChange": "DOWN 62",
     "directors": "Steven Spielberg",
     "writers": "Michael Crichton, David Koepp",
     "stars": "Sam Neill, Laura Dern, Jeff Goldblum",
@@ -4745,7 +4745,7 @@
     "budget": "USD 63,000,000",
     "openingWeekendGross": "USD 47,026,828",
     "lifetimeGross": "USD 407,185,075",
-    "worldwideGross": "USD 1,103,136,596",
+    "worldwideGross": "USD 1,103,136,847",
     "filmingLocations": "Tehachapi Pass, California, USA",
     "spokenLanguages": "English, Spanish",
     "soundMix": "DTS, Dolby Digital",
@@ -4757,7 +4757,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 137,
@@ -4771,8 +4771,8 @@
     "certificate": "PG-13",
     "keywords": "superhero, batman character, bruce wayne character, male superhero, playboy",
     "countriesOfOrigin": "US",
-    "meterRanking": "443",
-    "meterRankChange": "DOWN 22",
+    "meterRanking": "492",
+    "meterRankChange": "DOWN 49",
     "directors": "Christopher Nolan",
     "writers": "Bob Kane, David S. Goyer, Christopher Nolan",
     "stars": "Christian Bale, Michael Caine, Ken Watanabe",
@@ -4792,7 +4792,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 138,
@@ -4806,8 +4806,8 @@
     "certificate": "R",
     "keywords": "manhattan project, nuclear physicist, american politics, los alamos new mexico, atomic bomb",
     "countriesOfOrigin": "US",
-    "meterRanking": "113",
-    "meterRankChange": "DOWN 58",
+    "meterRanking": "90",
+    "meterRankChange": "UP 23",
     "directors": "Christopher Nolan",
     "writers": "Christopher Nolan, Kai Bird, Martin Sherwin",
     "stars": "Cillian Murphy, Emily Blunt, Matt Damon",
@@ -4827,7 +4827,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 139,
@@ -4841,8 +4841,8 @@
     "certificate": "R",
     "keywords": "bounty hunter, wild west, gun shooting, rape, violence",
     "countriesOfOrigin": "IT",
-    "meterRanking": "2477",
-    "meterRankChange": "DOWN 57",
+    "meterRanking": "2615",
+    "meterRankChange": "DOWN 138",
     "directors": "Sergio Leone",
     "writers": "Sergio Leone, Fulvio Morsella, Luciano Vincenzoni",
     "stars": "Clint Eastwood, Lee Van Cleef, Gian Maria Volont\u00e8",
@@ -4862,7 +4862,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 140,
@@ -4876,8 +4876,8 @@
     "certificate": "PG-13",
     "keywords": "alexander hamilton character, revolutionary war, american history, epic, founding fathers",
     "countriesOfOrigin": "US",
-    "meterRanking": "1121",
-    "meterRankChange": "DOWN 27",
+    "meterRanking": "1127",
+    "meterRankChange": "DOWN 6",
     "directors": "Thomas Kail",
     "writers": "Lin-Manuel Miranda, Ron Chernow",
     "stars": "Lin-Manuel Miranda, Phillipa Soo, Leslie Odom Jr.",
@@ -4897,7 +4897,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 141,
@@ -4911,8 +4911,8 @@
     "certificate": "R",
     "keywords": "misanthrope, oil, cruelty, loss of hearing, narcissism",
     "countriesOfOrigin": "US",
-    "meterRanking": "352",
-    "meterRankChange": "DOWN 10",
+    "meterRanking": "387",
+    "meterRankChange": "DOWN 35",
     "directors": "Paul Thomas Anderson",
     "writers": "Paul Thomas Anderson, Upton Sinclair",
     "stars": "Daniel Day-Lewis, Paul Dano, Ciar\u00e1n Hinds",
@@ -4932,7 +4932,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 142,
@@ -4946,8 +4946,8 @@
     "certificate": "Approved",
     "keywords": "musician, st. valentine's day massacre, organized crime, sex comedy, 1920s",
     "countriesOfOrigin": "US",
-    "meterRanking": "2378",
-    "meterRankChange": "DOWN 182",
+    "meterRanking": "2384",
+    "meterRankChange": "DOWN 6",
     "directors": "Billy Wilder",
     "writers": "Billy Wilder, I.A.L. Diamond, Robert Thoeren",
     "stars": "Marilyn Monroe, Tony Curtis, Jack Lemmon",
@@ -4967,7 +4967,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 143,
@@ -4981,8 +4981,8 @@
     "certificate": "R",
     "keywords": "taxi driver, loner, street life, anti hero, child prostitution",
     "countriesOfOrigin": "US",
-    "meterRanking": "436",
-    "meterRankChange": "DOWN 5",
+    "meterRanking": "409",
+    "meterRankChange": "UP 27",
     "directors": "Martin Scorsese",
     "writers": "",
     "stars": "Robert De Niro, Jodie Foster, Cybill Shepherd",
@@ -4990,7 +4990,7 @@
     "budget": "USD 1,300,000",
     "openingWeekendGross": "USD 116,458",
     "lifetimeGross": "USD 28,262,574",
-    "worldwideGross": "USD 29,003,706",
+    "worldwideGross": "USD 29,003,978",
     "filmingLocations": "87 Columbia Heights, Brooklyn, New York, USA",
     "spokenLanguages": "English, Spanish",
     "soundMix": "Mono",
@@ -5002,7 +5002,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 144,
@@ -5016,8 +5016,8 @@
     "certificate": "PG-13",
     "keywords": "dementia, based on play, father daughter relationship, alzheimer's disease, memory loss",
     "countriesOfOrigin": "GB",
-    "meterRanking": "964",
-    "meterRankChange": "UP 63",
+    "meterRanking": "898",
+    "meterRankChange": "UP 66",
     "directors": "Florian Zeller",
     "writers": "Christopher Hampton, Florian Zeller",
     "stars": "Anthony Hopkins, Olivia Colman, Mark Gatiss",
@@ -5037,7 +5037,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 145,
@@ -5051,8 +5051,8 @@
     "certificate": "PG-13",
     "keywords": "plot twist, surprise ending, ghost, child in jeopardy, single mother",
     "countriesOfOrigin": "US",
-    "meterRanking": "86",
-    "meterRankChange": "UP 9",
+    "meterRanking": "87",
+    "meterRankChange": "DOWN 1",
     "directors": "M. Night Shyamalan",
     "writers": "",
     "stars": "Bruce Willis, Haley Joel Osment, Toni Collette",
@@ -5072,7 +5072,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 146,
@@ -5086,8 +5086,8 @@
     "certificate": "Passed",
     "keywords": "the little tramp character, 1910s, orphan, national film registry, social worker",
     "countriesOfOrigin": "US",
-    "meterRanking": "4793",
-    "meterRankChange": "UP 827",
+    "meterRanking": "",
+    "meterRankChange": "",
     "directors": "Charles Chaplin",
     "writers": "",
     "stars": "Charles Chaplin, Edna Purviance, Jackie Coogan",
@@ -5107,7 +5107,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 147,
@@ -5121,7 +5121,7 @@
     "certificate": "Approved",
     "keywords": "theater, social climber, pathological liar, false humility, ambition",
     "countriesOfOrigin": "US",
-    "meterRanking": "3107",
+    "meterRanking": "2960",
     "meterRankChange": "UP 147",
     "directors": "Joseph L. Mankiewicz",
     "writers": "Joseph L. Mankiewicz, Mary Orr",
@@ -5130,7 +5130,7 @@
     "budget": "USD 1,400,000",
     "openingWeekendGross": "USD 10,177",
     "lifetimeGross": "USD 63,463",
-    "worldwideGross": "USD 164,188",
+    "worldwideGross": "USD 164,201",
     "filmingLocations": "Shubert Theater - 247 College Street, New Haven, Connecticut, USA",
     "spokenLanguages": "English, French",
     "soundMix": "",
@@ -5142,7 +5142,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 148,
@@ -5156,8 +5156,8 @@
     "certificate": "R",
     "keywords": "samurai, sibling rivalry, nihilism, struggle for power, battle",
     "countriesOfOrigin": "JP",
-    "meterRanking": "1743",
-    "meterRankChange": "UP 71",
+    "meterRanking": "1456",
+    "meterRankChange": "UP 287",
     "directors": "Akira Kurosawa",
     "writers": "Akira Kurosawa, Hideo Oguni, Masato Ide",
     "stars": "Tatsuya Nakadai, Akira Terao, Jinpachi Nezu",
@@ -5177,7 +5177,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 149,
@@ -5191,8 +5191,8 @@
     "certificate": "R",
     "keywords": "isolation, antarctica, paranoia, alien creature, shapeshifting",
     "countriesOfOrigin": "US",
-    "meterRanking": "121",
-    "meterRankChange": "UP 63",
+    "meterRanking": "173",
+    "meterRankChange": "DOWN 52",
     "directors": "John Carpenter",
     "writers": "Bill Lancaster, John W. Campbell Jr.",
     "stars": "Kurt Russell, Wilford Brimley, Keith David",
@@ -5212,7 +5212,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 150,
@@ -5226,8 +5226,8 @@
     "certificate": "R",
     "keywords": "crime epic, las vegas nevada, casino, mafia, gambling",
     "countriesOfOrigin": "US",
-    "meterRanking": "649",
-    "meterRankChange": "DOWN 157",
+    "meterRanking": "685",
+    "meterRankChange": "DOWN 36",
     "directors": "Martin Scorsese",
     "writers": "Nicholas Pileggi, Martin Scorsese",
     "stars": "Robert De Niro, Sharon Stone, Joe Pesci",
@@ -5247,7 +5247,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 151,
@@ -5261,8 +5261,8 @@
     "certificate": "R",
     "keywords": "texas, neo western, desert, cold blooded murder, sheriff",
     "countriesOfOrigin": "US",
-    "meterRanking": "224",
-    "meterRankChange": "DOWN 12",
+    "meterRanking": "233",
+    "meterRankChange": "DOWN 9",
     "directors": "",
     "writers": "Joel Coen, Ethan Coen, Cormac McCarthy",
     "stars": "Tommy Lee Jones, Javier Bardem, Josh Brolin",
@@ -5282,7 +5282,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 152,
@@ -5296,8 +5296,8 @@
     "certificate": "R",
     "keywords": "child abduction, vigilante justice, police, torture, detective",
     "countriesOfOrigin": "US",
-    "meterRanking": "180",
-    "meterRankChange": "DOWN 30",
+    "meterRanking": "190",
+    "meterRankChange": "DOWN 10",
     "directors": "Denis Villeneuve",
     "writers": "",
     "stars": "Hugh Jackman, Jake Gyllenhaal, Viola Davis",
@@ -5317,7 +5317,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 153,
@@ -5331,8 +5331,8 @@
     "certificate": "PG-13",
     "keywords": "fighter jet, aircraft carrier, dogfight, sequel, naval aviation",
     "countriesOfOrigin": "US",
-    "meterRanking": "223",
-    "meterRankChange": "DOWN 45",
+    "meterRanking": "294",
+    "meterRankChange": "DOWN 71",
     "directors": "Joseph Kosinski",
     "writers": "Ehren Kruger, Eric Warren Singer, Christopher McQuarrie",
     "stars": "Tom Cruise, Jennifer Connelly, Miles Teller",
@@ -5352,7 +5352,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 154,
@@ -5366,8 +5366,8 @@
     "certificate": "R",
     "keywords": "revenge, female protagonist, female warrior, original story, criminal underworld",
     "countriesOfOrigin": "US",
-    "meterRanking": "445",
-    "meterRankChange": "UP 62",
+    "meterRanking": "473",
+    "meterRankChange": "DOWN 28",
     "directors": "Quentin Tarantino",
     "writers": "Quentin Tarantino, Uma Thurman",
     "stars": "Uma Thurman, David Carradine, Daryl Hannah",
@@ -5387,7 +5387,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 155,
@@ -5401,16 +5401,16 @@
     "certificate": "R",
     "keywords": "fairy, labyrinth, magical realism, dark fantasy, maze",
     "countriesOfOrigin": "MX",
-    "meterRanking": "146",
-    "meterRankChange": "UP 242",
+    "meterRanking": "279",
+    "meterRankChange": "DOWN 133",
     "directors": "Guillermo del Toro",
     "writers": "",
     "stars": "Ivana Baquero, Ariadna Gil, Sergi L\u00f3pez",
     "topCast": "Ivana Baquero, Ariadna Gil, Sergi L\u00f3pez, Maribel Verd\u00fa",
     "budget": "USD 19,000,000",
     "openingWeekendGross": "USD 568,641",
-    "lifetimeGross": "USD 39,489,490",
-    "worldwideGross": "USD 85,706,675",
+    "lifetimeGross": "USD 39,972,393",
+    "worldwideGross": "USD 86,189,578",
     "filmingLocations": "El Espinar, Segovia, Castilla y Le\u00f3n, Spain",
     "spokenLanguages": "Spanish",
     "soundMix": "DTS, Dolby Digital, SDDS, Dolby Surround 7.1",
@@ -5422,7 +5422,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 156,
@@ -5436,8 +5436,8 @@
     "certificate": "R",
     "keywords": "revisionist western, brothel, revenge, guilt, bar",
     "countriesOfOrigin": "US",
-    "meterRanking": "830",
-    "meterRankChange": "DOWN 96",
+    "meterRanking": "718",
+    "meterRankChange": "UP 112",
     "directors": "Clint Eastwood",
     "writers": "",
     "stars": "Clint Eastwood, Gene Hackman, Morgan Freeman",
@@ -5457,7 +5457,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 157,
@@ -5471,8 +5471,8 @@
     "certificate": "PG-13",
     "keywords": "mental illness, mathematician, schizophrenia, nobel prize, game theory",
     "countriesOfOrigin": "US",
-    "meterRanking": "586",
-    "meterRankChange": "DOWN 8",
+    "meterRanking": "552",
+    "meterRankChange": "UP 34",
     "directors": "Ron Howard",
     "writers": "Akiva Goldsman, Sylvia Nasar",
     "stars": "Russell Crowe, Ed Harris, Jennifer Connelly",
@@ -5492,7 +5492,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 158,
@@ -5506,8 +5506,8 @@
     "certificate": "PG",
     "keywords": "studio ghibli, steampunk, based on novel, milliner, anime",
     "countriesOfOrigin": "JP",
-    "meterRanking": "963",
-    "meterRankChange": "DOWN 10",
+    "meterRanking": "1038",
+    "meterRankChange": "DOWN 75",
     "directors": "Hayao Miyazaki",
     "writers": "Diana Wynne Jones, Hayao Miyazaki",
     "stars": "Chieko Baish\u014d, Takuya Kimura, Tatsuya Gash\u00fbin",
@@ -5527,7 +5527,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 159,
@@ -5541,8 +5541,8 @@
     "certificate": "Approved",
     "keywords": "mexico, gold, 1920s, mining claim, american expatriate",
     "countriesOfOrigin": "US",
-    "meterRanking": "4062",
-    "meterRankChange": "UP 202",
+    "meterRanking": "4140",
+    "meterRankChange": "DOWN 78",
     "directors": "John Huston",
     "writers": "John Huston, Bruno Traven",
     "stars": "Humphrey Bogart, Walter Huston, Tim Holt",
@@ -5562,7 +5562,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 160,
@@ -5576,8 +5576,8 @@
     "certificate": "G",
     "keywords": "shark, protective father, escape attempt, overprotective father, missing child",
     "countriesOfOrigin": "US",
-    "meterRanking": "1012",
-    "meterRankChange": "UP 77",
+    "meterRanking": "1072",
+    "meterRankChange": "DOWN 60",
     "directors": "",
     "writers": "Andrew Stanton, Bob Peterson, David Reynolds",
     "stars": "Albert Brooks, Ellen DeGeneres, Alexander Gould",
@@ -5597,7 +5597,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 161,
@@ -5611,8 +5611,8 @@
     "certificate": "PG",
     "keywords": "christmas, santa, friendship, forest, snow adventure",
     "countriesOfOrigin": "ES",
-    "meterRanking": "2056",
-    "meterRankChange": "UP 217",
+    "meterRanking": "2186",
+    "meterRankChange": "DOWN 130",
     "directors": "",
     "writers": "Sergio Pablos, Jim Mahoney, Zach Lewis",
     "stars": "Jason Schwartzman, J.K. Simmons, Rashida Jones",
@@ -5632,7 +5632,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 162,
@@ -5646,8 +5646,8 @@
     "certificate": "PG-13",
     "keywords": "outer space, alien, space sci fi, astronaut, based on novel",
     "countriesOfOrigin": "US",
-    "meterRanking": "26",
-    "meterRankChange": "DOWN 11",
+    "meterRanking": "33",
+    "meterRankChange": "DOWN 7",
     "directors": "",
     "writers": "Drew Goddard, Andy Weir",
     "stars": "Ryan Gosling, Sandra H\u00fcller, James Ortiz",
@@ -5661,13 +5661,13 @@
     "soundMix": "Dolby Atmos, IMAX 6-Track, Dolby Digital, Dolby Surround 7.1",
     "aspectRatio": "2.00 : 1",
     "color": "Color",
-    "awardWins": 10,
-    "awardNominations": 11,
+    "awardWins": 12,
+    "awardNominations": 12,
     "titleType": "Movie",
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 163,
@@ -5681,8 +5681,8 @@
     "certificate": "R",
     "keywords": "adult animation, demon, hero, sequel, revenge",
     "countriesOfOrigin": "JP",
-    "meterRanking": "541",
-    "meterRankChange": "DOWN 259",
+    "meterRanking": "644",
+    "meterRankChange": "DOWN 103",
     "directors": "",
     "writers": "Koyoharu Gotouge, Hikaru Kond\u00f4",
     "stars": "Zach Aguilar, Saeko Akiho, Yohei Azakami",
@@ -5702,7 +5702,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 164,
@@ -5716,8 +5716,8 @@
     "certificate": "Not Rated",
     "keywords": "samurai, gang war, tough guy, revolver, bodyguard",
     "countriesOfOrigin": "JP",
-    "meterRanking": "3844",
-    "meterRankChange": "DOWN 433",
+    "meterRanking": "3973",
+    "meterRankChange": "DOWN 129",
     "directors": "Akira Kurosawa",
     "writers": "Akira Kurosawa, Ry\u00fbz\u00f4 Kikushima",
     "stars": "Toshir\u014d Mifune, Eijir\u014d T\u014dno, Tatsuya Nakadai",
@@ -5725,7 +5725,7 @@
     "budget": "",
     "openingWeekendGross": "USD 15,942",
     "lifetimeGross": "USD 46,808",
-    "worldwideGross": "USD 73,943",
+    "worldwideGross": "USD 74,322",
     "filmingLocations": "Toho Studios, Tokyo, Japan",
     "spokenLanguages": "Japanese",
     "soundMix": "",
@@ -5737,7 +5737,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 165,
@@ -5751,8 +5751,8 @@
     "certificate": "PG",
     "keywords": "dignity, human exploitation, disability, victorian era, hospital",
     "countriesOfOrigin": "US",
-    "meterRanking": "1485",
-    "meterRankChange": "DOWN 178",
+    "meterRanking": "1288",
+    "meterRankChange": "UP 197",
     "directors": "David Lynch",
     "writers": "Christopher De Vore, Eric Bergren, David Lynch",
     "stars": "Anthony Hopkins, John Hurt, Anne Bancroft",
@@ -5772,7 +5772,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 166,
@@ -5786,8 +5786,8 @@
     "certificate": "Approved",
     "keywords": "escape from prison, world war two, 1940s, motorcycle, tunnel",
     "countriesOfOrigin": "US",
-    "meterRanking": "199",
-    "meterRankChange": "UP 1913",
+    "meterRanking": "1465",
+    "meterRankChange": "DOWN 1266",
     "directors": "John Sturges",
     "writers": "Paul Brickhill, James Clavell, W.R. Burnett",
     "stars": "Steve McQueen, James Garner, Richard Attenborough",
@@ -5807,7 +5807,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 167,
@@ -5821,8 +5821,8 @@
     "certificate": "PG",
     "keywords": "holy grail, killer rabbit, monty python, knight, camelot",
     "countriesOfOrigin": "GB",
-    "meterRanking": "1364",
-    "meterRankChange": "DOWN 38",
+    "meterRanking": "1131",
+    "meterRankChange": "UP 233",
     "directors": "",
     "writers": "Graham Chapman, John Cleese, Eric Idle",
     "stars": "Graham Chapman, John Cleese, Eric Idle",
@@ -5842,7 +5842,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 168,
@@ -5856,8 +5856,8 @@
     "certificate": "PG",
     "keywords": "blackmail, framed for murder, hidden key, murder, key",
     "countriesOfOrigin": "US",
-    "meterRanking": "2350",
-    "meterRankChange": "UP 399",
+    "meterRanking": "2160",
+    "meterRankChange": "UP 190",
     "directors": "Alfred Hitchcock",
     "writers": "",
     "stars": "Ray Milland, Grace Kelly, Robert Cummings",
@@ -5877,7 +5877,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 169,
@@ -5891,8 +5891,8 @@
     "certificate": "R",
     "keywords": "interrogation, argentina, internal conflict, murder of a nude woman, photograph",
     "countriesOfOrigin": "AR",
-    "meterRanking": "1086",
-    "meterRankChange": "DOWN 17",
+    "meterRanking": "996",
+    "meterRankChange": "UP 90",
     "directors": "Juan Jos\u00e9 Campanella",
     "writers": "Eduardo Sacheri, Juan Jos\u00e9 Campanella",
     "stars": "Ricardo Dar\u00edn, Soledad Villamil, Pablo Rago",
@@ -5912,7 +5912,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 170,
@@ -5926,8 +5926,8 @@
     "certificate": "G",
     "keywords": "based on novel, narcissism, american civil war, epic drama, plantation",
     "countriesOfOrigin": "US",
-    "meterRanking": "793",
-    "meterRankChange": "UP 518",
+    "meterRanking": "1248",
+    "meterRankChange": "DOWN 455",
     "directors": "Victor Fleming",
     "writers": "Margaret Mitchell, Sidney Howard, Oliver H.P. Garrett",
     "stars": "Clark Gable, Vivien Leigh, Thomas Mitchell",
@@ -5947,7 +5947,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 171,
@@ -5961,8 +5961,8 @@
     "certificate": "R",
     "keywords": "gangster, 1990s, gangster comedy, dark comedy, violence",
     "countriesOfOrigin": "GB",
-    "meterRanking": "794",
-    "meterRankChange": "DOWN 121",
+    "meterRanking": "728",
+    "meterRankChange": "UP 66",
     "directors": "Guy Ritchie",
     "writers": "",
     "stars": "Jason Flemyng, Dexter Fletcher, Nick Moran",
@@ -5982,7 +5982,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 172,
@@ -5996,8 +5996,8 @@
     "certificate": "PG-13",
     "keywords": "impostor, deception, fraud, race against time, false identity",
     "countriesOfOrigin": "US",
-    "meterRanking": "460",
-    "meterRankChange": "UP 14",
+    "meterRanking": "432",
+    "meterRankChange": "UP 28",
     "directors": "Steven Spielberg",
     "writers": "Frank Abagnale Jr., Stan Redding, Jeff Nathanson",
     "stars": "Leonardo DiCaprio, Tom Hanks, Christopher Walken",
@@ -6017,7 +6017,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 173,
@@ -6031,8 +6031,8 @@
     "certificate": "R",
     "keywords": "neo noir, private detective, incest, femme fatale, water rights",
     "countriesOfOrigin": "US",
-    "meterRanking": "1221",
-    "meterRankChange": "DOWN 79",
+    "meterRanking": "1298",
+    "meterRankChange": "DOWN 77",
     "directors": "Roman Polanski",
     "writers": "Robert Towne, Roman Polanski",
     "stars": "Jack Nicholson, Faye Dunaway, John Huston",
@@ -6052,7 +6052,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 174,
@@ -6066,8 +6066,8 @@
     "certificate": "R",
     "keywords": "revolution, dystopia, masked vigilante, vigilante, freedom",
     "countriesOfOrigin": "US",
-    "meterRanking": "617",
-    "meterRankChange": "UP 110",
+    "meterRanking": "420",
+    "meterRankChange": "UP 197",
     "directors": "James McTeigue",
     "writers": "Lilly Wachowski, Lana Wachowski, David Lloyd",
     "stars": "Hugo Weaving, Natalie Portman, Rupert Graves",
@@ -6087,7 +6087,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 175,
@@ -6101,8 +6101,8 @@
     "certificate": "PG",
     "keywords": "education, free thinking, suicide, puberty, anti conformity",
     "countriesOfOrigin": "US",
-    "meterRanking": "386",
-    "meterRankChange": "DOWN 53",
+    "meterRanking": "341",
+    "meterRankChange": "UP 45",
     "directors": "Peter Weir",
     "writers": "",
     "stars": "Robin Williams, Robert Sean Leonard, Ethan Hawke",
@@ -6122,7 +6122,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 176,
@@ -6136,8 +6136,8 @@
     "certificate": "PG",
     "keywords": "joy, sadness, anger, memory, disgust",
     "countriesOfOrigin": "US",
-    "meterRanking": "1301",
-    "meterRankChange": "UP 62",
+    "meterRanking": "1209",
+    "meterRankChange": "UP 92",
     "directors": "",
     "writers": "Pete Docter, Ronnie Del Carmen, Meg LeFauve",
     "stars": "Amy Poehler, Bill Hader, Lewis Black",
@@ -6157,7 +6157,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 177,
@@ -6171,8 +6171,8 @@
     "certificate": "R",
     "keywords": "1990s, epic drama, watching tv, years of lead, year 2000",
     "countriesOfOrigin": "IT",
-    "meterRanking": "2853",
-    "meterRankChange": "UP 155",
+    "meterRanking": "2836",
+    "meterRankChange": "UP 17",
     "directors": "Marco Tullio Giordana",
     "writers": "Sandro Petraglia, Stefano Rulli",
     "stars": "Luigi Lo Cascio, Alessio Boni, Jasmine Trinca",
@@ -6192,7 +6192,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 178,
@@ -6206,8 +6206,8 @@
     "certificate": "R",
     "keywords": "filthy toilet, scotland, scottish, dark comedy, voice over narration",
     "countriesOfOrigin": "GB",
-    "meterRanking": "770",
-    "meterRankChange": "DOWN 106",
+    "meterRanking": "854",
+    "meterRankChange": "DOWN 84",
     "directors": "Danny Boyle",
     "writers": "Irvine Welsh, John Hodge",
     "stars": "Ewan McGregor, Ewen Bremner, Jonny Lee Miller",
@@ -6215,7 +6215,7 @@
     "budget": "GBP 1,500,000",
     "openingWeekendGross": "USD 262,673",
     "lifetimeGross": "USD 16,892,333",
-    "worldwideGross": "USD 17,732,210",
+    "worldwideGross": "USD 17,765,259",
     "filmingLocations": "Corrour Railway Station, Highland, Scotland, UK",
     "spokenLanguages": "English",
     "soundMix": "Dolby Digital",
@@ -6227,7 +6227,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 179,
@@ -6241,13 +6241,13 @@
     "certificate": "PG-13",
     "keywords": "snake, school of magic, evil sorcerer, friendship, based on novel",
     "countriesOfOrigin": "GB",
-    "meterRanking": "403",
-    "meterRankChange": "UP 199",
+    "meterRanking": "585",
+    "meterRankChange": "DOWN 182",
     "directors": "David Yates",
     "writers": "Steve Kloves, J.K. Rowling",
     "stars": "Daniel Radcliffe, Emma Watson, Rupert Grint",
     "topCast": "Daniel Radcliffe, Emma Watson, Rupert Grint, Ralph Fiennes",
-    "budget": "USD 25,000,000",
+    "budget": "USD 125,000,000",
     "openingWeekendGross": "USD 169,189,427",
     "lifetimeGross": "USD 381,884,297",
     "worldwideGross": "USD 1,342,945,821",
@@ -6262,7 +6262,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 180,
@@ -6276,8 +6276,8 @@
     "certificate": "R",
     "keywords": "billboard, death of daughter, ambiguous ending, small town, anger",
     "countriesOfOrigin": "GB",
-    "meterRanking": "576",
-    "meterRankChange": "DOWN 34",
+    "meterRanking": "506",
+    "meterRankChange": "UP 70",
     "directors": "Martin McDonagh",
     "writers": "",
     "stars": "Frances McDormand, Woody Harrelson, Sam Rockwell",
@@ -6297,7 +6297,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 181,
@@ -6311,8 +6311,8 @@
     "certificate": "PG",
     "keywords": "bridge, demolition, imperial japanese army, world war two, river",
     "countriesOfOrigin": "GB",
-    "meterRanking": "1640",
-    "meterRankChange": "UP 296",
+    "meterRanking": "1425",
+    "meterRankChange": "UP 215",
     "directors": "David Lean",
     "writers": "Pierre Boulle, Carl Foreman, Michael Wilson",
     "stars": "William Holden, Alec Guinness, Jack Hawkins",
@@ -6332,7 +6332,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 182,
@@ -6346,8 +6346,8 @@
     "certificate": "Not Rated",
     "keywords": "unreliable narration, contradictory accounts, multiple perspectives, forest, medium",
     "countriesOfOrigin": "JP",
-    "meterRanking": "3491",
-    "meterRankChange": "UP 99",
+    "meterRanking": "3376",
+    "meterRankChange": "UP 115",
     "directors": "Akira Kurosawa",
     "writers": "Ry\u00fbnosuke Akutagawa, Akira Kurosawa, Shinobu Hashimoto",
     "stars": "Toshir\u014d Mifune, Machiko Ky\u00f4, Masayuki Mori",
@@ -6367,7 +6367,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 183,
@@ -6381,8 +6381,8 @@
     "certificate": "PG",
     "keywords": "18th century, social climber, based on novel, rise and fall, dysfunctional marriage",
     "countriesOfOrigin": "GB",
-    "meterRanking": "454",
-    "meterRankChange": "UP 365",
+    "meterRanking": "624",
+    "meterRankChange": "DOWN 170",
     "directors": "Stanley Kubrick",
     "writers": "Stanley Kubrick, William Makepeace Thackeray",
     "stars": "Ryan O'Neal, Marisa Berenson, Patrick Magee",
@@ -6402,7 +6402,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 184,
@@ -6416,8 +6416,8 @@
     "certificate": "G",
     "keywords": "leprosy, roman empire, talking to a horse, leper colony, jewish",
     "countriesOfOrigin": "US",
-    "meterRanking": "1678",
-    "meterRankChange": "UP 563",
+    "meterRanking": "1813",
+    "meterRankChange": "DOWN 135",
     "directors": "William Wyler",
     "writers": "Lew Wallace, Karl Tunberg, Maxwell Anderson",
     "stars": "Charlton Heston, Jack Hawkins, Stephen Boyd",
@@ -6437,7 +6437,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 185,
@@ -6451,8 +6451,8 @@
     "certificate": "PG",
     "keywords": "robot, talking robot, robot as protagonist, fox, mother son relationship",
     "countriesOfOrigin": "US",
-    "meterRanking": "664",
-    "meterRankChange": "DOWN 118",
+    "meterRanking": "663",
+    "meterRankChange": "UP 1",
     "directors": "Chris Sanders",
     "writers": "Chris Sanders, Peter Brown",
     "stars": "Lupita Nyong'o, Pedro Pascal, Kit Connor",
@@ -6472,7 +6472,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 186,
@@ -6486,8 +6486,8 @@
     "certificate": "R",
     "keywords": "world war two, conscientious objector, soldier, medic, 1940s",
     "countriesOfOrigin": "US",
-    "meterRanking": "453",
-    "meterRankChange": "DOWN 39",
+    "meterRanking": "595",
+    "meterRankChange": "DOWN 142",
     "directors": "Mel Gibson",
     "writers": "Robert Schenkkan, Andrew Knight",
     "stars": "Andrew Garfield, Sam Worthington, Luke Bracey",
@@ -6498,7 +6498,7 @@
     "worldwideGross": "USD 180,470,148",
     "filmingLocations": "Sydney, New South Wales, Australia",
     "spokenLanguages": "English, Japanese",
-    "soundMix": "Dolby Atmos, SDDS, Datasat, Auro 11.1, Dolby Surround 7.1",
+    "soundMix": "Dolby Atmos",
     "aspectRatio": "2.35 : 1",
     "color": "Color",
     "awardWins": 57,
@@ -6507,7 +6507,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 187,
@@ -6521,8 +6521,8 @@
     "certificate": "PG-13",
     "keywords": "brother brother relationship, father son relationship, tournament, martial arts tournament, mixed martial arts",
     "countriesOfOrigin": "US",
-    "meterRanking": "946",
-    "meterRankChange": "DOWN 10",
+    "meterRanking": "1029",
+    "meterRankChange": "DOWN 83",
     "directors": "Gavin O'Connor",
     "writers": "Gavin O'Connor, Anthony Tambakis, Cliff Dorfman",
     "stars": "Tom Hardy, Nick Nolte, Joel Edgerton",
@@ -6542,7 +6542,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 188,
@@ -6556,8 +6556,8 @@
     "certificate": "G",
     "keywords": "chef, rat, soup, animal protagonist, talking rat",
     "countriesOfOrigin": "US",
-    "meterRanking": "672",
-    "meterRankChange": "UP 43",
+    "meterRanking": "717",
+    "meterRankChange": "DOWN 45",
     "directors": "",
     "writers": "Brad Bird, Jan Pinkava, Jim Capobianco",
     "stars": "Brad Garrett, Lou Romano, Patton Oswalt",
@@ -6577,7 +6577,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 189,
@@ -6591,8 +6591,8 @@
     "certificate": "R",
     "keywords": "post apocalypse, desert, car chase, female warrior, escape",
     "countriesOfOrigin": "AU",
-    "meterRanking": "729",
-    "meterRankChange": "DOWN 93",
+    "meterRanking": "686",
+    "meterRankChange": "UP 43",
     "directors": "George Miller",
     "writers": "George Miller, Brendan McCarthy, Nick Lathouris",
     "stars": "Tom Hardy, Charlize Theron, Nicholas Hoult",
@@ -6612,7 +6612,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 190,
@@ -6626,8 +6626,8 @@
     "certificate": "PG-13",
     "keywords": "boxing, women boxing, boxing trainer, strong female character, determination",
     "countriesOfOrigin": "US",
-    "meterRanking": "1152",
-    "meterRankChange": "UP 61",
+    "meterRanking": "1102",
+    "meterRankChange": "UP 50",
     "directors": "Clint Eastwood",
     "writers": "Paul Haggis, F.X. Toole",
     "stars": "Hilary Swank, Clint Eastwood, Morgan Freeman",
@@ -6647,7 +6647,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 191,
@@ -6661,8 +6661,8 @@
     "certificate": "R",
     "keywords": "dark comedy, car salesman, botched crime, police, minneapolis minnesota",
     "countriesOfOrigin": "GB",
-    "meterRanking": "481",
-    "meterRankChange": "DOWN 59",
+    "meterRanking": "499",
+    "meterRankChange": "DOWN 18",
     "directors": "",
     "writers": "Ethan Coen, Joel Coen",
     "stars": "William H. Macy, Frances McDormand, Steve Buscemi",
@@ -6682,7 +6682,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 192,
@@ -6696,8 +6696,8 @@
     "certificate": "PG",
     "keywords": "brother sister relationship, lost shoe, poverty, tehran iran, slow motion scene",
     "countriesOfOrigin": "IR",
-    "meterRanking": "3519",
-    "meterRankChange": "DOWN 347",
+    "meterRanking": "3585",
+    "meterRankChange": "DOWN 66",
     "directors": "Majid Majidi",
     "writers": "",
     "stars": "Reza Naji, Amir Farrokh Hashemian, Bahare Seddiqi",
@@ -6717,7 +6717,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 193,
@@ -6731,8 +6731,8 @@
     "certificate": "G",
     "keywords": "sister sister relationship, father daughter relationship, sick mother, child protagonist, rural setting",
     "countriesOfOrigin": "JP",
-    "meterRanking": "1334",
-    "meterRankChange": "DOWN 68",
+    "meterRanking": "1409",
+    "meterRankChange": "DOWN 75",
     "directors": "Hayao Miyazaki",
     "writers": "",
     "stars": "Hitoshi Takagi, Noriko Hidaka, Chika Sakamoto",
@@ -6752,7 +6752,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 194,
@@ -6766,8 +6766,8 @@
     "certificate": "R",
     "keywords": "widower, gang, teenager, hmong, war veteran",
     "countriesOfOrigin": "US",
-    "meterRanking": "1337",
-    "meterRankChange": "UP 76",
+    "meterRanking": "1441",
+    "meterRankChange": "DOWN 104",
     "directors": "Clint Eastwood",
     "writers": "Nick Schenk, Dave Johannson",
     "stars": "Clint Eastwood, Bee Vang, Christopher Carley",
@@ -6787,7 +6787,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 195,
@@ -6801,8 +6801,8 @@
     "certificate": "R",
     "keywords": "separation from family, racism, rape, slavery, 1840s",
     "countriesOfOrigin": "GB",
-    "meterRanking": "849",
-    "meterRankChange": "DOWN 7",
+    "meterRanking": "958",
+    "meterRankChange": "DOWN 109",
     "directors": "Steve McQueen",
     "writers": "John Ridley, Solomon Northup",
     "stars": "Chiwetel Ejiofor, Michael Kenneth Williams, Michael Fassbender",
@@ -6822,7 +6822,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 196,
@@ -6836,8 +6836,8 @@
     "certificate": "R",
     "keywords": "dysfunctional family, boxing, jealousy, new york city, domestic violence",
     "countriesOfOrigin": "US",
-    "meterRanking": "1737",
-    "meterRankChange": "DOWN 95",
+    "meterRanking": "1709",
+    "meterRankChange": "UP 28",
     "directors": "Martin Scorsese",
     "writers": "Jake LaMotta, Joseph Carter, Peter Savage",
     "stars": "Robert De Niro, Cathy Moriarty, Joe Pesci",
@@ -6857,7 +6857,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 197,
@@ -6871,8 +6871,8 @@
     "certificate": "PG",
     "keywords": "dragon, viking, father son relationship, village, training",
     "countriesOfOrigin": "US",
-    "meterRanking": "1255",
-    "meterRankChange": "DOWN 2",
+    "meterRanking": "1101",
+    "meterRankChange": "UP 154",
     "directors": "",
     "writers": "William Davies, Dean DeBlois, Chris Sanders",
     "stars": "Jay Baruchel, Gerard Butler, Christopher Mintz-Plasse",
@@ -6892,7 +6892,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 198,
@@ -6906,8 +6906,8 @@
     "certificate": "TV-MA",
     "keywords": "police, 1980s, anti hero, criminal investigation, neo noir",
     "countriesOfOrigin": "KR",
-    "meterRanking": "490",
-    "meterRankChange": "UP 15",
+    "meterRanking": "487",
+    "meterRankChange": "UP 3",
     "directors": "Bong Joon Ho",
     "writers": "Bong Joon Ho, Kwang-rim Kim, Sung-bo Shim",
     "stars": "Song Kang-ho, Kim Sang-kyung, Kim Roe-ha",
@@ -6927,7 +6927,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 199,
@@ -6941,8 +6941,8 @@
     "certificate": "R",
     "keywords": "hotel, lobby boy, painting, mentor protege relationship, first person narration",
     "countriesOfOrigin": "US",
-    "meterRanking": "542",
-    "meterRankChange": "UP 37",
+    "meterRanking": "556",
+    "meterRankChange": "DOWN 14",
     "directors": "Wes Anderson",
     "writers": "Stefan Zweig, Wes Anderson, Hugo Guinness",
     "stars": "Ralph Fiennes, F. Murray Abraham, Mathieu Amalric",
@@ -6954,7 +6954,7 @@
     "filmingLocations": "G\u00f6rlitz, Saxony, Germany",
     "spokenLanguages": "English, French, German",
     "soundMix": "SDDS, Datasat, Dolby Digital, Dolby Surround 7.1",
-    "aspectRatio": "",
+    "aspectRatio": "1.33 : 1",
     "color": "Color, Black and White",
     "awardWins": 137,
     "awardNominations": 227,
@@ -6962,7 +6962,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 200,
@@ -6976,8 +6976,8 @@
     "certificate": "R",
     "keywords": "train, tourist, one night stand, kiss, travelling by train",
     "countriesOfOrigin": "US",
-    "meterRanking": "950",
-    "meterRankChange": "DOWN 76",
+    "meterRanking": "1025",
+    "meterRankChange": "DOWN 75",
     "directors": "Richard Linklater",
     "writers": "Richard Linklater, Kim Krizan",
     "stars": "Ethan Hawke, Julie Delpy, Andrea Eckert",
@@ -6997,7 +6997,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 201,
@@ -7011,8 +7011,8 @@
     "certificate": "G",
     "keywords": "monster world, human nonhuman relationship, monster, birthday, birthday dinner",
     "countriesOfOrigin": "US",
-    "meterRanking": "904",
-    "meterRankChange": "DOWN 172",
+    "meterRanking": "705",
+    "meterRankChange": "UP 199",
     "directors": "",
     "writers": "Pete Docter, Jill Culton, Jeff Pidgeon",
     "stars": "Billy Crystal, John Goodman, Mary Gibbs",
@@ -7032,7 +7032,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 202,
@@ -7046,8 +7046,8 @@
     "certificate": "R",
     "keywords": "tech noir, cyberpunk, police detective, existentialism, dystopia",
     "countriesOfOrigin": "US",
-    "meterRanking": "269",
-    "meterRankChange": "UP 126",
+    "meterRanking": "282",
+    "meterRankChange": "DOWN 13",
     "directors": "Ridley Scott",
     "writers": "Hampton Fancher, David Webb Peoples, Philip K. Dick",
     "stars": "Harrison Ford, Rutger Hauer, Sean Young",
@@ -7067,7 +7067,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 203,
@@ -7081,8 +7081,8 @@
     "certificate": "R",
     "keywords": "missing person, disappearance, murder suspect, husband wife relationship, based on novel",
     "countriesOfOrigin": "US",
-    "meterRanking": "173",
-    "meterRankChange": "UP 53",
+    "meterRanking": "253",
+    "meterRankChange": "DOWN 80",
     "directors": "David Fincher",
     "writers": "",
     "stars": "Ben Affleck, Rosamund Pike, Neil Patrick Harris",
@@ -7102,7 +7102,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 204,
@@ -7116,8 +7116,8 @@
     "certificate": "PG-13",
     "keywords": "car racing, based on true story, 24 hours le mans race, 24 hours of le mans, ford motor company",
     "countriesOfOrigin": "US",
-    "meterRanking": "545",
-    "meterRankChange": "UP 102",
+    "meterRanking": "767",
+    "meterRankChange": "DOWN 222",
     "directors": "James Mangold",
     "writers": "Jez Butterworth, John-Henry Butterworth, Jason Keller",
     "stars": "Matt Damon, Christian Bale, Jon Bernthal",
@@ -7137,7 +7137,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 205,
@@ -7151,8 +7151,8 @@
     "certificate": "PG",
     "keywords": "shark, great white shark, beach, shark attack, fourth of july",
     "countriesOfOrigin": "US",
-    "meterRanking": "589",
-    "meterRankChange": "UP 77",
+    "meterRanking": "574",
+    "meterRankChange": "UP 15",
     "directors": "Steven Spielberg",
     "writers": "Peter Benchley, Carl Gottlieb",
     "stars": "Roy Scheider, Robert Shaw, Richard Dreyfuss",
@@ -7172,7 +7172,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 206,
@@ -7186,8 +7186,8 @@
     "certificate": "R",
     "keywords": "father son relationship, ireland, based on true story, wrongfully convicted of murder, wrongful conviction",
     "countriesOfOrigin": "IE",
-    "meterRanking": "2097",
-    "meterRankChange": "DOWN 436",
+    "meterRanking": "2165",
+    "meterRankChange": "DOWN 68",
     "directors": "Jim Sheridan",
     "writers": "Gerry Conlon, Terry George, Jim Sheridan",
     "stars": "Daniel Day-Lewis, Pete Postlethwaite, Anthony Brophy",
@@ -7207,7 +7207,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 207,
@@ -7221,8 +7221,8 @@
     "certificate": "R",
     "keywords": "based on tv series, based on anime series, based on anime, anime animation, demon",
     "countriesOfOrigin": "JP",
-    "meterRanking": "1289",
-    "meterRankChange": "DOWN 26",
+    "meterRanking": "1376",
+    "meterRankChange": "DOWN 87",
     "directors": "Tatsuya Yoshihara",
     "writers": "Tatsuki Fujimoto, Hiroshi Seko",
     "stars": "Kikunosuke Toya, Shiori Izawa, Tomori Kusunoki",
@@ -7242,7 +7242,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 208,
@@ -7256,8 +7256,8 @@
     "certificate": "PG-13",
     "keywords": "spider man character, superhero, marvel cinematic universe, villain, green goblin character",
     "countriesOfOrigin": "US",
-    "meterRanking": "118",
-    "meterRankChange": "UP 75",
+    "meterRanking": "162",
+    "meterRankChange": "DOWN 44",
     "directors": "Jon Watts",
     "writers": "Chris McKenna, Erik Sommers, Stan Lee",
     "stars": "Tom Holland, Zendaya, Benedict Cumberbatch",
@@ -7277,7 +7277,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 209,
@@ -7291,8 +7291,8 @@
     "certificate": "R",
     "keywords": "anthology film, suicide by airplane crash, violence, sex scene, revenge",
     "countriesOfOrigin": "AR",
-    "meterRanking": "1422",
-    "meterRankChange": "DOWN 46",
+    "meterRanking": "1357",
+    "meterRankChange": "UP 65",
     "directors": "Dami\u00e1n Szifron",
     "writers": "Julian Loyola, Germ\u00e1n Servidio, Dami\u00e1n Szifron",
     "stars": "Dar\u00edo Grandinetti, Mar\u00eda Marull, M\u00f3nica Villa",
@@ -7312,7 +7312,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 210,
@@ -7326,8 +7326,8 @@
     "certificate": "Not Rated",
     "keywords": "bullying, anime, redemption, deaf girl, suicidal thoughts",
     "countriesOfOrigin": "JP",
-    "meterRanking": "1790",
-    "meterRankChange": "DOWN 134",
+    "meterRanking": "1861",
+    "meterRankChange": "DOWN 71",
     "directors": "Naoko Yamada",
     "writers": "Yoshitoki \u00d4ima, Reiko Yoshida",
     "stars": "Miyu Irino, Saori Hayami, Aoi Y\u00fbki",
@@ -7347,7 +7347,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 211,
@@ -7382,7 +7382,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 212,
@@ -7396,8 +7396,8 @@
     "certificate": "Not Rated",
     "keywords": "asperger's syndrome, adult animation, unlikely friendship, friendship, stop motion animation",
     "countriesOfOrigin": "AU",
-    "meterRanking": "2814",
-    "meterRankChange": "DOWN 849",
+    "meterRanking": "2910",
+    "meterRankChange": "DOWN 96",
     "directors": "Adam Elliot",
     "writers": "",
     "stars": "Toni Collette, Philip Seymour Hoffman, Eric Bana",
@@ -7417,7 +7417,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 213,
@@ -7452,7 +7452,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 214,
@@ -7466,8 +7466,8 @@
     "certificate": "R",
     "keywords": "russian roulette, vietnam war, prisoner of war, wedding reception, torture",
     "countriesOfOrigin": "US",
-    "meterRanking": "807",
-    "meterRankChange": "UP 63",
+    "meterRanking": "984",
+    "meterRankChange": "DOWN 177",
     "directors": "Michael Cimino",
     "writers": "Michael Cimino, Deric Washburn, Louis Garfinkle",
     "stars": "Robert De Niro, Christopher Walken, John Cazale",
@@ -7487,45 +7487,10 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 215,
-    "name": "Logan",
-    "IMDb Rating": 8.1,
-    "link": "https://www.imdb.com/title/tt3315342/",
-    "image": "https://m.media-amazon.com/images/M/MV5BM2JjODdkMGMtNmY2YS00OGM2LThiY2YtZGYyNzE4Nzc2ODA0XkEyXkFqcGc@._V1_.jpg",
-    "plot": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
-    "genres": "Action, Drama, Sci-Fi",
-    "runtime": 137,
-    "certificate": "R",
-    "keywords": "x men, mutant, superhero, superhero action, reluctant hero",
-    "countriesOfOrigin": "US",
-    "meterRanking": "802",
-    "meterRankChange": "DOWN 178",
-    "directors": "James Mangold",
-    "writers": "James Mangold, Scott Frank, Michael Green",
-    "stars": "Hugh Jackman, Patrick Stewart, Dafne Keen",
-    "topCast": "Hugh Jackman, Patrick Stewart, Dafne Keen, Boyd Holbrook",
-    "budget": "USD 97,000,000",
-    "openingWeekendGross": "USD 88,411,916",
-    "lifetimeGross": "USD 226,277,068",
-    "worldwideGross": "USD 619,180,476",
-    "filmingLocations": "Just outside Northern Meadows community, Rio Rancho, New Mexico, USA",
-    "spokenLanguages": "English, Spanish",
-    "soundMix": "Dolby Atmos, Dolby Digital, Dolby Surround 7.1, SDDS",
-    "aspectRatio": "2.39 : 1",
-    "color": "Color",
-    "awardWins": 29,
-    "awardNominations": 82,
-    "titleType": "Movie",
-    "isSeries": false,
-    "isEpisode": false,
-    "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
-  },
-  {
-    "Rank": 216,
     "name": "Pirates of the Caribbean: The Curse of the Black Pearl",
     "IMDb Rating": 8.1,
     "link": "https://www.imdb.com/title/tt0325980/",
@@ -7536,8 +7501,8 @@
     "certificate": "PG-13",
     "keywords": "pirate, undead, captain jack sparrow character, joshamee gibbs character, captain hector barbossa character",
     "countriesOfOrigin": "US",
-    "meterRanking": "340",
-    "meterRankChange": "UP 16",
+    "meterRanking": "238",
+    "meterRankChange": "UP 102",
     "directors": "Gore Verbinski",
     "writers": "Ted Elliott, Terry Rossio, Stuart Beattie",
     "stars": "Johnny Depp, Geoffrey Rush, Orlando Bloom",
@@ -7557,7 +7522,42 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
+  },
+  {
+    "Rank": 216,
+    "name": "Logan",
+    "IMDb Rating": 8.1,
+    "link": "https://www.imdb.com/title/tt3315342/",
+    "image": "https://m.media-amazon.com/images/M/MV5BM2JjODdkMGMtNmY2YS00OGM2LThiY2YtZGYyNzE4Nzc2ODA0XkEyXkFqcGc@._V1_.jpg",
+    "plot": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
+    "genres": "Action, Drama, Sci-Fi",
+    "runtime": 137,
+    "certificate": "R",
+    "keywords": "x men, mutant, superhero, superhero action, reluctant hero",
+    "countriesOfOrigin": "US",
+    "meterRanking": "832",
+    "meterRankChange": "DOWN 30",
+    "directors": "James Mangold",
+    "writers": "James Mangold, Scott Frank, Michael Green",
+    "stars": "Hugh Jackman, Patrick Stewart, Dafne Keen",
+    "topCast": "Hugh Jackman, Patrick Stewart, Dafne Keen, Boyd Holbrook",
+    "budget": "USD 97,000,000",
+    "openingWeekendGross": "USD 88,411,916",
+    "lifetimeGross": "USD 226,277,068",
+    "worldwideGross": "USD 619,180,476",
+    "filmingLocations": "Just outside Northern Meadows community, Rio Rancho, New Mexico, USA",
+    "spokenLanguages": "English, Spanish",
+    "soundMix": "Dolby Atmos",
+    "aspectRatio": "2.39 : 1",
+    "color": "Color",
+    "awardWins": 29,
+    "awardNominations": 82,
+    "titleType": "Movie",
+    "isSeries": false,
+    "isEpisode": false,
+    "isAdult": false,
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 217,
@@ -7571,8 +7571,8 @@
     "certificate": "Not Rated",
     "keywords": "oil company, unemployment, nitroglycerin, mountain road, latin america",
     "countriesOfOrigin": "FR",
-    "meterRanking": "4089",
-    "meterRankChange": "UP 455",
+    "meterRanking": "4274",
+    "meterRankChange": "DOWN 185",
     "directors": "Henri-Georges Clouzot",
     "writers": "Georges Arnaud, Henri-Georges Clouzot, J\u00e9r\u00f4me G\u00e9ronimi",
     "stars": "Yves Montand, Charles Vanel, Peter van Eyck",
@@ -7592,7 +7592,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 218,
@@ -7606,8 +7606,8 @@
     "certificate": "PG",
     "keywords": "boxing, boxer, italian american, philadelphia pennsylvania, 1970s",
     "countriesOfOrigin": "US",
-    "meterRanking": "447",
-    "meterRankChange": "DOWN 83",
+    "meterRanking": "446",
+    "meterRankChange": "UP 1",
     "directors": "John G. Avildsen",
     "writers": "",
     "stars": "Sylvester Stallone, Talia Shire, Burt Young",
@@ -7627,7 +7627,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 219,
@@ -7641,8 +7641,8 @@
     "certificate": "Passed",
     "keywords": "train, confederate army, american civil war, national film registry, 1860s",
     "countriesOfOrigin": "US",
-    "meterRanking": "4826",
-    "meterRankChange": "UP 894",
+    "meterRanking": "",
+    "meterRankChange": "",
     "directors": "",
     "writers": "Buster Keaton, Clyde Bruckman, Al Boasberg",
     "stars": "Buster Keaton, Marion Mack, Glen Cavender",
@@ -7650,7 +7650,7 @@
     "budget": "USD 750,000",
     "openingWeekendGross": "",
     "lifetimeGross": "",
-    "worldwideGross": "USD 2,951",
+    "worldwideGross": "USD 12,059",
     "filmingLocations": "Eugene, Oregon, USA",
     "spokenLanguages": "None, English",
     "soundMix": "Silent",
@@ -7662,7 +7662,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 220,
@@ -7676,8 +7676,8 @@
     "certificate": "Approved",
     "keywords": "washington d.c., filibuster, national film registry, congressional page, u.s. capitol building",
     "countriesOfOrigin": "US",
-    "meterRanking": "4380",
-    "meterRankChange": "UP 350",
+    "meterRanking": "4924",
+    "meterRankChange": "DOWN 544",
     "directors": "Frank Capra",
     "writers": "Sidney Buchman, Lewis R. Foster, Myles Connolly",
     "stars": "James Stewart, Jean Arthur, Claude Rains",
@@ -7697,7 +7697,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 221,
@@ -7711,8 +7711,8 @@
     "certificate": "Not Rated",
     "keywords": "houseguest, selfishness, old man, old woman, compassion",
     "countriesOfOrigin": "JP",
-    "meterRanking": "3639",
-    "meterRankChange": "UP 239",
+    "meterRanking": "4473",
+    "meterRankChange": "DOWN 834",
     "directors": "Yasujir\u014d Ozu",
     "writers": "K\u014dgo Noda, Yasujir\u014d Ozu",
     "stars": "Chish\u016b Ry\u016b, Chieko Higashiyama, S\u014d Yamamura",
@@ -7732,7 +7732,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 222,
@@ -7746,8 +7746,8 @@
     "certificate": "",
     "keywords": "indian cinema, criminal, family man, dustbin, loss of mother",
     "countriesOfOrigin": "IN",
-    "meterRanking": "1951",
-    "meterRankChange": "DOWN 95",
+    "meterRanking": "1937",
+    "meterRankChange": "UP 14",
     "directors": "",
     "writers": "T. Ajay Adithyan, Anil CR, Shahfaizal Chanbasha",
     "stars": "Vijay Sethupathi, Anurag Kashyap, Mamta Mohandas",
@@ -7767,7 +7767,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 223,
@@ -7781,8 +7781,8 @@
     "certificate": "Not Rated",
     "keywords": "ghetto, gun, riot police, trying to steal a car, missed last train",
     "countriesOfOrigin": "FR",
-    "meterRanking": "1607",
-    "meterRankChange": "DOWN 173",
+    "meterRanking": "884",
+    "meterRankChange": "UP 723",
     "directors": "Mathieu Kassovitz",
     "writers": "",
     "stars": "Vincent Cassel, Hubert Kound\u00e9, Sa\u00efd Taghmaoui",
@@ -7802,7 +7802,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 224,
@@ -7816,8 +7816,8 @@
     "certificate": "G",
     "keywords": "nazi, third reich, stepmother, singing family, single father",
     "countriesOfOrigin": "US",
-    "meterRanking": "1247",
-    "meterRankChange": "DOWN 224",
+    "meterRanking": "1266",
+    "meterRankChange": "DOWN 19",
     "directors": "Robert Wise",
     "writers": "Georg Hurdalek, Howard Lindsay, Russel Crouse",
     "stars": "Julie Andrews, Christopher Plummer, Eleanor Parker",
@@ -7837,7 +7837,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 225,
@@ -7851,8 +7851,8 @@
     "certificate": "R",
     "keywords": "child molestation, investigation, catholic church, cover up, investigative journalism",
     "countriesOfOrigin": "US",
-    "meterRanking": "772",
-    "meterRankChange": "DOWN 174",
+    "meterRanking": "762",
+    "meterRankChange": "UP 10",
     "directors": "Tom McCarthy",
     "writers": "Josh Singer, Tom McCarthy",
     "stars": "Mark Ruffalo, Michael Keaton, Rachel McAdams",
@@ -7872,7 +7872,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 226,
@@ -7886,8 +7886,8 @@
     "certificate": "TV-MA",
     "keywords": "poverty, human rights, lawyer, courtroom, justice",
     "countriesOfOrigin": "IN",
-    "meterRanking": "3149",
-    "meterRankChange": "UP 149",
+    "meterRanking": "3332",
+    "meterRankChange": "DOWN 183",
     "directors": "T.J. Gnanavel",
     "writers": "T.J. Gnanavel, Rajendra Sapre",
     "stars": "Suriya, Lijo Mol Jose, Manikandan K.",
@@ -7907,7 +7907,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 227,
@@ -7921,8 +7921,8 @@
     "certificate": "R",
     "keywords": "time travel, cyborg, car chase, killer robot, good versus evil",
     "countriesOfOrigin": "GB",
-    "meterRanking": "393",
-    "meterRankChange": "DOWN 50",
+    "meterRanking": "437",
+    "meterRankChange": "DOWN 44",
     "directors": "James Cameron",
     "writers": "James Cameron, Gale Anne Hurd, William Wisher",
     "stars": "Arnold Schwarzenegger, Linda Hamilton, Michael Biehn",
@@ -7942,7 +7942,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 228,
@@ -7956,8 +7956,8 @@
     "certificate": "Not Rated",
     "keywords": "professor, road movie, nostalgia, self discovery, regret",
     "countriesOfOrigin": "SE",
-    "meterRanking": "4018",
-    "meterRankChange": "DOWN 1",
+    "meterRanking": "3883",
+    "meterRankChange": "UP 135",
     "directors": "Ingmar Bergman",
     "writers": "",
     "stars": "Victor Sj\u00f6str\u00f6m, Bibi Andersson, Ingrid Thulin",
@@ -7977,45 +7977,10 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 229,
-    "name": "On the Waterfront",
-    "IMDb Rating": 8.1,
-    "link": "https://www.imdb.com/title/tt0047296/",
-    "image": "https://m.media-amazon.com/images/M/MV5BZDJlYTM1ZGYtZTM4YS00MzFhLThiZjktYzQ0ZjAzMGYwZTU3XkEyXkFqcGc@._V1_.jpg",
-    "plot": "An ex-prize fighter turned New Jersey longshoreman struggles to stand up to his corrupt union bosses, including his older brother, as he starts to connect with the grieving sister of one of the syndicate&apos;s victims.",
-    "genres": "Crime, Drama, Thriller",
-    "runtime": 108,
-    "certificate": "Approved",
-    "keywords": "organized crime, murder, ex boxer, rooftop, whistleblower",
-    "countriesOfOrigin": "US",
-    "meterRanking": "1119",
-    "meterRankChange": "UP 1354",
-    "directors": "Elia Kazan",
-    "writers": "Budd Schulberg, Malcolm Johnson, Robert Siodmak",
-    "stars": "Marlon Brando, Karl Malden, Lee J. Cobb",
-    "topCast": "Marlon Brando, Karl Malden, Lee J. Cobb, Rod Steiger",
-    "budget": "USD 910,000",
-    "openingWeekendGross": "",
-    "lifetimeGross": "",
-    "worldwideGross": "USD 3,768",
-    "filmingLocations": "St Peter and St Paul Church - 400 Hudson Street, Hoboken, New Jersey, USA",
-    "spokenLanguages": "English, Latin",
-    "soundMix": "",
-    "aspectRatio": "",
-    "color": "Black and White",
-    "awardWins": 30,
-    "awardNominations": 11,
-    "titleType": "Movie",
-    "isSeries": false,
-    "isEpisode": false,
-    "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
-  },
-  {
-    "Rank": 230,
     "name": "The Best Years of Our Lives",
     "IMDb Rating": 8.1,
     "link": "https://www.imdb.com/title/tt0036868/",
@@ -8026,8 +7991,8 @@
     "certificate": "Approved",
     "keywords": "world war two veteran, banker, speech, bombardier, readjusting to civilian life",
     "countriesOfOrigin": "US",
-    "meterRanking": "3785",
-    "meterRankChange": "UP 394",
+    "meterRanking": "4006",
+    "meterRankChange": "DOWN 221",
     "directors": "William Wyler",
     "writers": "Robert E. Sherwood, MacKinlay Kantor",
     "stars": "Myrna Loy, Dana Andrews, Fredric March",
@@ -8047,7 +8012,42 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
+  },
+  {
+    "Rank": 230,
+    "name": "On the Waterfront",
+    "IMDb Rating": 8.1,
+    "link": "https://www.imdb.com/title/tt0047296/",
+    "image": "https://m.media-amazon.com/images/M/MV5BZDJlYTM1ZGYtZTM4YS00MzFhLThiZjktYzQ0ZjAzMGYwZTU3XkEyXkFqcGc@._V1_.jpg",
+    "plot": "An ex-prize fighter turned New Jersey longshoreman struggles to stand up to his corrupt union bosses, including his older brother, as he starts to connect with the grieving sister of one of the syndicate&apos;s victims.",
+    "genres": "Crime, Drama, Thriller",
+    "runtime": 108,
+    "certificate": "Approved",
+    "keywords": "organized crime, murder, ex boxer, rooftop, whistleblower",
+    "countriesOfOrigin": "US",
+    "meterRanking": "1672",
+    "meterRankChange": "DOWN 553",
+    "directors": "Elia Kazan",
+    "writers": "Budd Schulberg, Malcolm Johnson, Robert Siodmak",
+    "stars": "Marlon Brando, Karl Malden, Lee J. Cobb",
+    "topCast": "Marlon Brando, Karl Malden, Lee J. Cobb, Rod Steiger",
+    "budget": "USD 910,000",
+    "openingWeekendGross": "",
+    "lifetimeGross": "",
+    "worldwideGross": "USD 3,768",
+    "filmingLocations": "St Peter and St Paul Church - 400 Hudson Street, Hoboken, New Jersey, USA",
+    "spokenLanguages": "English, Latin",
+    "soundMix": "",
+    "aspectRatio": "",
+    "color": "Black and White",
+    "awardWins": 30,
+    "awardNominations": 11,
+    "titleType": "Movie",
+    "isSeries": false,
+    "isEpisode": false,
+    "isAdult": false,
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 231,
@@ -8061,8 +8061,8 @@
     "certificate": "Approved",
     "keywords": "post world war two, faking one's death, underground, british noir, american abroad",
     "countriesOfOrigin": "GB",
-    "meterRanking": "2103",
-    "meterRankChange": "UP 404",
+    "meterRanking": "2750",
+    "meterRankChange": "DOWN 647",
     "directors": "Carol Reed",
     "writers": "Graham Greene, Alexander Korda, Carol Reed",
     "stars": "Orson Welles, Joseph Cotten, Alida Valli",
@@ -8082,7 +8082,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 232,
@@ -8096,8 +8096,8 @@
     "certificate": "R",
     "keywords": "rug, nihilism, mistaken identity, bowling, cult film",
     "countriesOfOrigin": "GB",
-    "meterRanking": "656",
-    "meterRankChange": "DOWN 56",
+    "meterRanking": "614",
+    "meterRankChange": "UP 42",
     "directors": "",
     "writers": "Ethan Coen, Joel Coen",
     "stars": "Jeff Bridges, John Goodman, Julianne Moore",
@@ -8117,7 +8117,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 233,
@@ -8131,8 +8131,8 @@
     "certificate": "PG",
     "keywords": "superhero family, superhero, good versus evil, non comic book superhero, family relationships",
     "countriesOfOrigin": "US",
-    "meterRanking": "776",
-    "meterRankChange": "UP 152",
+    "meterRanking": "664",
+    "meterRankChange": "UP 112",
     "directors": "Brad Bird",
     "writers": "",
     "stars": "Craig T. Nelson, Samuel L. Jackson, Holly Hunter",
@@ -8152,7 +8152,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 234,
@@ -8166,8 +8166,8 @@
     "certificate": "G",
     "keywords": "dog, loyalty, human animal relationship, japanese, waiting",
     "countriesOfOrigin": "GB",
-    "meterRanking": "1926",
-    "meterRankChange": "DOWN 77",
+    "meterRanking": "1977",
+    "meterRankChange": "DOWN 51",
     "directors": "Lasse Hallstr\u00f6m",
     "writers": "Stephen P. Lindsey, Kaneto Shind\u014d",
     "stars": "Richard Gere, Joan Allen, Cary-Hiroyuki Tagawa",
@@ -8187,7 +8187,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 235,
@@ -8201,8 +8201,8 @@
     "certificate": "R",
     "keywords": "brief encounter, dialogue driven, enduring relationship, sequel, one day timespan",
     "countriesOfOrigin": "US",
-    "meterRanking": "1797",
-    "meterRankChange": "DOWN 144",
+    "meterRanking": "1777",
+    "meterRankChange": "UP 20",
     "directors": "Richard Linklater",
     "writers": "Richard Linklater, Julie Delpy, Ethan Hawke",
     "stars": "Ethan Hawke, Julie Delpy, Vernon Dobtcheff",
@@ -8222,7 +8222,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 236,
@@ -8236,8 +8236,8 @@
     "certificate": "PG",
     "keywords": "giant robot, 1950s, government agent, friendship, small town",
     "countriesOfOrigin": "US",
-    "meterRanking": "1517",
-    "meterRankChange": "UP 81",
+    "meterRanking": "1668",
+    "meterRankChange": "DOWN 151",
     "directors": "Brad Bird",
     "writers": "Tim McCanlies, Brad Bird, Ted Hughes",
     "stars": "Eli Marienthal, Harry Connick Jr., Jennifer Aniston",
@@ -8257,7 +8257,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 237,
@@ -8271,8 +8271,8 @@
     "certificate": "R",
     "keywords": "exorcism, exorcist, demonic possession, mother daughter relationship, holy water",
     "countriesOfOrigin": "US",
-    "meterRanking": "135",
-    "meterRankChange": "UP 212",
+    "meterRanking": "167",
+    "meterRankChange": "DOWN 32",
     "directors": "William Friedkin",
     "writers": "",
     "stars": "Ellen Burstyn, Max von Sydow, Linda Blair",
@@ -8292,7 +8292,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 238,
@@ -8306,8 +8306,8 @@
     "certificate": "R",
     "keywords": "escape, kidnapping, mother son relationship, locked in a room, unlawful confinement",
     "countriesOfOrigin": "IE",
-    "meterRanking": "651",
-    "meterRankChange": "UP 112",
+    "meterRanking": "1148",
+    "meterRankChange": "DOWN 497",
     "directors": "Lenny Abrahamson",
     "writers": "",
     "stars": "Brie Larson, Jacob Tremblay, Sean Bridgers",
@@ -8327,7 +8327,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 239,
@@ -8341,8 +8341,8 @@
     "certificate": "PG-13",
     "keywords": "rwanda, brutality, hatred, mass killing, female rear nudity",
     "countriesOfOrigin": "US",
-    "meterRanking": "2555",
-    "meterRankChange": "DOWN 154",
+    "meterRanking": "2525",
+    "meterRankChange": "UP 30",
     "directors": "Terry George",
     "writers": "Keir Pearson, Terry George",
     "stars": "Don Cheadle, Sophie Okonedo, Joaquin Phoenix",
@@ -8362,7 +8362,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 240,
@@ -8376,8 +8376,8 @@
     "certificate": "R",
     "keywords": "vietnam war, jungle warfare, voice over, village, murder",
     "countriesOfOrigin": "US",
-    "meterRanking": "986",
-    "meterRankChange": "DOWN 401",
+    "meterRanking": "895",
+    "meterRankChange": "UP 91",
     "directors": "Oliver Stone",
     "writers": "",
     "stars": "Charlie Sheen, Tom Berenger, Willem Dafoe",
@@ -8397,7 +8397,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 241,
@@ -8411,8 +8411,8 @@
     "certificate": "Not Rated",
     "keywords": "chess, death, knight, death personified, church",
     "countriesOfOrigin": "SE",
-    "meterRanking": "2202",
-    "meterRankChange": "UP 134",
+    "meterRanking": "1628",
+    "meterRankChange": "UP 574",
     "directors": "Ingmar Bergman",
     "writers": "",
     "stars": "Max von Sydow, Gunnar Bj\u00f6rnstrand, Bengt Ekerot",
@@ -8432,7 +8432,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 242,
@@ -8446,8 +8446,8 @@
     "certificate": "R",
     "keywords": "formula 1, rivalry, 1970s, car racing, nurburgring germany",
     "countriesOfOrigin": "GB",
-    "meterRanking": "1043",
-    "meterRankChange": "UP 36",
+    "meterRanking": "1104",
+    "meterRankChange": "DOWN 61",
     "directors": "Ron Howard",
     "writers": "",
     "stars": "Daniel Br\u00fchl, Chris Hemsworth, Olivia Wilde",
@@ -8467,45 +8467,10 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 243,
-    "name": "Stand by Me",
-    "IMDb Rating": 8.1,
-    "link": "https://www.imdb.com/title/tt0092005/",
-    "image": "https://m.media-amazon.com/images/M/MV5BNGJkNTUwM2MtZWE2MS00YjNkLWE3MjktNWQwZDQxMDIyZWVmXkEyXkFqcGc@._V1_.jpg",
-    "plot": "A writer recounts a childhood journey with his friends to view the body of a boy who went missing in the woods.",
-    "genres": "Adventure, Drama",
-    "runtime": 89,
-    "certificate": "R",
-    "keywords": "coming of age, boy, friendship, childhood friend, treehouse",
-    "countriesOfOrigin": "US",
-    "meterRanking": "502",
-    "meterRankChange": "UP 117",
-    "directors": "Rob Reiner",
-    "writers": "Stephen King, Raynold Gideon, Bruce A. Evans",
-    "stars": "Wil Wheaton, River Phoenix, Corey Feldman",
-    "topCast": "Wil Wheaton, River Phoenix, Corey Feldman, Jerry O'Connell",
-    "budget": "USD 8,000,000",
-    "openingWeekendGross": "USD 242,795",
-    "lifetimeGross": "USD 52,987,763",
-    "worldwideGross": "USD 54,322,037",
-    "filmingLocations": "Lake Britton Bridge, Shasta-Trinity National Forest, Burney, California, USA",
-    "spokenLanguages": "English",
-    "soundMix": "Mono",
-    "aspectRatio": "1.85 : 1",
-    "color": "Color",
-    "awardWins": 7,
-    "awardNominations": 14,
-    "titleType": "Movie",
-    "isSeries": false,
-    "isEpisode": false,
-    "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
-  },
-  {
-    "Rank": 244,
     "name": "La battaglia di Algeri",
     "IMDb Rating": 8.1,
     "link": "https://www.imdb.com/title/tt0058946/",
@@ -8516,8 +8481,8 @@
     "certificate": "Not Rated",
     "keywords": "battle of algiers, torture, struggle for independence, insurrection, street fighter",
     "countriesOfOrigin": "IT",
-    "meterRanking": "3059",
-    "meterRankChange": "UP 682",
+    "meterRanking": "3557",
+    "meterRankChange": "DOWN 498",
     "directors": "Gillo Pontecorvo",
     "writers": "Franco Solinas, Gillo Pontecorvo",
     "stars": "Brahim Hadjadj, Jean Martin, Yacef Saadi",
@@ -8537,7 +8502,42 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
+  },
+  {
+    "Rank": 244,
+    "name": "Stand by Me",
+    "IMDb Rating": 8.1,
+    "link": "https://www.imdb.com/title/tt0092005/",
+    "image": "https://m.media-amazon.com/images/M/MV5BNGJkNTUwM2MtZWE2MS00YjNkLWE3MjktNWQwZDQxMDIyZWVmXkEyXkFqcGc@._V1_.jpg",
+    "plot": "A writer recounts a childhood journey with his friends to view the body of a boy who went missing in the woods.",
+    "genres": "Adventure, Drama",
+    "runtime": 89,
+    "certificate": "R",
+    "keywords": "coming of age, boy, friendship, childhood friend, treehouse",
+    "countriesOfOrigin": "US",
+    "meterRanking": "704",
+    "meterRankChange": "DOWN 202",
+    "directors": "Rob Reiner",
+    "writers": "Stephen King, Raynold Gideon, Bruce A. Evans",
+    "stars": "Wil Wheaton, River Phoenix, Corey Feldman",
+    "topCast": "Wil Wheaton, River Phoenix, Corey Feldman, Jerry O'Connell",
+    "budget": "USD 8,000,000",
+    "openingWeekendGross": "USD 242,795",
+    "lifetimeGross": "USD 52,987,763",
+    "worldwideGross": "USD 54,322,037",
+    "filmingLocations": "Lake Britton Bridge, Shasta-Trinity National Forest, Burney, California, USA",
+    "spokenLanguages": "English",
+    "soundMix": "Mono",
+    "aspectRatio": "1.85 : 1",
+    "color": "Color",
+    "awardWins": 7,
+    "awardNominations": 14,
+    "titleType": "Movie",
+    "isSeries": false,
+    "isEpisode": false,
+    "isAdult": false,
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 245,
@@ -8551,8 +8551,8 @@
     "certificate": "G",
     "keywords": "witch, wizard, tornado, kansas, lion",
     "countriesOfOrigin": "US",
-    "meterRanking": "945",
-    "meterRankChange": "DOWN 773",
+    "meterRanking": "992",
+    "meterRankChange": "DOWN 47",
     "directors": "",
     "writers": "Noel Langley, Florence Ryerson, Edgar Allan Woolf",
     "stars": "Judy Garland, Frank Morgan, Ray Bolger",
@@ -8572,7 +8572,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 246,
@@ -8586,9 +8586,9 @@
     "certificate": "Not Rated",
     "keywords": "village, grandfather grandson relationship, father son relationship, family relationships, 1980s",
     "countriesOfOrigin": "TR",
-    "meterRanking": "4522",
-    "meterRankChange": "UP 252",
-    "directors": "\u00c7agan Irmak",
+    "meterRanking": "4212",
+    "meterRankChange": "UP 310",
+    "directors": "\u00c7a\u011fan Irmak",
     "writers": "",
     "stars": "\u00c7etin Tekindor, Fikret Ku\u015fkan, H\u00fcmeyra",
     "topCast": "\u00c7etin Tekindor, Fikret Ku\u015fkan, H\u00fcmeyra, Ege Tanman",
@@ -8607,7 +8607,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 247,
@@ -8621,8 +8621,8 @@
     "certificate": "Passed",
     "keywords": "trial, close up scene, martyrdom, character name in title, 15th century",
     "countriesOfOrigin": "FR",
-    "meterRanking": "4354",
-    "meterRankChange": "UP 219",
+    "meterRanking": "4739",
+    "meterRankChange": "DOWN 385",
     "directors": "Carl Theodor Dreyer",
     "writers": "Joseph Delteil, Carl Theodor Dreyer",
     "stars": "Maria Falconetti, Eugene Silvain, Andr\u00e9 Berley",
@@ -8642,7 +8642,7 @@
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-15T03:43:21.135133"
+    "last_updated": "2026-10-22T03:45:01.176753"
   },
   {
     "Rank": 248,
@@ -8716,37 +8716,37 @@
   },
   {
     "Rank": 250,
-    "name": "Hera Pheri",
+    "name": "Yedinci Kogustaki Mucize",
     "IMDb Rating": 8.2,
-    "link": "https://www.imdb.com/title/tt0242519/",
-    "image": "https://m.media-amazon.com/images/M/MV5BNDZmMGEwMjQtNjFlNi00ZGIxLTlkZjItNmU3Mzg4Y2E0ZjUzXkEyXkFqcGc@._V1_.jpg",
-    "plot": "Two tenants and a landlord look for answers to all their money problems - but when their opportunity arrives, will they know what to do with it?",
-    "genres": "Action, Comedy, Crime",
-    "runtime": 156,
-    "certificate": "Not Rated",
-    "keywords": "remake of malayalam film, wrong telephone number, friendship, police, arrest",
-    "countriesOfOrigin": "IN",
-    "meterRanking": "",
-    "meterRankChange": "",
-    "directors": "Priyadarshan",
-    "writers": "Siddique, Lal, Anand S. Vardhan",
-    "stars": "Akshay Kumar, Suniel Shetty, Paresh Rawal",
-    "topCast": "Akshay Kumar, Suniel Shetty, Paresh Rawal, Tabu",
+    "link": "https://www.imdb.com/title/tt10431500/",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTEyZTQ4YWItMzNkNi00MTUwLWEyODAtMWI3NDNhNDRiYmQwXkEyXkFqcGc@._V1_.jpg",
+    "plot": "A story of love between a mentally-ill father who was wrongly accused of murder and his lovely six year old daughter. Prison will be their home. Based on the 2013 Korean movie Miracle in Cell No. 7 (2013).",
+    "genres": "Drama",
+    "runtime": 132,
+    "certificate": "TV-14",
+    "keywords": "remake, prison, lie, court, remake of korean film",
+    "countriesOfOrigin": "TR",
+    "meterRanking": "2902",
+    "meterRankChange": "UP 2619",
+    "directors": "Mehmet Ada \u00d6ztekin",
+    "writers": "",
+    "stars": "Aras Bulut Iynemli, Nisa Sofiya Aksongur, Deniz Baysal",
+    "topCast": "Aras Bulut Iynemli, Nisa Sofiya Aksongur, Deniz Baysal, Celile Toyon Uysal",
     "budget": "",
     "openingWeekendGross": "",
     "lifetimeGross": "",
-    "worldwideGross": "INR 214,000,000",
-    "filmingLocations": "Sun City, South Africa",
-    "spokenLanguages": "Hindi",
-    "soundMix": "Dolby Digital",
-    "aspectRatio": "2.20 : 1",
+    "worldwideGross": "USD 17,163,660",
+    "filmingLocations": "Mugla, Turkey",
+    "spokenLanguages": "Turkish",
+    "soundMix": "Stereo",
+    "aspectRatio": "2.35 : 1",
     "color": "Color",
-    "awardWins": 8,
-    "awardNominations": 6,
+    "awardWins": 12,
+    "awardNominations": 13,
     "titleType": "Movie",
     "isSeries": false,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-21T03:39:29.521401"
+    "last_updated": "2026-10-22T03:45:01.176753"
   }
 ]
