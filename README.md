@@ -2,7 +2,7 @@
 
 ## Original Medium Post: [Link](https://medium.com/@nishantsahoo/which-movie-should-i-watch-5c83a3c0f5b1)
 
-**Top IMDb Movies as of:** 2026-10-25
+**Top IMDb Movies as of:** 2026-10-26
 
 **IMDb Top 50 Movies Page:** [Link](https://www.imdb.com/search/title/?title_type=feature&release_date=2026-01-01,2026-12-31)
 
@@ -26,100 +26,100 @@
 
 1. [You Can See Everything](https://www.imdb.com/title/tt45368240/)
 
-2. [Street Fighter](https://www.imdb.com/title/tt27419420/)
+2. [Clayface](https://www.imdb.com/title/tt34890576/)
 
-3. [Animals](https://www.imdb.com/title/tt31049299/)
+3. [Wildwood](https://www.imdb.com/title/tt2056785/)
 
-4. [Digger](https://www.imdb.com/title/tt31450459/)
+4. [Street Fighter](https://www.imdb.com/title/tt27419420/)
 
-5. [Love of Your Life](https://www.imdb.com/title/tt34384900/)
+5. [Animals](https://www.imdb.com/title/tt31049299/)
 
-6. [Whalefall](https://www.imdb.com/title/tt28535715/)
+6. [Wicker](https://www.imdb.com/title/tt29611136/)
 
-7. [Tenzing](https://www.imdb.com/title/tt6262770/)
+7. [Resident Evil](https://www.imdb.com/title/tt35538033/)
 
-8. [Resident Evil](https://www.imdb.com/title/tt35538033/)
+8. [The Invite](https://www.imdb.com/title/tt14173636/)
 
-9. [Masterplan](https://www.imdb.com/title/tt38672588/)
+9. [Tenzing](https://www.imdb.com/title/tt6262770/)
 
-10. [Other Mommy](https://www.imdb.com/title/tt36586020/)
+10. [Love of Your Life](https://www.imdb.com/title/tt34384900/)
 
-11. [Verity](https://www.imdb.com/title/tt32261958/)
+11. [The Cycle](https://www.imdb.com/title/tt32358390/)
 
-12. [Hope](https://www.imdb.com/title/tt27369017/)
+12. [Buddy](https://www.imdb.com/title/tt37281055/)
 
-13. [Sense and Sensibility](https://www.imdb.com/title/tt13609648/)
+13. [Digger](https://www.imdb.com/title/tt31450459/)
 
-14. [Spider-Man: Brand New Day](https://www.imdb.com/title/tt22084616/)
+14. [Whalefall](https://www.imdb.com/title/tt28535715/)
 
-15. [Heart of the Beast](https://www.imdb.com/title/tt7526136/)
+15. [Spider-Man: Brand New Day](https://www.imdb.com/title/tt22084616/)
 
-16. [Matchbox: The Movie](https://www.imdb.com/title/tt28498219/)
+16. [Heart of the Beast](https://www.imdb.com/title/tt7526136/)
 
-17. [Buddy](https://www.imdb.com/title/tt37281055/)
+17. [Sense and Sensibility](https://www.imdb.com/title/tt13609648/)
 
-18. [Disclosure Day](https://www.imdb.com/title/tt15047880/)
+18. [Hope](https://www.imdb.com/title/tt27369017/)
 
 19. [The Odyssey](https://www.imdb.com/title/tt33764258/)
 
-20. [Backrooms](https://www.imdb.com/title/tt26657236/)
+20. [Verity](https://www.imdb.com/title/tt32261958/)
 
-21. [Unabomber](https://www.imdb.com/title/tt6933238/)
+21. [Masterplan](https://www.imdb.com/title/tt38672588/)
 
-22. [The Social Reckoning](https://www.imdb.com/title/tt37510326/)
+22. [Moana](https://www.imdb.com/title/tt27419466/)
 
-23. [Clayface](https://www.imdb.com/title/tt34890576/)
+23. [Backrooms](https://www.imdb.com/title/tt26657236/)
 
-24. [Practical Magic 2](https://www.imdb.com/title/tt32588798/)
+24. [Other Mommy](https://www.imdb.com/title/tt36586020/)
 
-25. [Primetime](https://www.imdb.com/title/tt34206385/)
+25. [By Any Means](https://www.imdb.com/title/tt34379051/)
 
-26. [The Death of Robin Hood](https://www.imdb.com/title/tt32273171/)
+26. [Disclosure Day](https://www.imdb.com/title/tt15047880/)
 
-27. [Runner](https://www.imdb.com/title/tt31349844/)
+27. [The Weight](https://www.imdb.com/title/tt10794054/)
 
-28. [Project Hail Mary](https://www.imdb.com/title/tt12042730/)
+28. [Ali G: Who Iz I?](https://www.imdb.com/title/tt43655467/)
 
-29. [The Storm](https://www.imdb.com/title/tt37070354/)
+29. [Primetime](https://www.imdb.com/title/tt34206385/)
 
-30. [The Invite](https://www.imdb.com/title/tt14173636/)
+30. [The End of Oak Street](https://www.imdb.com/title/tt27165187/)
 
-31. [Evil Dead Burn](https://www.imdb.com/title/tt31170389/)
+31. [Unabomber](https://www.imdb.com/title/tt6933238/)
 
-32. [The Uprising](https://www.imdb.com/title/tt36983905/)
+32. [I Play Rocky](https://www.imdb.com/title/tt11995650/)
 
-33. [The Love Hypothesis](https://www.imdb.com/title/tt22526100/)
+33. [Project Hail Mary](https://www.imdb.com/title/tt12042730/)
 
-34. [Wicker](https://www.imdb.com/title/tt29611136/)
+34. [Surviving Hurricane Otis](https://www.imdb.com/title/tt37961714/)
 
-35. [The End of Oak Street](https://www.imdb.com/title/tt27165187/)
+35. [Matchbox: The Movie](https://www.imdb.com/title/tt28498219/)
 
-36. [The Whisper Man](https://www.imdb.com/title/tt11561116/)
+36. [Avengers: Doomsday](https://www.imdb.com/title/tt21357150/)
 
-37. [Therapy Done Right](https://www.imdb.com/title/tt37027309/)
+37. [The Death of Robin Hood](https://www.imdb.com/title/tt32273171/)
 
-38. [Mayday](https://www.imdb.com/title/tt28014327/)
+38. [Klara and the Sun](https://www.imdb.com/title/tt14371256/)
 
-39. [Hokum](https://www.imdb.com/title/tt35672862/)
+39. [Practical Magic 2](https://www.imdb.com/title/tt32588798/)
 
-40. [Insidious: Out of the Further](https://www.imdb.com/title/tt32393988/)
+40. [Ghosts: The Possession of Button House](https://www.imdb.com/title/tt40311603/)
 
 41. [Jailer 2](https://www.imdb.com/title/tt33318732/)
 
-42. [Clean Hands](https://www.imdb.com/title/tt36271247/)
+42. [La bola negra](https://www.imdb.com/title/tt35511966/)
 
-43. [Avengers: Doomsday](https://www.imdb.com/title/tt21357150/)
+43. [Above the Below](https://www.imdb.com/title/tt29634374/)
 
-44. [Wildwood](https://www.imdb.com/title/tt2056785/)
+44. [Runner](https://www.imdb.com/title/tt31349844/)
 
-45. [La bola negra](https://www.imdb.com/title/tt35511966/)
+45. [The Social Reckoning](https://www.imdb.com/title/tt37510326/)
 
-46. [Forgotten Island](https://www.imdb.com/title/tt36583977/)
+46. [Gajab Raat](https://www.imdb.com/title/tt39631280/)
 
-47. [Your Mother Your Mother Your Mother](https://www.imdb.com/title/tt35856037/)
+47. [Wild Horse Nine](https://www.imdb.com/title/tt15799564/)
 
-48. [Ramayana: Rise of a Legend](https://www.imdb.com/title/tt27988879/)
+48. [The Whisper Man](https://www.imdb.com/title/tt11561116/)
 
-49. [Teenage Sex and Death at Camp Miasma](https://www.imdb.com/title/tt35298123/)
+49. [Evil Dead Burn](https://www.imdb.com/title/tt31170389/)
 
-50. [Scream 7](https://www.imdb.com/title/tt27047903/)
+50. [Hokum](https://www.imdb.com/title/tt35672862/)
