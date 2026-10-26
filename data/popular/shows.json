@@ -151,19 +151,19 @@
     "certificate": "TV-MA",
     "keywords": "military conspiracy, human experimentation, government conspiracy, navy sea air and land force, die hard scenario",
     "countriesOfOrigin": "US",
-    "meterRanking": "100",
-    "meterRankChange": "UP 51",
+    "meterRanking": "5",
+    "meterRankChange": "UP 95",
     "directors": "",
     "writers": "",
-    "stars": "Chris Pratt, Constance Wu, Tom Hopper",
-    "topCast": "Chris Pratt, Constance Wu, Tom Hopper, Taylor Kitsch",
+    "stars": "Chris Pratt, Constance Wu, Jared Shaw",
+    "topCast": "Chris Pratt, Constance Wu, Jared Shaw, Taylor Kitsch",
     "budget": "",
     "openingWeekendGross": "",
     "lifetimeGross": "",
     "worldwideGross": "",
     "filmingLocations": "Santa Clarita, California, USA",
     "spokenLanguages": "English",
-    "soundMix": "Dolby Digital",
+    "soundMix": "Dolby Digital, Dolby Atmos",
     "aspectRatio": "2.35 : 1",
     "color": "Color",
     "awardWins": 0,
@@ -172,7 +172,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-19T04:00:47.791140"
+    "last_updated": "2026-10-26T05:42:54.784290"
   },
   {
     "name": "Below",
@@ -606,12 +606,12 @@
     "certificate": "TV-MA",
     "keywords": "mafia, neo western, mobster, criminal, prison",
     "countriesOfOrigin": "US",
-    "meterRanking": "12",
-    "meterRankChange": "UP 92",
+    "meterRanking": "18",
+    "meterRankChange": "DOWN 6",
     "directors": "",
     "writers": "",
     "stars": "Sylvester Stallone, Andrea Savage, Martin Starr",
-    "topCast": "Sylvester Stallone, Andrea Savage, Martin Starr, Chris Caldovino",
+    "topCast": "Sylvester Stallone, Andrea Savage, Martin Starr, Jay Will",
     "budget": "",
     "openingWeekendGross": "",
     "lifetimeGross": "",
@@ -627,7 +627,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-19T04:00:47.791140"
+    "last_updated": "2026-10-26T05:42:54.784290"
   },
   {
     "name": "Ted Lasso",
@@ -1201,8 +1201,8 @@
     "certificate": "TV-14",
     "keywords": "inmate, prison, sexism, bullying, patricide",
     "countriesOfOrigin": "GB",
-    "meterRanking": "20",
-    "meterRankChange": "UP 100",
+    "meterRanking": "35",
+    "meterRankChange": "DOWN 15",
     "directors": "",
     "writers": "",
     "stars": "Siobhan Finneran, Sean Bean, Jodie Whittaker",
@@ -1222,7 +1222,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-19T04:00:47.791140"
+    "last_updated": "2026-10-26T05:42:54.784290"
   },
   {
     "name": "Newlyweds",
@@ -1621,8 +1621,8 @@
     "certificate": "TV-MA",
     "keywords": "medical, tv mini series, deception, based on true story, based on podcast",
     "countriesOfOrigin": "US",
-    "meterRanking": "96",
-    "meterRankChange": "UP 384",
+    "meterRanking": "47",
+    "meterRankChange": "UP 49",
     "directors": "",
     "writers": "",
     "stars": "Amanda Seyfried, Naveen Andrews, Michel Gill",
@@ -1642,7 +1642,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-19T04:00:47.791140"
+    "last_updated": "2026-10-26T05:42:54.784290"
   },
   {
     "name": "The Sopranos",
@@ -1901,8 +1901,8 @@
     "certificate": "",
     "keywords": "lawyer, attorney in training, female nudity, female rear nudity, usa network",
     "countriesOfOrigin": "US",
-    "meterRanking": "36",
-    "meterRankChange": "UP 162",
+    "meterRanking": "55",
+    "meterRankChange": "DOWN 19",
     "directors": "",
     "writers": "",
     "stars": "Milo Callaghan, Lana Parrilla, Madison Iseman",
@@ -1922,7 +1922,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-19T04:00:47.791140"
+    "last_updated": "2026-10-26T05:42:54.784290"
   },
   {
     "name": "Dexter: Resurrection",
@@ -1971,8 +1971,8 @@
     "certificate": "TV-MA",
     "keywords": "cringe comedy, quirky comedy, docuseries documentary, satire comedy, dark comedy",
     "countriesOfOrigin": "US",
-    "meterRanking": "69",
-    "meterRankChange": "UP 342",
+    "meterRanking": "57",
+    "meterRankChange": "UP 12",
     "directors": "",
     "writers": "",
     "stars": "Nathan Fielder, Journey Baker, Anna Lamadrid",
@@ -1992,7 +1992,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-19T04:00:47.791140"
+    "last_updated": "2026-10-26T05:42:54.784290"
   },
   {
     "name": "Better Call Saul",
@@ -2216,12 +2216,12 @@
     "certificate": "TV-MA",
     "keywords": "southern noir, truthstorian, native american influence, investigative journalism",
     "countriesOfOrigin": "US",
-    "meterRanking": "35",
-    "meterRankChange": "UP 131",
+    "meterRanking": "64",
+    "meterRankChange": "DOWN 29",
     "directors": "",
     "writers": "",
     "stars": "Ethan Hawke, Keith David, Ryan Kiera Armstrong",
-    "topCast": "Ethan Hawke, Keith David, Ryan Kiera Armstrong, Cody Lightning",
+    "topCast": "Ethan Hawke, Keith David, Ryan Kiera Armstrong, Kaniehtiio Horn",
     "budget": "",
     "openingWeekendGross": "",
     "lifetimeGross": "",
@@ -2237,7 +2237,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-19T04:00:47.791140"
+    "last_updated": "2026-10-26T05:42:54.784290"
   },
   {
     "name": "Brothers",
@@ -2286,8 +2286,8 @@
     "certificate": "TV-MA",
     "keywords": "",
     "countriesOfOrigin": "DE",
-    "meterRanking": "28",
-    "meterRankChange": "UP 768",
+    "meterRanking": "66",
+    "meterRankChange": "DOWN 38",
     "directors": "",
     "writers": "",
     "stars": "Friederike Becht, Hans L\u00f6w, Alexander Schubert",
@@ -2298,8 +2298,8 @@
     "worldwideGross": "",
     "filmingLocations": "",
     "spokenLanguages": "German",
-    "soundMix": "",
-    "aspectRatio": "2:1",
+    "soundMix": "Dolby Digital",
+    "aspectRatio": "2.00 : 1",
     "color": "Color",
     "awardWins": 0,
     "awardNominations": 0,
@@ -2307,7 +2307,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-19T04:00:47.791140"
+    "last_updated": "2026-10-26T05:42:54.784290"
   },
   {
     "name": "Youth",
@@ -2601,8 +2601,8 @@
     "certificate": "TV-14",
     "keywords": "investigations, character name as series title, solving mysteries, female amateur sleuth, quirky comedy",
     "countriesOfOrigin": "US",
-    "meterRanking": "76",
-    "meterRankChange": "UP 33",
+    "meterRanking": "75",
+    "meterRankChange": "UP 1",
     "directors": "",
     "writers": "",
     "stars": "Carrie Preston, Wendell Pierce, Carra Patterson",
@@ -2622,7 +2622,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-19T04:00:47.791140"
+    "last_updated": "2026-10-26T05:42:54.784290"
   },
   {
     "name": "Black Mirror",
@@ -2741,8 +2741,8 @@
     "certificate": "TV-MA",
     "keywords": "cannibalism, psychological drama, suspense mystery, survivalist, struggle to survive",
     "countriesOfOrigin": "US",
-    "meterRanking": "49",
-    "meterRankChange": "UP 247",
+    "meterRanking": "79",
+    "meterRankChange": "DOWN 30",
     "directors": "",
     "writers": "",
     "stars": "Melanie Lynskey, Sophie N\u00e9lisse, Jasmin Savoy Brown",
@@ -2762,7 +2762,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-19T04:00:47.791140"
+    "last_updated": "2026-10-26T05:42:54.784290"
   },
   {
     "name": "Landman",
@@ -3124,10 +3124,10 @@
     "genres": "Comedy, Crime, Drama",
     "runtime": 0,
     "certificate": "",
-    "keywords": "identical twin brother, puzzle designer, police detective, cambridge england, middle aged man",
+    "keywords": "police consultant, identical twin brother, puzzle designer, police detective, cambridge england",
     "countriesOfOrigin": "GB",
-    "meterRanking": "68",
-    "meterRankChange": "UP 33",
+    "meterRanking": "90",
+    "meterRankChange": "DOWN 22",
     "directors": "",
     "writers": "",
     "stars": "David Mitchell, Anna Maxwell Martin, Dylan Hughes",
@@ -3139,7 +3139,7 @@
     "filmingLocations": "2 The Square, Stockley Park, London, England, UK",
     "spokenLanguages": "English",
     "soundMix": "Stereo",
-    "aspectRatio": "2.39:1",
+    "aspectRatio": "2.39 : 1",
     "color": "Color",
     "awardWins": 6,
     "awardNominations": 9,
@@ -3147,7 +3147,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-19T04:00:47.791140"
+    "last_updated": "2026-10-26T05:42:54.784290"
   },
   {
     "name": "Yellowstone",
@@ -3371,8 +3371,8 @@
     "certificate": "",
     "keywords": "sexually dissatisfied wife, naked female breasts, wife swapping, playing never have i ever, wife forces husband for swinging",
     "countriesOfOrigin": "DE",
-    "meterRanking": "84",
-    "meterRankChange": "UP 3210",
+    "meterRanking": "97",
+    "meterRankChange": "DOWN 13",
     "directors": "",
     "writers": "",
     "stars": "Paula Kalenberg, Fridolin Sandmeyer, Salka Weber",
@@ -3392,7 +3392,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-19T04:00:47.791140"
+    "last_updated": "2026-10-26T05:42:54.784290"
   },
   {
     "name": "Haunted Hotel",
