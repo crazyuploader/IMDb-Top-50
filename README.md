@@ -2,7 +2,7 @@
 
 ## Original Medium Post: [Link](https://medium.com/@nishantsahoo/which-movie-should-i-watch-5c83a3c0f5b1)
 
-**Top IMDb Movies as of:** 2026-11-01
+**Top IMDb Movies as of:** 2026-11-02
 
 **IMDb Top 50 Movies Page:** [Link](https://www.imdb.com/search/title/?title_type=feature&release_date=2026-01-01,2026-12-31)
 
@@ -30,96 +30,96 @@
 
 3. [Wildwood](https://www.imdb.com/title/tt2056785/)
 
-4. [Street Fighter](https://www.imdb.com/title/tt27419420/)
+4. [Verity](https://www.imdb.com/title/tt32261958/)
 
-5. [Animals](https://www.imdb.com/title/tt31049299/)
+5. [Wicker](https://www.imdb.com/title/tt29611136/)
 
-6. [Wicker](https://www.imdb.com/title/tt29611136/)
+6. [Apocalypse Z: New World](https://www.imdb.com/title/tt37522541/)
 
-7. [Resident Evil](https://www.imdb.com/title/tt35538033/)
+7. [Ali G: Who Iz I?](https://www.imdb.com/title/tt43655467/)
 
-8. [The Invite](https://www.imdb.com/title/tt14173636/)
+8. [Backrooms](https://www.imdb.com/title/tt26657236/)
 
-9. [Tenzing](https://www.imdb.com/title/tt6262770/)
+9. [The Dog Stars](https://www.imdb.com/title/tt21285562/)
 
-10. [Love of Your Life](https://www.imdb.com/title/tt34384900/)
+10. [Collision Course](https://www.imdb.com/title/tt38793125/)
 
-11. [The Cycle](https://www.imdb.com/title/tt32358390/)
+11. [Resident Evil](https://www.imdb.com/title/tt35538033/)
 
-12. [Buddy](https://www.imdb.com/title/tt37281055/)
+12. [The Odyssey](https://www.imdb.com/title/tt33764258/)
 
-13. [Digger](https://www.imdb.com/title/tt31450459/)
+13. [Sense and Sensibility](https://www.imdb.com/title/tt13609648/)
 
-14. [Whalefall](https://www.imdb.com/title/tt28535715/)
+14. [The Cycle](https://www.imdb.com/title/tt32358390/)
 
-15. [Spider-Man: Brand New Day](https://www.imdb.com/title/tt22084616/)
+15. [Animals](https://www.imdb.com/title/tt31049299/)
 
-16. [Heart of the Beast](https://www.imdb.com/title/tt7526136/)
+16. [The Invite](https://www.imdb.com/title/tt14173636/)
 
-17. [Sense and Sensibility](https://www.imdb.com/title/tt13609648/)
+17. [Buddy](https://www.imdb.com/title/tt37281055/)
 
-18. [Hope](https://www.imdb.com/title/tt27369017/)
+18. [Spider-Man: Brand New Day](https://www.imdb.com/title/tt22084616/)
 
-19. [The Odyssey](https://www.imdb.com/title/tt33764258/)
+19. [Street Fighter](https://www.imdb.com/title/tt27419420/)
 
-20. [Verity](https://www.imdb.com/title/tt32261958/)
+20. [Hope](https://www.imdb.com/title/tt27369017/)
 
-21. [Masterplan](https://www.imdb.com/title/tt38672588/)
+21. [Primetime](https://www.imdb.com/title/tt34206385/)
 
-22. [Moana](https://www.imdb.com/title/tt27419466/)
+22. [Ramayana: Rise of a Legend](https://www.imdb.com/title/tt27988879/)
 
-23. [Backrooms](https://www.imdb.com/title/tt26657236/)
+23. [Other Mommy](https://www.imdb.com/title/tt36586020/)
 
-24. [Other Mommy](https://www.imdb.com/title/tt36586020/)
+24. [Heart of the Beast](https://www.imdb.com/title/tt7526136/)
 
-25. [By Any Means](https://www.imdb.com/title/tt34379051/)
+25. [Hokum](https://www.imdb.com/title/tt35672862/)
 
-26. [Disclosure Day](https://www.imdb.com/title/tt15047880/)
+26. [The Hunger Games: Sunrise on the Reaping](https://www.imdb.com/title/tt32558705/)
 
-27. [The Weight](https://www.imdb.com/title/tt10794054/)
+27. [Wild Horse Nine](https://www.imdb.com/title/tt15799564/)
 
-28. [Ali G: Who Iz I?](https://www.imdb.com/title/tt43655467/)
+28. [Project Hail Mary](https://www.imdb.com/title/tt12042730/)
 
-29. [Primetime](https://www.imdb.com/title/tt34206385/)
+29. [Avengers: Doomsday](https://www.imdb.com/title/tt21357150/)
 
-30. [The End of Oak Street](https://www.imdb.com/title/tt27165187/)
+30. [Tenzing](https://www.imdb.com/title/tt6262770/)
 
-31. [Unabomber](https://www.imdb.com/title/tt6933238/)
+31. [Love of Your Life](https://www.imdb.com/title/tt34384900/)
 
-32. [I Play Rocky](https://www.imdb.com/title/tt11995650/)
+32. [Disclosure Day](https://www.imdb.com/title/tt15047880/)
 
-33. [Project Hail Mary](https://www.imdb.com/title/tt12042730/)
+33. [Digger](https://www.imdb.com/title/tt31450459/)
 
-34. [Surviving Hurricane Otis](https://www.imdb.com/title/tt37961714/)
+34. [Drive - The Pretenders](https://www.imdb.com/title/tt37180686/)
 
-35. [Matchbox: The Movie](https://www.imdb.com/title/tt28498219/)
+35. [Dune: Part Three](https://www.imdb.com/title/tt31378509/)
 
-36. [Avengers: Doomsday](https://www.imdb.com/title/tt21357150/)
+36. [Practical Magic 2](https://www.imdb.com/title/tt32588798/)
 
-37. [The Death of Robin Hood](https://www.imdb.com/title/tt32273171/)
+37. [Forgotten Island](https://www.imdb.com/title/tt36583977/)
 
-38. [Klara and the Sun](https://www.imdb.com/title/tt14371256/)
+38. [Jumanji: Open World](https://www.imdb.com/title/tt26735127/)
 
-39. [Practical Magic 2](https://www.imdb.com/title/tt32588798/)
+39. [I Play Rocky](https://www.imdb.com/title/tt11995650/)
 
-40. [Ghosts: The Possession of Button House](https://www.imdb.com/title/tt40311603/)
+40. [Scream 7](https://www.imdb.com/title/tt27047903/)
 
-41. [Jailer 2](https://www.imdb.com/title/tt33318732/)
+41. [Klara and the Sun](https://www.imdb.com/title/tt14371256/)
 
-42. [La bola negra](https://www.imdb.com/title/tt35511966/)
+42. [Whalefall](https://www.imdb.com/title/tt28535715/)
 
-43. [Above the Below](https://www.imdb.com/title/tt29634374/)
+43. [The Mosquito Bowl](https://www.imdb.com/title/tt36413910/)
 
-44. [Runner](https://www.imdb.com/title/tt31349844/)
+44. [Behemoth!](https://www.imdb.com/title/tt36415529/)
 
-45. [The Social Reckoning](https://www.imdb.com/title/tt37510326/)
+45. [Never After Dark](https://www.imdb.com/title/tt38589433/)
 
-46. [Gajab Raat](https://www.imdb.com/title/tt39631280/)
+46. [Ebenezer](https://www.imdb.com/title/tt38773219/)
 
-47. [Wild Horse Nine](https://www.imdb.com/title/tt15799564/)
+47. [The End of Oak Street](https://www.imdb.com/title/tt27165187/)
 
 48. [The Whisper Man](https://www.imdb.com/title/tt11561116/)
 
 49. [Evil Dead Burn](https://www.imdb.com/title/tt31170389/)
 
-50. [Hokum](https://www.imdb.com/title/tt35672862/)
+50. [La bola negra](https://www.imdb.com/title/tt35511966/)
