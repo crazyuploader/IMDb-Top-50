@@ -2,7 +2,7 @@
 
 ## Original Medium Post: [Link](https://medium.com/@nishantsahoo/which-movie-should-i-watch-5c83a3c0f5b1)
 
-**Top IMDb Movies as of:** 2026-11-04
+**Top IMDb Movies as of:** 2026-11-05
 
 **IMDb Top 50 Movies Page:** [Link](https://www.imdb.com/search/title/?title_type=feature&release_date=2026-01-01,2026-12-31)
 
@@ -72,54 +72,54 @@
 
 24. [Heart of the Beast](https://www.imdb.com/title/tt7526136/)
 
-25. [Hokum](https://www.imdb.com/title/tt35672862/)
+25. [The Hunger Games: Sunrise on the Reaping](https://www.imdb.com/title/tt32558705/)
 
-26. [The Hunger Games: Sunrise on the Reaping](https://www.imdb.com/title/tt32558705/)
+26. [Wild Horse Nine](https://www.imdb.com/title/tt15799564/)
 
-27. [Wild Horse Nine](https://www.imdb.com/title/tt15799564/)
+27. [Project Hail Mary](https://www.imdb.com/title/tt12042730/)
 
-28. [Project Hail Mary](https://www.imdb.com/title/tt12042730/)
+28. [Avengers: Doomsday](https://www.imdb.com/title/tt21357150/)
 
-29. [Avengers: Doomsday](https://www.imdb.com/title/tt21357150/)
+29. [Tenzing](https://www.imdb.com/title/tt6262770/)
 
-30. [Tenzing](https://www.imdb.com/title/tt6262770/)
+30. [Love of Your Life](https://www.imdb.com/title/tt34384900/)
 
-31. [Love of Your Life](https://www.imdb.com/title/tt34384900/)
+31. [Disclosure Day](https://www.imdb.com/title/tt15047880/)
 
-32. [Disclosure Day](https://www.imdb.com/title/tt15047880/)
+32. [Digger](https://www.imdb.com/title/tt31450459/)
 
-33. [Digger](https://www.imdb.com/title/tt31450459/)
+33. [Drive - The Pretenders](https://www.imdb.com/title/tt37180686/)
 
-34. [Drive - The Pretenders](https://www.imdb.com/title/tt37180686/)
+34. [Dune: Part Three](https://www.imdb.com/title/tt31378509/)
 
-35. [Dune: Part Three](https://www.imdb.com/title/tt31378509/)
+35. [Practical Magic 2](https://www.imdb.com/title/tt32588798/)
 
-36. [Practical Magic 2](https://www.imdb.com/title/tt32588798/)
+36. [Forgotten Island](https://www.imdb.com/title/tt36583977/)
 
-37. [Forgotten Island](https://www.imdb.com/title/tt36583977/)
+37. [Jumanji: Open World](https://www.imdb.com/title/tt26735127/)
 
-38. [Jumanji: Open World](https://www.imdb.com/title/tt26735127/)
+38. [I Play Rocky](https://www.imdb.com/title/tt11995650/)
 
-39. [I Play Rocky](https://www.imdb.com/title/tt11995650/)
+39. [Scream 7](https://www.imdb.com/title/tt27047903/)
 
-40. [Scream 7](https://www.imdb.com/title/tt27047903/)
+40. [Klara and the Sun](https://www.imdb.com/title/tt14371256/)
 
-41. [Klara and the Sun](https://www.imdb.com/title/tt14371256/)
+41. [Whalefall](https://www.imdb.com/title/tt28535715/)
 
-42. [Whalefall](https://www.imdb.com/title/tt28535715/)
+42. [The Mosquito Bowl](https://www.imdb.com/title/tt36413910/)
 
-43. [The Mosquito Bowl](https://www.imdb.com/title/tt36413910/)
+43. [Behemoth!](https://www.imdb.com/title/tt36415529/)
 
-44. [Behemoth!](https://www.imdb.com/title/tt36415529/)
+44. [Never After Dark](https://www.imdb.com/title/tt38589433/)
 
-45. [Never After Dark](https://www.imdb.com/title/tt38589433/)
+45. [Ebenezer](https://www.imdb.com/title/tt38773219/)
 
-46. [Ebenezer](https://www.imdb.com/title/tt38773219/)
+46. [The End of Oak Street](https://www.imdb.com/title/tt27165187/)
 
-47. [The End of Oak Street](https://www.imdb.com/title/tt27165187/)
+47. [The Whisper Man](https://www.imdb.com/title/tt11561116/)
 
-48. [The Whisper Man](https://www.imdb.com/title/tt11561116/)
+48. [Evil Dead Burn](https://www.imdb.com/title/tt31170389/)
 
-49. [Evil Dead Burn](https://www.imdb.com/title/tt31170389/)
+49. [La bola negra](https://www.imdb.com/title/tt35511966/)
 
-50. [La bola negra](https://www.imdb.com/title/tt35511966/)
+50. [Teenage Sex and Death at Camp Miasma](https://www.imdb.com/title/tt35298123/)
