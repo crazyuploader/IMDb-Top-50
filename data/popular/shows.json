@@ -81,8 +81,8 @@
     "certificate": "TV-MA",
     "keywords": "woman has sex with father and son, psychological drama, spin off, mafia, fixer",
     "countriesOfOrigin": "GB",
-    "meterRanking": "7",
-    "meterRankChange": "FLAT 0",
+    "meterRanking": "3",
+    "meterRankChange": "UP 4",
     "directors": "",
     "writers": "",
     "stars": "Tom Hardy, Pierce Brosnan, Paddy Considine",
@@ -91,7 +91,7 @@
     "openingWeekendGross": "",
     "lifetimeGross": "",
     "worldwideGross": "",
-    "filmingLocations": "Antwerp, Flanders, Belgium",
+    "filmingLocations": "Mallorca, Balearic Islands, Spain",
     "spokenLanguages": "English",
     "soundMix": "Dolby Digital",
     "aspectRatio": "2.39 : 1",
@@ -102,7 +102,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Carrie",
@@ -256,8 +256,8 @@
     "certificate": "TV-MA",
     "keywords": "espionage, united kingdom, security service, intelligence operative, spook",
     "countriesOfOrigin": "GB",
-    "meterRanking": "4",
-    "meterRankChange": "UP 4",
+    "meterRanking": "8",
+    "meterRankChange": "DOWN 4",
     "directors": "",
     "writers": "",
     "stars": "Gary Oldman, Jack Lowden, Kristin Scott Thomas",
@@ -277,7 +277,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "IT: Welcome to Derry",
@@ -361,8 +361,8 @@
     "certificate": "TV-MA",
     "keywords": "small town, trapped, supernatural horror, forest, creature",
     "countriesOfOrigin": "US",
-    "meterRanking": "12",
-    "meterRankChange": "UP 67",
+    "meterRanking": "11",
+    "meterRankChange": "UP 1",
     "directors": "",
     "writers": "",
     "stars": "Harold Perrineau, Catalina Sandino Moreno, David Alpay",
@@ -382,7 +382,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "The Diplomat",
@@ -676,8 +676,8 @@
     "certificate": "TV-MA",
     "keywords": "anthology, female nudity, sex scene, serial killer, menage a trois",
     "countriesOfOrigin": "US",
-    "meterRanking": "16",
-    "meterRankChange": "DOWN 3",
+    "meterRanking": "20",
+    "meterRankChange": "DOWN 4",
     "directors": "",
     "writers": "",
     "stars": "Lady Gaga, Kathy Bates, Angela Bassett",
@@ -697,7 +697,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "War",
@@ -746,8 +746,8 @@
     "certificate": "TV-14",
     "keywords": "solving crime, criminal psychology, brilliant mind, criminal investigation, police consultant",
     "countriesOfOrigin": "US",
-    "meterRanking": "20",
-    "meterRankChange": "DOWN 4",
+    "meterRanking": "22",
+    "meterRankChange": "DOWN 2",
     "directors": "",
     "writers": "",
     "stars": "Simon Baker, Robin Tunney, Tim Kang",
@@ -767,7 +767,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Yaga",
@@ -816,8 +816,8 @@
     "certificate": "TV-MA",
     "keywords": "politics, nudity, dragon, incest, kingdom",
     "countriesOfOrigin": "US",
-    "meterRanking": "22",
-    "meterRankChange": "DOWN 1",
+    "meterRanking": "24",
+    "meterRankChange": "DOWN 2",
     "directors": "",
     "writers": "",
     "stars": "Emilia Clarke, Peter Dinklage, Kit Harington",
@@ -837,7 +837,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Cyberpunk: Edgerunners",
@@ -956,8 +956,8 @@
     "certificate": "TV-MA",
     "keywords": "based on novel, quantum superposition, quantum mechanics, alternate version of self, husband wife relationship",
     "countriesOfOrigin": "US",
-    "meterRanking": "27",
-    "meterRankChange": "DOWN 5",
+    "meterRanking": "28",
+    "meterRankChange": "DOWN 1",
     "directors": "",
     "writers": "",
     "stars": "Joel Edgerton, Jennifer Connelly, Alice Braga",
@@ -977,7 +977,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "The Lord of the Rings: The Rings of Power",
@@ -1026,8 +1026,8 @@
     "certificate": "TV-MA",
     "keywords": "cancer, chemistry, drug trade, drug, meth lab",
     "countriesOfOrigin": "US",
-    "meterRanking": "24",
-    "meterRankChange": "DOWN 9",
+    "meterRanking": "30",
+    "meterRankChange": "DOWN 6",
     "directors": "",
     "writers": "",
     "stars": "Bryan Cranston, Aaron Paul, Anna Gunn",
@@ -1047,7 +1047,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Ted Lasso",
@@ -1061,8 +1061,8 @@
     "certificate": "TV-MA",
     "keywords": "soccer, strong female character, american abroad, american in england, ex husband ex wife relationship",
     "countriesOfOrigin": "US",
-    "meterRanking": "19",
-    "meterRankChange": "DOWN 8",
+    "meterRanking": "31",
+    "meterRankChange": "DOWN 12",
     "directors": "",
     "writers": "",
     "stars": "Jason Sudeikis, Hannah Waddingham, Jeremy Swift",
@@ -1082,7 +1082,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "The Gentlemen",
@@ -1096,8 +1096,8 @@
     "certificate": "TV-MA",
     "keywords": "spin off, criminal, drug, gang, gangster",
     "countriesOfOrigin": "GB",
-    "meterRanking": "17",
-    "meterRankChange": "DOWN 3",
+    "meterRanking": "32",
+    "meterRankChange": "DOWN 15",
     "directors": "",
     "writers": "",
     "stars": "Theo James, Kaya Scodelario, Joely Richardson",
@@ -1117,7 +1117,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Minimum Wage",
@@ -1166,8 +1166,8 @@
     "certificate": "TV-MA",
     "keywords": "folk horror, new england, widower, island, cursed place",
     "countriesOfOrigin": "US",
-    "meterRanking": "28",
-    "meterRankChange": "DOWN 5",
+    "meterRanking": "34",
+    "meterRankChange": "DOWN 6",
     "directors": "",
     "writers": "",
     "stars": "Matthew Rhys, Kate O'Flynn, Kevin Carroll",
@@ -1187,7 +1187,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Bytet",
@@ -1306,8 +1306,8 @@
     "certificate": "TV-MA",
     "keywords": "double life, police department, dark secret, homicide, serial murder",
     "countriesOfOrigin": "US",
-    "meterRanking": "72",
-    "meterRankChange": "UP 8",
+    "meterRanking": "38",
+    "meterRankChange": "UP 34",
     "directors": "",
     "writers": "",
     "stars": "Michael C. Hall, Jennifer Carpenter, David Zayas",
@@ -1327,7 +1327,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Star Trek: The Next Generation",
@@ -1376,8 +1376,8 @@
     "certificate": "TV-MA",
     "keywords": "dystopia, post apocalypse, underground city, hidden history, lost technology",
     "countriesOfOrigin": "US",
-    "meterRanking": "33",
-    "meterRankChange": "DOWN 6",
+    "meterRanking": "40",
+    "meterRankChange": "DOWN 7",
     "directors": "",
     "writers": "",
     "stars": "Rebecca Ferguson, Shane McRae, Common",
@@ -1397,7 +1397,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "South Park",
@@ -1446,8 +1446,8 @@
     "certificate": "TV-14",
     "keywords": "lapd, police officer, rookie cop, male protagonist, male female cop partnership",
     "countriesOfOrigin": "US",
-    "meterRanking": "32",
-    "meterRankChange": "DOWN 3",
+    "meterRanking": "42",
+    "meterRankChange": "DOWN 10",
     "directors": "",
     "writers": "",
     "stars": "Nathan Fillion, Alyssa Diaz, Richard T. Jones",
@@ -1467,7 +1467,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Lanterns",
@@ -1481,8 +1481,8 @@
     "certificate": "TV-MA",
     "keywords": "male nudity, based on comic book, green lantern character, cop drama, dc",
     "countriesOfOrigin": "US",
-    "meterRanking": "25",
-    "meterRankChange": "DOWN 15",
+    "meterRanking": "43",
+    "meterRankChange": "DOWN 18",
     "directors": "",
     "writers": "",
     "stars": "Kyle Chandler, Aaron Pierre, Kelly Macdonald",
@@ -1502,7 +1502,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Cupertino",
@@ -1551,8 +1551,8 @@
     "certificate": "TV-MA",
     "keywords": "gay serial killer, true crime, serial killer, homosexuality, gay interest",
     "countriesOfOrigin": "US",
-    "meterRanking": "31",
-    "meterRankChange": "DOWN 13",
+    "meterRanking": "45",
+    "meterRankChange": "DOWN 14",
     "directors": "",
     "writers": "",
     "stars": "Charlie Hunnam, Vicky Krieps, Evan Peters",
@@ -1572,7 +1572,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Bleach: Sennen Kessen-hen",
@@ -1621,8 +1621,8 @@
     "certificate": "TV-MA",
     "keywords": "vigilantism, hobo, based on novel, vigilante justice, vigilante",
     "countriesOfOrigin": "US",
-    "meterRanking": "38",
-    "meterRankChange": "DOWN 12",
+    "meterRanking": "47",
+    "meterRankChange": "DOWN 9",
     "directors": "",
     "writers": "",
     "stars": "Alan Ritchson, Maria Sten, Malcolm Goodwin",
@@ -1642,7 +1642,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Pride and Prejudice",
@@ -1726,8 +1726,8 @@
     "certificate": "TV-MA",
     "keywords": "anime, giant, man eating monster, based on manga, titan",
     "countriesOfOrigin": "JP",
-    "meterRanking": "46",
-    "meterRankChange": "DOWN 6",
+    "meterRanking": "50",
+    "meterRankChange": "DOWN 4",
     "directors": "",
     "writers": "",
     "stars": "Jessie James Grelle, Bryce Papenbrook, Trina Nishimura",
@@ -1747,7 +1747,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Grey&apos;s Anatomy",
@@ -1761,8 +1761,8 @@
     "certificate": "TV-14",
     "keywords": "surgeon, hospital, bisexual doctor, work romance, surgery",
     "countriesOfOrigin": "US",
-    "meterRanking": "45",
-    "meterRankChange": "DOWN 8",
+    "meterRanking": "51",
+    "meterRankChange": "DOWN 6",
     "directors": "",
     "writers": "",
     "stars": "Ellen Pompeo, Chandra Wilson, James Pickens Jr.",
@@ -1782,7 +1782,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "The Walking Dead",
@@ -1796,8 +1796,8 @@
     "certificate": "TV-MA",
     "keywords": "zombie, post apocalypse, survival, zombie apocalypse, death",
     "countriesOfOrigin": "US",
-    "meterRanking": "49",
-    "meterRankChange": "DOWN 7",
+    "meterRanking": "52",
+    "meterRankChange": "DOWN 3",
     "directors": "",
     "writers": "",
     "stars": "Andrew Lincoln, Norman Reedus, Melissa McBride",
@@ -1817,7 +1817,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Supernatural",
@@ -1832,7 +1832,7 @@
     "keywords": "brotherly love, ghost, monster, demon hunter, vampire",
     "countriesOfOrigin": "US",
     "meterRanking": "53",
-    "meterRankChange": "DOWN 8",
+    "meterRankChange": "FLAT 0",
     "directors": "",
     "writers": "",
     "stars": "Jared Padalecki, Jensen Ackles, Jim Beaver",
@@ -1852,7 +1852,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "The Sopranos",
@@ -1866,8 +1866,8 @@
     "certificate": "TV-MA",
     "keywords": "mafia, psychiatrist, italian american, violence, overweight mafioso",
     "countriesOfOrigin": "US",
-    "meterRanking": "48",
-    "meterRankChange": "DOWN 9",
+    "meterRanking": "54",
+    "meterRankChange": "DOWN 6",
     "directors": "",
     "writers": "",
     "stars": "James Gandolfini, Lorraine Bracco, Edie Falco",
@@ -1887,7 +1887,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Newlyweds",
@@ -1936,8 +1936,8 @@
     "certificate": "TV-14",
     "keywords": "shared universe, date rape, police, police procedural crime, cop drama",
     "countriesOfOrigin": "US",
-    "meterRanking": "54",
-    "meterRankChange": "DOWN 10",
+    "meterRanking": "56",
+    "meterRankChange": "DOWN 2",
     "directors": "",
     "writers": "",
     "stars": "Mariska Hargitay, Christopher Meloni, Ice-T",
@@ -1957,7 +1957,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Stranger Things",
@@ -1971,8 +1971,8 @@
     "certificate": "TV-MA",
     "keywords": "government conspiracy, 1980s, friendship, monster, small town",
     "countriesOfOrigin": "US",
-    "meterRanking": "62",
-    "meterRankChange": "DOWN 11",
+    "meterRanking": "57",
+    "meterRankChange": "UP 5",
     "directors": "",
     "writers": "",
     "stars": "Millie Bobby Brown, Finn Wolfhard, Winona Ryder",
@@ -1992,7 +1992,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Lioness",
@@ -2006,8 +2006,8 @@
     "certificate": "TV-MA",
     "keywords": "espionage, spy, terrorist, female star appears nude, female nudity",
     "countriesOfOrigin": "US",
-    "meterRanking": "40",
-    "meterRankChange": "DOWN 9",
+    "meterRanking": "58",
+    "meterRankChange": "DOWN 18",
     "directors": "",
     "writers": "",
     "stars": "Zoe Salda\u00f1a, Laysla De Oliveira, Dave Annable",
@@ -2027,7 +2027,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "The Rainmaker",
@@ -2076,8 +2076,8 @@
     "certificate": "TV-MA",
     "keywords": "medical drama, emergency room, doctor, hospital, autism",
     "countriesOfOrigin": "US",
-    "meterRanking": "59",
-    "meterRankChange": "DOWN 13",
+    "meterRanking": "60",
+    "meterRankChange": "DOWN 1",
     "directors": "",
     "writers": "",
     "stars": "Noah Wyle, Patrick Ball, Katherine LaNasa",
@@ -2097,7 +2097,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Better Call Saul",
@@ -2111,8 +2111,8 @@
     "certificate": "TV-MA",
     "keywords": "lawyer, drug trade, spin off, organized crime, psychosomatic illness",
     "countriesOfOrigin": "US",
-    "meterRanking": "58",
-    "meterRankChange": "DOWN 8",
+    "meterRanking": "61",
+    "meterRankChange": "DOWN 3",
     "directors": "",
     "writers": "",
     "stars": "Bob Odenkirk, Rhea Seehorn, Jonathan Banks",
@@ -2132,7 +2132,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "The Dropout",
@@ -2181,8 +2181,8 @@
     "certificate": "TV-14",
     "keywords": "murder, serial murder, solving crime, violence, police investigation",
     "countriesOfOrigin": "US",
-    "meterRanking": "82",
-    "meterRankChange": "FLAT 0",
+    "meterRanking": "63",
+    "meterRankChange": "UP 19",
     "directors": "",
     "writers": "",
     "stars": "Kirsten Vangsness, A.J. Cook, Matthew Gray Gubler",
@@ -2202,7 +2202,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Time",
@@ -2286,7 +2286,7 @@
     "certificate": "TV-14",
     "keywords": "mockumentary, office, office romance, employer employee relationship, job",
     "countriesOfOrigin": "US",
-    "meterRanking": "63",
+    "meterRanking": "66",
     "meterRankChange": "DOWN 3",
     "directors": "",
     "writers": "",
@@ -2307,7 +2307,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Neagley",
@@ -2321,8 +2321,8 @@
     "certificate": "TV-MA",
     "keywords": "female protagonist, spin off, strong female lead, character surname as series title, one word series title",
     "countriesOfOrigin": "US",
-    "meterRanking": "43",
-    "meterRankChange": "DOWN 18",
+    "meterRanking": "67",
+    "meterRankChange": "DOWN 24",
     "directors": "",
     "writers": "",
     "stars": "Maria Sten, Greyston Holt, Adeline Rudolph",
@@ -2342,7 +2342,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Wednesday",
@@ -2426,8 +2426,8 @@
     "certificate": "TV-MA",
     "keywords": "murder, female full frontal nudity, police investigation, police detective, southern gothic",
     "countriesOfOrigin": "US",
-    "meterRanking": "60",
-    "meterRankChange": "DOWN 30",
+    "meterRanking": "70",
+    "meterRankChange": "DOWN 10",
     "directors": "",
     "writers": "",
     "stars": "Vince Vaughn, Colin Farrell, Rachel McAdams",
@@ -2447,7 +2447,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Mayor of Kingstown",
@@ -2496,8 +2496,8 @@
     "certificate": "TV-MA",
     "keywords": "dragon, kingdom, dysfunctional family, prequel, prince",
     "countriesOfOrigin": "US",
-    "meterRanking": "68",
-    "meterRankChange": "DOWN 14",
+    "meterRanking": "72",
+    "meterRankChange": "DOWN 4",
     "directors": "",
     "writers": "",
     "stars": "Matt Smith, Emma D'Arcy, Olivia Cooke",
@@ -2517,7 +2517,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "The Haunting of Hill House",
@@ -2706,8 +2706,8 @@
     "certificate": "TV-MA",
     "keywords": "baltimore maryland, drug trafficking, police department politics, corruption, urban decay",
     "countriesOfOrigin": "US",
-    "meterRanking": "69",
-    "meterRankChange": "DOWN 14",
+    "meterRanking": "78",
+    "meterRankChange": "DOWN 9",
     "directors": "",
     "writers": "",
     "stars": "Dominic West, Lance Reddick, Sonja Sohn",
@@ -2727,7 +2727,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Severance",
@@ -2741,8 +2741,8 @@
     "certificate": "TV-MA",
     "keywords": "dystopian sci fi, psychological drama, memory, office, mind control",
     "countriesOfOrigin": "US",
-    "meterRanking": "74",
-    "meterRankChange": "DOWN 1",
+    "meterRanking": "79",
+    "meterRankChange": "DOWN 5",
     "directors": "",
     "writers": "",
     "stars": "Adam Scott, Britt Lower, Zach Cherry",
@@ -2762,7 +2762,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Harry Potter",
@@ -2811,8 +2811,8 @@
     "certificate": "TV-MA",
     "keywords": "anthology, dystopia, technology, dystopian future, dark satire",
     "countriesOfOrigin": "GB",
-    "meterRanking": "76",
-    "meterRankChange": "UP 7",
+    "meterRanking": "81",
+    "meterRankChange": "DOWN 5",
     "directors": "",
     "writers": "",
     "stars": "Anjana Vasan, Cristin Milioti, Jesse Plemons",
@@ -2832,7 +2832,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Best Medicine",
@@ -2846,8 +2846,8 @@
     "certificate": "TV-14",
     "keywords": "small town, doctor, based on british tv series, close knit community, aunt",
     "countriesOfOrigin": "US",
-    "meterRanking": "50",
-    "meterRankChange": "DOWN 2",
+    "meterRanking": "82",
+    "meterRankChange": "DOWN 32",
     "directors": "",
     "writers": "",
     "stars": "Josh Charles, Abigail Spencer, Josh Segarra",
@@ -2867,7 +2867,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Youth",
@@ -2986,8 +2986,8 @@
     "certificate": "TV-MA",
     "keywords": "female frontal nudity, female full frontal nudity, female rear nudity, oil business, contemporary western",
     "countriesOfOrigin": "US",
-    "meterRanking": "80",
-    "meterRankChange": "DOWN 16",
+    "meterRanking": "86",
+    "meterRankChange": "DOWN 6",
     "directors": "",
     "writers": "",
     "stars": "Billy Bob Thornton, Ali Larter, Demi Moore",
@@ -3007,7 +3007,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Over the Garden Wall",
@@ -3301,8 +3301,8 @@
     "certificate": "TV-MA",
     "keywords": "business, media empire, wealth, dysfunctional family, betrayal",
     "countriesOfOrigin": "US",
-    "meterRanking": "87",
-    "meterRankChange": "UP 7",
+    "meterRanking": "95",
+    "meterRankChange": "DOWN 8",
     "directors": "",
     "writers": "",
     "stars": "Nicholas Braun, Brian Cox, Kieran Culkin",
@@ -3322,7 +3322,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Yellowstone",
@@ -3336,8 +3336,8 @@
     "certificate": "TV-MA",
     "keywords": "ranch, native american, contemporary western, ranch owner, father son relationship",
     "countriesOfOrigin": "US",
-    "meterRanking": "91",
-    "meterRankChange": "UP 1",
+    "meterRanking": "96",
+    "meterRankChange": "DOWN 5",
     "directors": "",
     "writers": "",
     "stars": "Kevin Costner, Luke Grimes, Kelly Reilly",
@@ -3357,7 +3357,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Law &amp; Order",
@@ -3441,8 +3441,8 @@
     "certificate": "TV-MA",
     "keywords": "satire, hawaii, vacation, resort, social commentary",
     "countriesOfOrigin": "US",
-    "meterRanking": "84",
-    "meterRankChange": "UP 3",
+    "meterRanking": "99",
+    "meterRankChange": "DOWN 15",
     "directors": "",
     "writers": "",
     "stars": "Jon Gries, Natasha Rothwell, Jennifer Coolidge",
@@ -3462,7 +3462,7 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   },
   {
     "name": "Person of Interest",
@@ -3476,8 +3476,8 @@
     "certificate": "TV-14",
     "keywords": "artificial intelligence, ex cia agent, special operations, computer, officially listed as dead",
     "countriesOfOrigin": "US",
-    "meterRanking": "89",
-    "meterRankChange": "UP 6",
+    "meterRanking": "100",
+    "meterRankChange": "DOWN 11",
     "directors": "",
     "writers": "",
     "stars": "Jim Caviezel, Taraji P. Henson, Kevin Chapman",
@@ -3497,6 +3497,6 @@
     "isSeries": true,
     "isEpisode": false,
     "isAdult": false,
-    "last_updated": "2026-10-30T06:57:38.994943"
+    "last_updated": "2026-11-06T07:47:43.724146"
   }
 ]
