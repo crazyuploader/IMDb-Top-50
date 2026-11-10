@@ -2,7 +2,7 @@
 
 ## Original Medium Post: [Link](https://medium.com/@nishantsahoo/which-movie-should-i-watch-5c83a3c0f5b1)
 
-**Top IMDb Movies as of:** 2026-11-09
+**Top IMDb Movies as of:** 2026-11-10
 
 **IMDb Top 50 Movies Page:** [Link](https://www.imdb.com/search/title/?title_type=feature&release_date=2026-01-01,2026-12-31)
 
@@ -34,7 +34,7 @@
 
 5. [The Odyssey](https://www.imdb.com/title/tt33764258/)
 
-6. [Ramayana: Rise of a Legend](https://www.imdb.com/title/tt27988879/)
+6. [Ramayana](https://www.imdb.com/title/tt27988879/)
 
 7. [Wild Horse Nine](https://www.imdb.com/title/tt15799564/)
 
