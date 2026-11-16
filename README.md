@@ -2,7 +2,7 @@
 
 ## Original Medium Post: [Link](https://medium.com/@nishantsahoo/which-movie-should-i-watch-5c83a3c0f5b1)
 
-**Top IMDb Movies as of:** 2026-11-15
+**Top IMDb Movies as of:** 2026-11-16
 
 **IMDb Top 50 Movies Page:** [Link](https://www.imdb.com/search/title/?title_type=feature&release_date=2026-01-01,2026-12-31)
 
@@ -26,100 +26,100 @@
 
 1. [You Can See Everything](https://www.imdb.com/title/tt45368240/)
 
-2. [Godzilla Minus Zero](https://www.imdb.com/title/tt34384661/)
+2. [Ebenezer](https://www.imdb.com/title/tt38773219/)
 
-3. [Heart of the Beast](https://www.imdb.com/title/tt7526136/)
+3. [Ramayana](https://www.imdb.com/title/tt27988879/)
 
-4. [Resident Evil](https://www.imdb.com/title/tt35538033/)
+4. [The Odyssey](https://www.imdb.com/title/tt33764258/)
 
-5. [The Odyssey](https://www.imdb.com/title/tt33764258/)
+5. [The End of Oak Street](https://www.imdb.com/title/tt27165187/)
 
-6. [Ramayana](https://www.imdb.com/title/tt27988879/)
+6. [Heartland](https://www.imdb.com/title/tt38213251/)
 
-7. [Wild Horse Nine](https://www.imdb.com/title/tt15799564/)
+7. [Heart of the Beast](https://www.imdb.com/title/tt7526136/)
 
-8. [Wildwood](https://www.imdb.com/title/tt2056785/)
+8. [Wild Horse Nine](https://www.imdb.com/title/tt15799564/)
 
-9. [Clayface](https://www.imdb.com/title/tt34890576/)
+9. [Godzilla Minus Zero](https://www.imdb.com/title/tt34384661/)
 
-10. [Primetime](https://www.imdb.com/title/tt34206385/)
+10. [Resident Evil](https://www.imdb.com/title/tt35538033/)
 
-11. [Wicker](https://www.imdb.com/title/tt29611136/)
+11. [How to Rob a Bank](https://www.imdb.com/title/tt35866986/)
 
-12. [A Dog's Perfect Christmas](https://www.imdb.com/title/tt38515310/)
+12. [Wildwood](https://www.imdb.com/title/tt2056785/)
 
-13. [Verity](https://www.imdb.com/title/tt32261958/)
+13. [The Hunger Games: Sunrise on the Reaping](https://www.imdb.com/title/tt32558705/)
 
-14. [I Play Rocky](https://www.imdb.com/title/tt11995650/)
+14. [Other Mommy](https://www.imdb.com/title/tt36586020/)
 
-15. [Drummer Boy](https://www.imdb.com/title/tt10098420/)
+15. [I Play Rocky](https://www.imdb.com/title/tt11995650/)
 
-16. [The Cat in the Hat](https://www.imdb.com/title/tt2321555/)
+16. [Primetime](https://www.imdb.com/title/tt34206385/)
 
-17. [Spider-Man: Brand New Day](https://www.imdb.com/title/tt22084616/)
+17. [Clayface](https://www.imdb.com/title/tt34890576/)
 
-18. [The Invite](https://www.imdb.com/title/tt14173636/)
+18. [Avengers: Doomsday](https://www.imdb.com/title/tt21357150/)
 
-19. [The Hunger Games: Sunrise on the Reaping](https://www.imdb.com/title/tt32558705/)
+19. [Allen](https://www.imdb.com/title/tt37675123/)
 
-20. [The Mongoose](https://www.imdb.com/title/tt13611778/)
+20. [A Dog's Perfect Christmas](https://www.imdb.com/title/tt38515310/)
 
-21. [Collision Course](https://www.imdb.com/title/tt38793125/)
+21. [Sense and Sensibility](https://www.imdb.com/title/tt13609648/)
 
-22. [Ebenezer](https://www.imdb.com/title/tt38773219/)
+22. [The Invite](https://www.imdb.com/title/tt14173636/)
 
-23. [Sense and Sensibility](https://www.imdb.com/title/tt13609648/)
+23. [Spider-Man: Brand New Day](https://www.imdb.com/title/tt22084616/)
 
-24. [Backrooms](https://www.imdb.com/title/tt26657236/)
+24. [Wicker](https://www.imdb.com/title/tt29611136/)
 
-25. [The Dog Stars](https://www.imdb.com/title/tt21285562/)
+25. [Ghost Soldier](https://www.imdb.com/title/tt38686316/)
 
-26. [Project Hail Mary](https://www.imdb.com/title/tt12042730/)
+26. [Drummer Boy](https://www.imdb.com/title/tt10098420/)
 
-27. [Animals](https://www.imdb.com/title/tt31049299/)
+27. [Never Surrender](https://www.imdb.com/title/tt39370926/)
 
-28. [Apocalypse Z: New World](https://www.imdb.com/title/tt37522541/)
+28. [Project Hail Mary](https://www.imdb.com/title/tt12042730/)
 
-29. [Your Mother Your Mother Your Mother](https://www.imdb.com/title/tt35856037/)
+29. [Verity](https://www.imdb.com/title/tt32261958/)
 
-30. [Possible Love](https://www.imdb.com/title/tt37803364/)
+30. [Daayra](https://www.imdb.com/title/tt32634611/)
 
-31. [Bad Day](https://www.imdb.com/title/tt37593192/)
+31. [The Cat in the Hat](https://www.imdb.com/title/tt2321555/)
 
-32. [Ali G: Who Iz I?](https://www.imdb.com/title/tt43655467/)
+32. [Backrooms](https://www.imdb.com/title/tt26657236/)
 
-33. [The Man with the Bag](https://www.imdb.com/title/tt16995302/)
+33. [Being Heumann](https://www.imdb.com/title/tt15095848/)
 
-34. [La bola negra](https://www.imdb.com/title/tt35511966/)
+34. [Street Fighter](https://www.imdb.com/title/tt27419420/)
 
-35. [The Further Mis-Adventures of Cliff Booth](https://www.imdb.com/title/tt36408401/)
+35. [Confession](https://www.imdb.com/title/tt46082332/)
 
-36. [Avengers: Doomsday](https://www.imdb.com/title/tt21357150/)
+36. [Focker-in-Law](https://www.imdb.com/title/tt34966140/)
 
-37. [Disclosure Day](https://www.imdb.com/title/tt15047880/)
+37. [The Good Lawyer](https://www.imdb.com/title/tt39453578/)
 
-38. [Love of Your Life](https://www.imdb.com/title/tt34384900/)
+38. [The Christmas Switch](https://www.imdb.com/title/tt39313557/)
 
-39. [Jimmy](https://www.imdb.com/title/tt31179962/)
+39. [Disclosure Day](https://www.imdb.com/title/tt15047880/)
 
-40. [Hope](https://www.imdb.com/title/tt27369017/)
+40. [Animals](https://www.imdb.com/title/tt31049299/)
 
-41. [Street Fighter](https://www.imdb.com/title/tt27419420/)
+41. [La bola negra](https://www.imdb.com/title/tt35511966/)
 
 42. [The Uprising](https://www.imdb.com/title/tt36983905/)
 
-43. [The Cycle](https://www.imdb.com/title/tt32358390/)
+43. [The Dog Stars](https://www.imdb.com/title/tt21285562/)
 
-44. [The 12 Dates of Christmas](https://www.imdb.com/title/tt39219651/)
+44. [Clashing Through the Snow](https://www.imdb.com/title/tt39316936/)
 
-45. [The End of Oak Street](https://www.imdb.com/title/tt27165187/)
+45. [The Mongoose](https://www.imdb.com/title/tt13611778/)
 
-46. [Buddy](https://www.imdb.com/title/tt37281055/)
+46. [The Further Mis-Adventures of Cliff Booth](https://www.imdb.com/title/tt36408401/)
 
-47. [Ghost Soldier](https://www.imdb.com/title/tt38686316/)
+47. [Hope](https://www.imdb.com/title/tt27369017/)
 
-48. [Digger](https://www.imdb.com/title/tt31450459/)
+48. [Paper Tiger](https://www.imdb.com/title/tt34385689/)
 
-49. [Tenzing](https://www.imdb.com/title/tt6262770/)
+49. [Possible Love](https://www.imdb.com/title/tt37803364/)
 
-50. [Other Mommy](https://www.imdb.com/title/tt36586020/)
+50. [The 12 Dates of Christmas](https://www.imdb.com/title/tt39219651/)
